@@ -1,0 +1,634 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Ability::.ctor()
+extern void Ability__ctor_mE0828F8C429F5F78B0F6202AC2B0CD4C700F7A85 (void);
+// 0x00000002 System.Void Ability::activateAbility()
+extern void Ability_activateAbility_m742F0EA2DA78D3C16AF18740FF0B929EB055D1A0 (void);
+// 0x00000003 System.String Ability::getName()
+extern void Ability_getName_m0BF2DF3EBF45A1C266FBE3AD4D410E8F3AB6F9AC (void);
+// 0x00000004 System.Void Blitzen::.ctor()
+extern void Blitzen__ctor_mBD58D020E4C0D8330962B19872A623ADA3CE5A52 (void);
+// 0x00000005 System.String Blitzen::getName()
+extern void Blitzen_getName_m661A48B672A3D5017D506F9C0EF8EFDAEA9EB10B (void);
+// 0x00000006 System.Void Blitzen::Start()
+extern void Blitzen_Start_m7B86CE2255F1A4954992396DF4E0376B69A79D7C (void);
+// 0x00000007 System.Void Blitzen::startUp()
+extern void Blitzen_startUp_m1443CA7BA7DB6D2805A2FFD491DFD76FD8BD5CF7 (void);
+// 0x00000008 System.Void Blitzen::activateAbility()
+extern void Blitzen_activateAbility_mBA23AF7D3E8A1AB07F394C292C0013A01BD9E07B (void);
+// 0x00000009 System.Void Comet::.ctor()
+extern void Comet__ctor_m69380BAF71EB101ADF34151B8A1ABD99F5A3CCC5 (void);
+// 0x0000000A System.Void Comet::Start()
+extern void Comet_Start_m99AEBD6435903C58BA2B4DEB1D194C83B18202B4 (void);
+// 0x0000000B System.String Comet::getName()
+extern void Comet_getName_m92B9F27204F82607E501FB5782F370B0C1ED63FC (void);
+// 0x0000000C System.Void Comet::startUp()
+extern void Comet_startUp_m6B7114D06D24B875AE3B16E8986E25B9102173A3 (void);
+// 0x0000000D System.Void Comet::activateAbility()
+extern void Comet_activateAbility_m4118AB2F9E008E984AA827CDC3AE9BE05F63FE48 (void);
+// 0x0000000E System.Void Cupid::.ctor()
+extern void Cupid__ctor_mE3BB5F1683D4CE93D3EBCAE98A45154A89D27703 (void);
+// 0x0000000F System.Void Cupid::Start()
+extern void Cupid_Start_m3BFAAA25F26B35B7EC6ADE6D1740E090800C4053 (void);
+// 0x00000010 System.String Cupid::getName()
+extern void Cupid_getName_mF30430EC68B0C457BF0C25DD560092F66B326C67 (void);
+// 0x00000011 System.Void Cupid::startUp()
+extern void Cupid_startUp_m9B71E57DC5EEA5B5CF2C38D8E802EB626143D184 (void);
+// 0x00000012 System.Void Cupid::activateAbility()
+extern void Cupid_activateAbility_m7EEA3F5EA774B3A48C328EC61A153C227E1A804A (void);
+// 0x00000013 System.Void Dancer::.ctor()
+extern void Dancer__ctor_m14F3986280B1A3B4B2C12F1604A53C6FC8176F12 (void);
+// 0x00000014 System.String Dancer::getName()
+extern void Dancer_getName_m46F5D7508CFE5DE04C1A36BE83FC2B104FC5AE20 (void);
+// 0x00000015 System.Void Dancer::startUp()
+extern void Dancer_startUp_m29E7BEB3B071252F0BA4B72905A12D0BDCAADC21 (void);
+// 0x00000016 System.Void Dancer::activateAbility()
+extern void Dancer_activateAbility_m23D3F63B61C25BA272DCB8790E990C0058B5E385 (void);
+// 0x00000017 System.Void Dash::.ctor()
+extern void Dash__ctor_m6A06A87856A7112213B353197B6F1DF991E723C6 (void);
+// 0x00000018 System.Void Dash::Awake()
+extern void Dash_Awake_mDC09D171E155C1C69B48BBDFB28E685D1CB7E5CC (void);
+// 0x00000019 System.String Dash::getName()
+extern void Dash_getName_mBF37CEA1D0BCDCBA1636FB091AB164D07552113C (void);
+// 0x0000001A System.Void Dash::startUp()
+extern void Dash_startUp_mD0B5BA23659FA5C9E1FCBECABD1B6B0F82193970 (void);
+// 0x0000001B System.Void Dash::activateAbility()
+extern void Dash_activateAbility_m6FD58F8A67BA2C2C735DE447C9F86C6AAB5BC1CE (void);
+// 0x0000001C System.Void Donner::.ctor()
+extern void Donner__ctor_m20BA64C9B6C68B311556B42728E16829C1461A45 (void);
+// 0x0000001D System.String Donner::getName()
+extern void Donner_getName_m2CB87DE4B3D029883A6FB5EA901F075164E5D7F2 (void);
+// 0x0000001E System.Void Donner::startUp()
+extern void Donner_startUp_m7E55D57DFDAF499860679A995BBE0BCC4F611AF5 (void);
+// 0x0000001F System.Void Donner::activateAbility()
+extern void Donner_activateAbility_m4B356830D352B03EFB3564C47FD0FB20D3224EC3 (void);
+// 0x00000020 System.Void Prancer::.ctor()
+extern void Prancer__ctor_m47BEBED41294D3BB796E19FACE2E320E893AAEA0 (void);
+// 0x00000021 System.Void Prancer::Start()
+extern void Prancer_Start_m927F9827CF3BB98FB79E1B8C668A85819089FDDC (void);
+// 0x00000022 System.String Prancer::getName()
+extern void Prancer_getName_m5F158AC11C1B78736C96D952DDBA95E0F25F25F6 (void);
+// 0x00000023 System.Void Prancer::startUp()
+extern void Prancer_startUp_m189B106AA0CC78297A166D635205DCA7982C1968 (void);
+// 0x00000024 System.Void Prancer::activateAbility()
+extern void Prancer_activateAbility_mDC202E590A8A83B067D32AB40E065C1A0DF9D470 (void);
+// 0x00000025 System.Void Rudolph::.ctor()
+extern void Rudolph__ctor_mCD96E5A40E42D3D739D3D985F0F73DB60DB0D6CE (void);
+// 0x00000026 System.String Rudolph::getName()
+extern void Rudolph_getName_mC0896C0F3862737053CE457EF5A8555813D9AE8C (void);
+// 0x00000027 System.Void Rudolph::Start()
+extern void Rudolph_Start_m0F9816189202AE31F555D8EE9AACC7F668116D77 (void);
+// 0x00000028 System.Void Rudolph::startUp()
+extern void Rudolph_startUp_mB4198AF50E1B82F05D450A60128B2531E38582FA (void);
+// 0x00000029 System.Void Rudolph::activateAbility()
+extern void Rudolph_activateAbility_m083B92C6B2F784FEEE40EF9D196A383F631354F8 (void);
+// 0x0000002A System.Void Vixen::.ctor()
+extern void Vixen__ctor_mB61BEFD0AECF0D5945B2542A376F8BA0597A14D5 (void);
+// 0x0000002B System.String Vixen::getName()
+extern void Vixen_getName_m35CB3C8CB4D8F8D64DEC8F26053AB8272E1DB3EC (void);
+// 0x0000002C System.Void Vixen::Start()
+extern void Vixen_Start_mEE60C42AD354F8D0931F7F5041367A904669EC9A (void);
+// 0x0000002D System.Void Vixen::startUp()
+extern void Vixen_startUp_mC28CA82B60F8B4F4D2F62AFF826A146A5FFFDAD2 (void);
+// 0x0000002E System.Void Vixen::activateAbility()
+extern void Vixen_activateAbility_m7371D9D3ADB128F872B6738C309C914334B8385F (void);
+// 0x0000002F System.Void CoinCollected::Start()
+extern void CoinCollected_Start_m5EC4A786543976A8B86BF8DA4E0D30348712D6B9 (void);
+// 0x00000030 System.Void CoinCollected::Update()
+extern void CoinCollected_Update_m71BEB08E625C1DA36E2BE2D48A4248101D65FC99 (void);
+// 0x00000031 System.Void CoinCollected::.ctor()
+extern void CoinCollected__ctor_m66D0C5BEE5123F69D34720BD62DD526D271E6D2D (void);
+// 0x00000032 System.Void CoinManager::Start()
+extern void CoinManager_Start_mADB0DC63161F8C16FB6E3BB62B8CDF4A106E5F25 (void);
+// 0x00000033 System.Void CoinManager::Update()
+extern void CoinManager_Update_m40CAA0C7341BD830086CBF34DF75F99471579DCA (void);
+// 0x00000034 UnityEngine.Vector3 CoinManager::generateLocation()
+extern void CoinManager_generateLocation_m39846CB7CFE6CC0B433C51CDE928DD0EAE260EA7 (void);
+// 0x00000035 System.Void CoinManager::collectCoin()
+extern void CoinManager_collectCoin_mC8FEDC00209FA75F8EA35EB4BF633A5C8CAC6031 (void);
+// 0x00000036 System.Void CoinManager::.ctor()
+extern void CoinManager__ctor_m3F80C2463FFD611F342BBFEB8C9FF745C6F3A09B (void);
+// 0x00000037 System.Void Config::.ctor()
+extern void Config__ctor_m74DB672E7C9821A5A767CDBA9BFA3060710B4712 (void);
+// 0x00000038 System.Int32 Config::getCrx()
+extern void Config_getCrx_mAA47DB78EA513F67FFC253418E3CA67CD9AF5438 (void);
+// 0x00000039 System.Int32 Config::getClx()
+extern void Config_getClx_mC15EF2C9B10AE984A6349B40B7125C48C7EA2461 (void);
+// 0x0000003A System.Int32 Config::getCby()
+extern void Config_getCby_m97005B4FFD3F17BF121F8EC6EE43CB292A98CDE8 (void);
+// 0x0000003B System.Int32 Config::getCty()
+extern void Config_getCty_mCAC15D7E348EF0E49B7D3277C25441DEEFA2634F (void);
+// 0x0000003C Ability Config::get_Character()
+extern void Config_get_Character_m8C81777E1033258AE488E64799FE6DA8D35ACFD8 (void);
+// 0x0000003D System.Void Config::set_Character(Ability)
+extern void Config_set_Character_m8747823F8D5479637C9EFEDA97C4E9D68036EA61 (void);
+// 0x0000003E System.Int32 Config::get_CharacterIndex()
+extern void Config_get_CharacterIndex_mAA78A8F4E625E520450A2E97705E4A764B28DC03 (void);
+// 0x0000003F System.Void Config::set_CharacterIndex(System.Int32)
+extern void Config_set_CharacterIndex_m6E0176FA6994E1903C3BDF486C12486CE0D79550 (void);
+// 0x00000040 System.Boolean Config::get_CharacterLocked()
+extern void Config_get_CharacterLocked_m217436CB929CBCE8D6D069EA884899C90C6E7692 (void);
+// 0x00000041 System.Void Config::set_CharacterLocked(System.Boolean)
+extern void Config_set_CharacterLocked_m954051F924E79D7F01FC39C55683D5E298F46145 (void);
+// 0x00000042 System.Void Destroy_on_End::OnStateEnter(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
+extern void Destroy_on_End_OnStateEnter_m1CB6A40C501B8FAB3D88B3E7AFA0D17A6E899D81 (void);
+// 0x00000043 System.Void Destroy_on_End::.ctor()
+extern void Destroy_on_End__ctor_m1C3C00D6AA31184A2FD08DD2781E85FA3A795767 (void);
+// 0x00000044 System.Void EndPeak::OnStateEnter(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
+extern void EndPeak_OnStateEnter_m037C6943F05EF31D81DD4F94CF79EAA024EBD49D (void);
+// 0x00000045 System.Void EndPeak::.ctor()
+extern void EndPeak__ctor_mE5E542CF03934546E9F1C8E23EABE478B6302800 (void);
+// 0x00000046 System.Void GameManager::Start()
+extern void GameManager_Start_m26461AEF27E44DB8FECCBC19D6C9E228B658BF8E (void);
+// 0x00000047 System.Void GameManager::Update()
+extern void GameManager_Update_mC9303BA7C3117BD861F49F8E36151CC52117E6C1 (void);
+// 0x00000048 System.Void GameManager::.ctor()
+extern void GameManager__ctor_mE8666F6D0CA9C31E16B719F79780DC4B0245B64D (void);
+// 0x00000049 System.Void GetTotalCoins::Start()
+extern void GetTotalCoins_Start_m34AF4C5F7EF8CC3EA9180747042138994AF3FD76 (void);
+// 0x0000004A System.Void GetTotalCoins::Update()
+extern void GetTotalCoins_Update_m348BC5EF0A323C45F724539BEABBED61B159777B (void);
+// 0x0000004B System.Void GetTotalCoins::.ctor()
+extern void GetTotalCoins__ctor_m52B92EA6B1E463DA677C4B3E4F6F0D775602BEC3 (void);
+// 0x0000004C System.Void Initiate::Start()
+extern void Initiate_Start_mBC9EB4E9AAA679E6903629F61F21E1B33CA42C3A (void);
+// 0x0000004D System.Void Initiate::.ctor()
+extern void Initiate__ctor_m1A46E92E30E56C67A77F62FF9B9C30FF63C5627B (void);
+// 0x0000004E System.Void LazerMovement::Start()
+extern void LazerMovement_Start_mBE978D76D30AF1FB55B532C910E2043A474EC12C (void);
+// 0x0000004F System.Void LazerMovement::Update()
+extern void LazerMovement_Update_m876A3C4BD4534D8DE54CE58643D58096FDDBD732 (void);
+// 0x00000050 System.Void LazerMovement::bounce()
+extern void LazerMovement_bounce_mD66B38125AB1397A9841F27FFBD20C6C410E0335 (void);
+// 0x00000051 System.Void LazerMovement::wrap()
+extern void LazerMovement_wrap_m151C891B95A924671ED803435A1279B71FA1909D (void);
+// 0x00000052 System.Void LazerMovement::.ctor()
+extern void LazerMovement__ctor_m2B3B1BD9102818058A664BB07A5AE210ABBCE3A0 (void);
+// 0x00000053 System.Void MusicSelection::Start()
+extern void MusicSelection_Start_m6FF761A91F9C9BAE69C1E04474A55265EBC05914 (void);
+// 0x00000054 System.Void MusicSelection::OnMouseOver()
+extern void MusicSelection_OnMouseOver_m25A5088E1EC74D160D23ED935D301EB86337ED78 (void);
+// 0x00000055 System.Void MusicSelection::OnMouseUp()
+extern void MusicSelection_OnMouseUp_m290A01EF21C1731770FDE0FD1C0BE4F6FB3F43E9 (void);
+// 0x00000056 System.Void MusicSelection::OnMouseExit()
+extern void MusicSelection_OnMouseExit_m9A64BD3EC3700D5308EFB257D093F1D2E0CFB8D1 (void);
+// 0x00000057 System.Void MusicSelection::OnMouseEnter()
+extern void MusicSelection_OnMouseEnter_m6111B57B608771842DAEF6F22E09CEBEE67FA5F8 (void);
+// 0x00000058 System.Void MusicSelection::toggleSong(System.Boolean)
+extern void MusicSelection_toggleSong_m431723541057275B7D83E5E69C228EBD391AAFB5 (void);
+// 0x00000059 System.Void MusicSelection::.ctor()
+extern void MusicSelection__ctor_m25C4183B1533F3702362745A17005E98F7E18936 (void);
+// 0x0000005A System.Void Persist::Awake()
+extern void Persist_Awake_mAB3D2975D5F3813CBCB1FFFC82B5A5E2062132F6 (void);
+// 0x0000005B System.Void Persist::.ctor()
+extern void Persist__ctor_m07A01E2BE45AE0241D3B1BF341842093A38C976B (void);
+// 0x0000005C System.Void Play::Start()
+extern void Play_Start_mBDAD37B6F3CDED9F86D2B03013C6D21F80F9BAAC (void);
+// 0x0000005D System.Void Play::Update()
+extern void Play_Update_mA196DFDF39784F03E088150B07BBE48FEBCE91CF (void);
+// 0x0000005E System.Void Play::OnMouseDown()
+extern void Play_OnMouseDown_mEF2747D7E1C60CCE3767DF805F99B0DF1871162B (void);
+// 0x0000005F System.Void Play::OnMouseUp()
+extern void Play_OnMouseUp_mB02356E93F1C9D44F280E36F240CEB5AC3668D72 (void);
+// 0x00000060 System.Void Play::OnMouseExit()
+extern void Play_OnMouseExit_m8D213985EC1BB7A3FBCED082AFE024E5EF635A74 (void);
+// 0x00000061 System.Void Play::OnMouseEnter()
+extern void Play_OnMouseEnter_m908E0763A77F23B7BA246617CC8789D999DAF2DE (void);
+// 0x00000062 System.Void Play::.ctor()
+extern void Play__ctor_m2CB49325DB16A46C3CB542E64814AA34F6325221 (void);
+// 0x00000063 System.Void PlayerSettings::Start()
+extern void PlayerSettings_Start_mB813964645CF5792CF18B91B731FD155C6BA7946 (void);
+// 0x00000064 System.Void PlayerSettings::Awake()
+extern void PlayerSettings_Awake_mAA485B896F3C2B3DDB9F797910FC22E6D39E9C8F (void);
+// 0x00000065 System.Void PlayerSettings::ToggleMusic()
+extern void PlayerSettings_ToggleMusic_m13AE692BC66693FC977D2310EDDD2C750A166F7A (void);
+// 0x00000066 System.Void PlayerSettings::Update()
+extern void PlayerSettings_Update_m44D5AC6A822E742B964931343C0D7E41BA6E46E1 (void);
+// 0x00000067 System.Void PlayerSettings::.ctor()
+extern void PlayerSettings__ctor_m6BD4B559213D0917E9E05B3C67B99A7667F853DD (void);
+// 0x00000068 System.Void Reset::Start()
+extern void Reset_Start_m63F1F3F48F9DC4AB9B434AD5C596F2DAE782481A (void);
+// 0x00000069 System.Void Reset::Update()
+extern void Reset_Update_m7B232302BEFB5FC840EAE38E5E7964A992914D64 (void);
+// 0x0000006A System.Void Reset::OnMouseDown()
+extern void Reset_OnMouseDown_m8D2BFB178C6E0B14023AB8AD5BBDD96A97F4B3AF (void);
+// 0x0000006B System.Void Reset::OnMouseUp()
+extern void Reset_OnMouseUp_m609CAB0287AFCBFFBA422F7FCFA7C708F9153775 (void);
+// 0x0000006C System.Void Reset::OnMouseExit()
+extern void Reset_OnMouseExit_m83F48AA6B28A07DF8C895B2772818C47BC3914CD (void);
+// 0x0000006D System.Void Reset::OnMouseEnter()
+extern void Reset_OnMouseEnter_mF69F0D73261081D062D60A71D603EA87A5A2F135 (void);
+// 0x0000006E System.Void Reset::.ctor()
+extern void Reset__ctor_m78880B9D6FE87C3CE86F154FFFEE4D881A76754D (void);
+// 0x0000006F System.Void Save::.ctor()
+extern void Save__ctor_m05D918A10CCF892266CAA37C6A830AD78FFCCB03 (void);
+// 0x00000070 System.Void SaveData::Awake()
+extern void SaveData_Awake_m3AA8E13797B61778B9A743A68A2BE073FB704275 (void);
+// 0x00000071 System.Void SaveData::LoadGame()
+extern void SaveData_LoadGame_mEF944F66A9E4F0E4D4B30C7F0306ED74194EF324 (void);
+// 0x00000072 Save SaveData::CreateSaveGameObject()
+extern void SaveData_CreateSaveGameObject_m035C288A74A37CE7A7D4AAA39B334B7B52B3DFF5 (void);
+// 0x00000073 System.Void SaveData::saveGame()
+extern void SaveData_saveGame_m6157972CEB80465DD68961EB17173C506D847411 (void);
+// 0x00000074 System.Void SaveData::deleteSave()
+extern void SaveData_deleteSave_m45C8D31245DA6471A14139D9CCAD12D16F2BF174 (void);
+// 0x00000075 System.Void SaveData::.ctor()
+extern void SaveData__ctor_mBDF4096F6F1E6534B7FEBD083BCE948A2B3718B0 (void);
+// 0x00000076 System.Void ScoreManager::Start()
+extern void ScoreManager_Start_mD3AD35C8B826532687C5600F2BF465093D6D1F91 (void);
+// 0x00000077 System.Void ScoreManager::Update()
+extern void ScoreManager_Update_m77B6F3EB450BA678FBB01E50C4A6C6A611FB20CD (void);
+// 0x00000078 System.Void ScoreManager::incrementScore(System.Int32)
+extern void ScoreManager_incrementScore_mB4052C2A4B90BA6212DAD4E8E8DF6DDAE23A0E31 (void);
+// 0x00000079 System.Void ScoreManager::.ctor()
+extern void ScoreManager__ctor_m638A240D34643E8AB9D17553622C1C9354348354 (void);
+// 0x0000007A System.Void basicMovement::Start()
+extern void basicMovement_Start_m99B2EF05E3DCCC05A6CE2B48E65721F32EA6BA3E (void);
+// 0x0000007B System.Void basicMovement::Update()
+extern void basicMovement_Update_m1F5B480D94B17CCDBA2EA9A7B2E79EBBDE679253 (void);
+// 0x0000007C System.Void basicMovement::jump()
+extern void basicMovement_jump_mB4238260D26D6AB566730D257D38781FE45D8359 (void);
+// 0x0000007D System.Void basicMovement::special()
+extern void basicMovement_special_m9396E50FF6C359DC3D2AF817432B7737736EC266 (void);
+// 0x0000007E System.Void basicMovement::OnTimedEvent(System.Object,System.Timers.ElapsedEventArgs)
+extern void basicMovement_OnTimedEvent_mFC1FAA4384702BAD5E441DA37068000432E51DF8 (void);
+// 0x0000007F System.Void basicMovement::fire()
+extern void basicMovement_fire_m59D370C9B568C2ADC4884C39466F03E29B96303A (void);
+// 0x00000080 System.Void basicMovement::gravity()
+extern void basicMovement_gravity_m304F30F1674145B387C3EF09FA6B76615E690DA0 (void);
+// 0x00000081 System.Void basicMovement::terminalVelocity()
+extern void basicMovement_terminalVelocity_mE8D3287F7BCB6F9C6EE39A7CD5C6A64AA826DCC6 (void);
+// 0x00000082 System.Void basicMovement::friction()
+extern void basicMovement_friction_m0A29ABE5CE347EC46F01F40A40D826BB073019BC (void);
+// 0x00000083 System.Void basicMovement::floor()
+extern void basicMovement_floor_m8E99674DA2B9CD776AC0932AF1DCD15587347717 (void);
+// 0x00000084 System.Void basicMovement::ceil()
+extern void basicMovement_ceil_mBF6833AA67BE3A883615B800AEAFDAF6BAA95412 (void);
+// 0x00000085 System.Void basicMovement::wrap()
+extern void basicMovement_wrap_m454A1655C753C8D42202983B8645D4DA189AC97F (void);
+// 0x00000086 System.Void basicMovement::OnTriggerStay2D(UnityEngine.Collider2D)
+extern void basicMovement_OnTriggerStay2D_mF9B4E838045FA744348F60333842C5F977615B10 (void);
+// 0x00000087 System.Void basicMovement::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void basicMovement_OnTriggerEnter2D_m7C307581D578840322B04C22EB9B545F9D46019E (void);
+// 0x00000088 System.Void basicMovement::die()
+extern void basicMovement_die_mE40A36C5B1346430E2E290CD3797C92A3401873D (void);
+// 0x00000089 System.Void basicMovement::.ctor()
+extern void basicMovement__ctor_m8B260B7B9BFA3CEB9C4BD29C5531CF8CD59CCF27 (void);
+// 0x0000008A System.Void characterSelect::Start()
+extern void characterSelect_Start_mA0FB83EE17CF5A69F43D643A427A164A910F1DB1 (void);
+// 0x0000008B System.Void characterSelect::Update()
+extern void characterSelect_Update_m63191A3B68EA260543D4B6ADF9B55BB58FF76ABB (void);
+// 0x0000008C System.Void characterSelect::OnMouseOver()
+extern void characterSelect_OnMouseOver_m3E3B2B8B648B3F4040054CE2EF92CEBF0BCF00B6 (void);
+// 0x0000008D System.Void characterSelect::OnMouseUp()
+extern void characterSelect_OnMouseUp_m6C9BA0884FFF2C58CD4D0584A808E9C9F08398BB (void);
+// 0x0000008E System.Void characterSelect::OnMouseExit()
+extern void characterSelect_OnMouseExit_mD6D06720326F1D049D9C4019492FD2C9B21B5F06 (void);
+// 0x0000008F System.Void characterSelect::OnMouseEnter()
+extern void characterSelect_OnMouseEnter_m2C93CAF0D52235D3C7F2EA26E5E7C6040E452AE4 (void);
+// 0x00000090 System.Void characterSelect::setCharacter()
+extern void characterSelect_setCharacter_mC0BABAF29C7F02F820D0DC8A21E0FA482C7CC0DD (void);
+// 0x00000091 System.Void characterSelect::.ctor()
+extern void characterSelect__ctor_m50914D510956961D68FACF20EF040559035B2BDE (void);
+// 0x00000092 System.Void selfDestroy::Start()
+extern void selfDestroy_Start_m00772F199B074A3AEBC456DB9929A6F024904F95 (void);
+// 0x00000093 System.Void selfDestroy::Update()
+extern void selfDestroy_Update_m9AF0BB5986CDBFF5B44A035838C35DF62B82C512 (void);
+// 0x00000094 System.Void selfDestroy::.ctor()
+extern void selfDestroy__ctor_m8D4D5AF30E90BACA7F6EAB11ED838223DCC26226 (void);
+static Il2CppMethodPointer s_methodPointers[148] = 
+{
+	Ability__ctor_mE0828F8C429F5F78B0F6202AC2B0CD4C700F7A85,
+	Ability_activateAbility_m742F0EA2DA78D3C16AF18740FF0B929EB055D1A0,
+	Ability_getName_m0BF2DF3EBF45A1C266FBE3AD4D410E8F3AB6F9AC,
+	Blitzen__ctor_mBD58D020E4C0D8330962B19872A623ADA3CE5A52,
+	Blitzen_getName_m661A48B672A3D5017D506F9C0EF8EFDAEA9EB10B,
+	Blitzen_Start_m7B86CE2255F1A4954992396DF4E0376B69A79D7C,
+	Blitzen_startUp_m1443CA7BA7DB6D2805A2FFD491DFD76FD8BD5CF7,
+	Blitzen_activateAbility_mBA23AF7D3E8A1AB07F394C292C0013A01BD9E07B,
+	Comet__ctor_m69380BAF71EB101ADF34151B8A1ABD99F5A3CCC5,
+	Comet_Start_m99AEBD6435903C58BA2B4DEB1D194C83B18202B4,
+	Comet_getName_m92B9F27204F82607E501FB5782F370B0C1ED63FC,
+	Comet_startUp_m6B7114D06D24B875AE3B16E8986E25B9102173A3,
+	Comet_activateAbility_m4118AB2F9E008E984AA827CDC3AE9BE05F63FE48,
+	Cupid__ctor_mE3BB5F1683D4CE93D3EBCAE98A45154A89D27703,
+	Cupid_Start_m3BFAAA25F26B35B7EC6ADE6D1740E090800C4053,
+	Cupid_getName_mF30430EC68B0C457BF0C25DD560092F66B326C67,
+	Cupid_startUp_m9B71E57DC5EEA5B5CF2C38D8E802EB626143D184,
+	Cupid_activateAbility_m7EEA3F5EA774B3A48C328EC61A153C227E1A804A,
+	Dancer__ctor_m14F3986280B1A3B4B2C12F1604A53C6FC8176F12,
+	Dancer_getName_m46F5D7508CFE5DE04C1A36BE83FC2B104FC5AE20,
+	Dancer_startUp_m29E7BEB3B071252F0BA4B72905A12D0BDCAADC21,
+	Dancer_activateAbility_m23D3F63B61C25BA272DCB8790E990C0058B5E385,
+	Dash__ctor_m6A06A87856A7112213B353197B6F1DF991E723C6,
+	Dash_Awake_mDC09D171E155C1C69B48BBDFB28E685D1CB7E5CC,
+	Dash_getName_mBF37CEA1D0BCDCBA1636FB091AB164D07552113C,
+	Dash_startUp_mD0B5BA23659FA5C9E1FCBECABD1B6B0F82193970,
+	Dash_activateAbility_m6FD58F8A67BA2C2C735DE447C9F86C6AAB5BC1CE,
+	Donner__ctor_m20BA64C9B6C68B311556B42728E16829C1461A45,
+	Donner_getName_m2CB87DE4B3D029883A6FB5EA901F075164E5D7F2,
+	Donner_startUp_m7E55D57DFDAF499860679A995BBE0BCC4F611AF5,
+	Donner_activateAbility_m4B356830D352B03EFB3564C47FD0FB20D3224EC3,
+	Prancer__ctor_m47BEBED41294D3BB796E19FACE2E320E893AAEA0,
+	Prancer_Start_m927F9827CF3BB98FB79E1B8C668A85819089FDDC,
+	Prancer_getName_m5F158AC11C1B78736C96D952DDBA95E0F25F25F6,
+	Prancer_startUp_m189B106AA0CC78297A166D635205DCA7982C1968,
+	Prancer_activateAbility_mDC202E590A8A83B067D32AB40E065C1A0DF9D470,
+	Rudolph__ctor_mCD96E5A40E42D3D739D3D985F0F73DB60DB0D6CE,
+	Rudolph_getName_mC0896C0F3862737053CE457EF5A8555813D9AE8C,
+	Rudolph_Start_m0F9816189202AE31F555D8EE9AACC7F668116D77,
+	Rudolph_startUp_mB4198AF50E1B82F05D450A60128B2531E38582FA,
+	Rudolph_activateAbility_m083B92C6B2F784FEEE40EF9D196A383F631354F8,
+	Vixen__ctor_mB61BEFD0AECF0D5945B2542A376F8BA0597A14D5,
+	Vixen_getName_m35CB3C8CB4D8F8D64DEC8F26053AB8272E1DB3EC,
+	Vixen_Start_mEE60C42AD354F8D0931F7F5041367A904669EC9A,
+	Vixen_startUp_mC28CA82B60F8B4F4D2F62AFF826A146A5FFFDAD2,
+	Vixen_activateAbility_m7371D9D3ADB128F872B6738C309C914334B8385F,
+	CoinCollected_Start_m5EC4A786543976A8B86BF8DA4E0D30348712D6B9,
+	CoinCollected_Update_m71BEB08E625C1DA36E2BE2D48A4248101D65FC99,
+	CoinCollected__ctor_m66D0C5BEE5123F69D34720BD62DD526D271E6D2D,
+	CoinManager_Start_mADB0DC63161F8C16FB6E3BB62B8CDF4A106E5F25,
+	CoinManager_Update_m40CAA0C7341BD830086CBF34DF75F99471579DCA,
+	CoinManager_generateLocation_m39846CB7CFE6CC0B433C51CDE928DD0EAE260EA7,
+	CoinManager_collectCoin_mC8FEDC00209FA75F8EA35EB4BF633A5C8CAC6031,
+	CoinManager__ctor_m3F80C2463FFD611F342BBFEB8C9FF745C6F3A09B,
+	Config__ctor_m74DB672E7C9821A5A767CDBA9BFA3060710B4712,
+	Config_getCrx_mAA47DB78EA513F67FFC253418E3CA67CD9AF5438,
+	Config_getClx_mC15EF2C9B10AE984A6349B40B7125C48C7EA2461,
+	Config_getCby_m97005B4FFD3F17BF121F8EC6EE43CB292A98CDE8,
+	Config_getCty_mCAC15D7E348EF0E49B7D3277C25441DEEFA2634F,
+	Config_get_Character_m8C81777E1033258AE488E64799FE6DA8D35ACFD8,
+	Config_set_Character_m8747823F8D5479637C9EFEDA97C4E9D68036EA61,
+	Config_get_CharacterIndex_mAA78A8F4E625E520450A2E97705E4A764B28DC03,
+	Config_set_CharacterIndex_m6E0176FA6994E1903C3BDF486C12486CE0D79550,
+	Config_get_CharacterLocked_m217436CB929CBCE8D6D069EA884899C90C6E7692,
+	Config_set_CharacterLocked_m954051F924E79D7F01FC39C55683D5E298F46145,
+	Destroy_on_End_OnStateEnter_m1CB6A40C501B8FAB3D88B3E7AFA0D17A6E899D81,
+	Destroy_on_End__ctor_m1C3C00D6AA31184A2FD08DD2781E85FA3A795767,
+	EndPeak_OnStateEnter_m037C6943F05EF31D81DD4F94CF79EAA024EBD49D,
+	EndPeak__ctor_mE5E542CF03934546E9F1C8E23EABE478B6302800,
+	GameManager_Start_m26461AEF27E44DB8FECCBC19D6C9E228B658BF8E,
+	GameManager_Update_mC9303BA7C3117BD861F49F8E36151CC52117E6C1,
+	GameManager__ctor_mE8666F6D0CA9C31E16B719F79780DC4B0245B64D,
+	GetTotalCoins_Start_m34AF4C5F7EF8CC3EA9180747042138994AF3FD76,
+	GetTotalCoins_Update_m348BC5EF0A323C45F724539BEABBED61B159777B,
+	GetTotalCoins__ctor_m52B92EA6B1E463DA677C4B3E4F6F0D775602BEC3,
+	Initiate_Start_mBC9EB4E9AAA679E6903629F61F21E1B33CA42C3A,
+	Initiate__ctor_m1A46E92E30E56C67A77F62FF9B9C30FF63C5627B,
+	LazerMovement_Start_mBE978D76D30AF1FB55B532C910E2043A474EC12C,
+	LazerMovement_Update_m876A3C4BD4534D8DE54CE58643D58096FDDBD732,
+	LazerMovement_bounce_mD66B38125AB1397A9841F27FFBD20C6C410E0335,
+	LazerMovement_wrap_m151C891B95A924671ED803435A1279B71FA1909D,
+	LazerMovement__ctor_m2B3B1BD9102818058A664BB07A5AE210ABBCE3A0,
+	MusicSelection_Start_m6FF761A91F9C9BAE69C1E04474A55265EBC05914,
+	MusicSelection_OnMouseOver_m25A5088E1EC74D160D23ED935D301EB86337ED78,
+	MusicSelection_OnMouseUp_m290A01EF21C1731770FDE0FD1C0BE4F6FB3F43E9,
+	MusicSelection_OnMouseExit_m9A64BD3EC3700D5308EFB257D093F1D2E0CFB8D1,
+	MusicSelection_OnMouseEnter_m6111B57B608771842DAEF6F22E09CEBEE67FA5F8,
+	MusicSelection_toggleSong_m431723541057275B7D83E5E69C228EBD391AAFB5,
+	MusicSelection__ctor_m25C4183B1533F3702362745A17005E98F7E18936,
+	Persist_Awake_mAB3D2975D5F3813CBCB1FFFC82B5A5E2062132F6,
+	Persist__ctor_m07A01E2BE45AE0241D3B1BF341842093A38C976B,
+	Play_Start_mBDAD37B6F3CDED9F86D2B03013C6D21F80F9BAAC,
+	Play_Update_mA196DFDF39784F03E088150B07BBE48FEBCE91CF,
+	Play_OnMouseDown_mEF2747D7E1C60CCE3767DF805F99B0DF1871162B,
+	Play_OnMouseUp_mB02356E93F1C9D44F280E36F240CEB5AC3668D72,
+	Play_OnMouseExit_m8D213985EC1BB7A3FBCED082AFE024E5EF635A74,
+	Play_OnMouseEnter_m908E0763A77F23B7BA246617CC8789D999DAF2DE,
+	Play__ctor_m2CB49325DB16A46C3CB542E64814AA34F6325221,
+	PlayerSettings_Start_mB813964645CF5792CF18B91B731FD155C6BA7946,
+	PlayerSettings_Awake_mAA485B896F3C2B3DDB9F797910FC22E6D39E9C8F,
+	PlayerSettings_ToggleMusic_m13AE692BC66693FC977D2310EDDD2C750A166F7A,
+	PlayerSettings_Update_m44D5AC6A822E742B964931343C0D7E41BA6E46E1,
+	PlayerSettings__ctor_m6BD4B559213D0917E9E05B3C67B99A7667F853DD,
+	Reset_Start_m63F1F3F48F9DC4AB9B434AD5C596F2DAE782481A,
+	Reset_Update_m7B232302BEFB5FC840EAE38E5E7964A992914D64,
+	Reset_OnMouseDown_m8D2BFB178C6E0B14023AB8AD5BBDD96A97F4B3AF,
+	Reset_OnMouseUp_m609CAB0287AFCBFFBA422F7FCFA7C708F9153775,
+	Reset_OnMouseExit_m83F48AA6B28A07DF8C895B2772818C47BC3914CD,
+	Reset_OnMouseEnter_mF69F0D73261081D062D60A71D603EA87A5A2F135,
+	Reset__ctor_m78880B9D6FE87C3CE86F154FFFEE4D881A76754D,
+	Save__ctor_m05D918A10CCF892266CAA37C6A830AD78FFCCB03,
+	SaveData_Awake_m3AA8E13797B61778B9A743A68A2BE073FB704275,
+	SaveData_LoadGame_mEF944F66A9E4F0E4D4B30C7F0306ED74194EF324,
+	SaveData_CreateSaveGameObject_m035C288A74A37CE7A7D4AAA39B334B7B52B3DFF5,
+	SaveData_saveGame_m6157972CEB80465DD68961EB17173C506D847411,
+	SaveData_deleteSave_m45C8D31245DA6471A14139D9CCAD12D16F2BF174,
+	SaveData__ctor_mBDF4096F6F1E6534B7FEBD083BCE948A2B3718B0,
+	ScoreManager_Start_mD3AD35C8B826532687C5600F2BF465093D6D1F91,
+	ScoreManager_Update_m77B6F3EB450BA678FBB01E50C4A6C6A611FB20CD,
+	ScoreManager_incrementScore_mB4052C2A4B90BA6212DAD4E8E8DF6DDAE23A0E31,
+	ScoreManager__ctor_m638A240D34643E8AB9D17553622C1C9354348354,
+	basicMovement_Start_m99B2EF05E3DCCC05A6CE2B48E65721F32EA6BA3E,
+	basicMovement_Update_m1F5B480D94B17CCDBA2EA9A7B2E79EBBDE679253,
+	basicMovement_jump_mB4238260D26D6AB566730D257D38781FE45D8359,
+	basicMovement_special_m9396E50FF6C359DC3D2AF817432B7737736EC266,
+	basicMovement_OnTimedEvent_mFC1FAA4384702BAD5E441DA37068000432E51DF8,
+	basicMovement_fire_m59D370C9B568C2ADC4884C39466F03E29B96303A,
+	basicMovement_gravity_m304F30F1674145B387C3EF09FA6B76615E690DA0,
+	basicMovement_terminalVelocity_mE8D3287F7BCB6F9C6EE39A7CD5C6A64AA826DCC6,
+	basicMovement_friction_m0A29ABE5CE347EC46F01F40A40D826BB073019BC,
+	basicMovement_floor_m8E99674DA2B9CD776AC0932AF1DCD15587347717,
+	basicMovement_ceil_mBF6833AA67BE3A883615B800AEAFDAF6BAA95412,
+	basicMovement_wrap_m454A1655C753C8D42202983B8645D4DA189AC97F,
+	basicMovement_OnTriggerStay2D_mF9B4E838045FA744348F60333842C5F977615B10,
+	basicMovement_OnTriggerEnter2D_m7C307581D578840322B04C22EB9B545F9D46019E,
+	basicMovement_die_mE40A36C5B1346430E2E290CD3797C92A3401873D,
+	basicMovement__ctor_m8B260B7B9BFA3CEB9C4BD29C5531CF8CD59CCF27,
+	characterSelect_Start_mA0FB83EE17CF5A69F43D643A427A164A910F1DB1,
+	characterSelect_Update_m63191A3B68EA260543D4B6ADF9B55BB58FF76ABB,
+	characterSelect_OnMouseOver_m3E3B2B8B648B3F4040054CE2EF92CEBF0BCF00B6,
+	characterSelect_OnMouseUp_m6C9BA0884FFF2C58CD4D0584A808E9C9F08398BB,
+	characterSelect_OnMouseExit_mD6D06720326F1D049D9C4019492FD2C9B21B5F06,
+	characterSelect_OnMouseEnter_m2C93CAF0D52235D3C7F2EA26E5E7C6040E452AE4,
+	characterSelect_setCharacter_mC0BABAF29C7F02F820D0DC8A21E0FA482C7CC0DD,
+	characterSelect__ctor_m50914D510956961D68FACF20EF040559035B2BDE,
+	selfDestroy_Start_m00772F199B074A3AEBC456DB9929A6F024904F95,
+	selfDestroy_Update_m9AF0BB5986CDBFF5B44A035838C35DF62B82C512,
+	selfDestroy__ctor_m8D4D5AF30E90BACA7F6EAB11ED838223DCC26226,
+};
+static const int32_t s_InvokerIndices[148] = 
+{
+	23,
+	23,
+	14,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	999,
+	23,
+	23,
+	23,
+	513,
+	513,
+	513,
+	513,
+	4,
+	111,
+	513,
+	121,
+	49,
+	766,
+	1228,
+	23,
+	1228,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	31,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	32,
+	23,
+	23,
+	23,
+	23,
+	23,
+	27,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	26,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+};
+extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	148,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
