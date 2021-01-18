@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3144476219506732645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3144476219506732646}
+  - component: {fileID: 3144476218944392773}
+  - component: {fileID: 3144476219506732647}
+  m_Layer: 0
+  m_Name: CoinManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3144476219506732646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144476219506732645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.666133, y: 3.7894106, z: -45.38122}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3144476218944392773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144476219506732645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1114e3543b61824aa1aa94d803ad6b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  realCoin: {fileID: 4004689291051418918, guid: 4e026ecd9fdde2744803a156e1e74513,
+    type: 3}
+  fakeCoin: {fileID: 3229615405608306213, guid: 1603e480101a46941a576af99ae90468,
+    type: 3}
+  collectedCoin: {fileID: 8596383581408354795, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+    type: 3}
+  scoreScript: {fileID: 3144476219506732647}
+--- !u!114 &3144476219506732647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144476219506732645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22398c58344defc449c898aa4abb03dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreTextCanvas: {fileID: 4058730260220199650, guid: 27360b796db612f4ab369734b6fce1a2,
+    type: 3}
