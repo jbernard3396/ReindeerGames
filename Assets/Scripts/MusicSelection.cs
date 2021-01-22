@@ -67,7 +67,7 @@ public class MusicSelection : MonoBehaviour
         {
             songOn = !songOn;
             Debug.Log("toggling manually?");
-            playerSettings.ToggleMusic();
+            //playerSettings.ToggleMusic();
         }
         if (songOn)
         {

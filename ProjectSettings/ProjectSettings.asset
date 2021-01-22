@@ -194,7 +194,7 @@ PlayerSettings:
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 11.0
   uIPrerenderedIcon: 0
-  uIRequiresPersistentWiFi: 0
+  uIRequiresPersistentWiFi: 1
   uIRequiresFullScreen: 1
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
@@ -646,7 +646,7 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0

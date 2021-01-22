@@ -101,7 +101,7 @@ public class basicMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawLine(new Vector3(Config.getCrx(), Config.getCby() + .1f, 0f), new Vector3(Config.getClx(), Config.getCby() + .1f, 0f));
+        //Debug.DrawLine(new Vector3(Config.getCrx(), Config.getCby() + .1f, 0f), new Vector3(Config.getClx(), Config.getCby() + .1f, 0f));
         if (createLazer)
         {
             fire();
