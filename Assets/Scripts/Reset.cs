@@ -30,19 +30,4 @@ public class Reset : MonoBehaviour
         myTransform.localScale = myTransform.localScale / ReSize;
         saveDataScript.deleteSave();
     }
-
-    void OnMouseUp()
-    {
-        myTransform.localScale = myTransform.localScale * ReSize;
-    }
-
-    void OnMouseExit()
-    {
-        myTransform.localScale = myTransform.localScale / ReSize;
-    }
-
-    void OnMouseEnter()
-    {
-        myTransform.localScale = ReSize * myTransform.localScale;
-    }
 }

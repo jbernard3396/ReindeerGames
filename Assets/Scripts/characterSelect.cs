@@ -88,13 +88,13 @@ public class characterSelect : MonoBehaviour
         Config.characterIndex = scriptIndex;
         anim.SetInteger("Character", scriptIndex);
 
-        if (characterCosts[scriptIndex] <= saveDataScript.save.totalCoins)
+        if (characterCosts[scriptIndex] <= saveDataScript.save.totalCoins || (Config.allUnlocked == true))
         {
             Config.characterLocked = false;
             anim.SetBool("Locked", false);
         }
 
-        if (characterCosts[scriptIndex] > saveDataScript.save.totalCoins)
+        if (characterCosts[scriptIndex] > saveDataScript.save.totalCoins && (Config.allUnlocked == false))
         {
             Config.characterLocked = true;
             anim.SetBool("Locked", true);

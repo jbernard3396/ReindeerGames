@@ -80,6 +80,8 @@
 		<type fullname="Rudolph" preserve="nothing"/>
 		<type fullname="SaveData" preserve="nothing"/>
 		<type fullname="ScoreManager" preserve="nothing"/>
+		<type fullname="Spin" preserve="nothing"/>
+		<type fullname="UnlockAll" preserve="nothing"/>
 		<type fullname="Vixen" preserve="nothing"/>
 		<type fullname="basicMovement" preserve="nothing"/>
 		<type fullname="characterSelect" preserve="nothing"/>

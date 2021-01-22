@@ -24,7 +24,7 @@ public class MusicSelection : MonoBehaviour
         songTextMesh = gameObject.GetComponent<TextMesh>();
 
         song1.enabled = true;
-        songOn = PlayerPrefs.GetInt("music")==1;
+        songOn = false;//PlayerPrefs.GetInt("music")==1; //TODO:J Something needs to be instantiated
         toggleSong(false);
     }
 
@@ -49,16 +49,6 @@ public class MusicSelection : MonoBehaviour
     void OnMouseUp()
     {
         myTransform.localScale = myTransform.localScale * ReSize;
-    }
-
-    void OnMouseExit()
-    {
-        myTransform.localScale = myTransform.localScale / ReSize;
-    }
-
-    void OnMouseEnter()
-    {
-        myTransform.localScale = ReSize * myTransform.localScale;
     }
 
     void toggleSong(bool toggle = true)

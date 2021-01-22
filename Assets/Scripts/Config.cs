@@ -11,11 +11,14 @@ public class Config
     public static Ability character;
     public static int characterIndex;
     public static bool characterLocked;
+    public static bool allUnlocked;
 
     public Config()
     {
                    
     }
+
+
 
     static public int getCrx()
     {
@@ -33,6 +36,18 @@ public class Config
     static public int getCty()
     {
         return 8;
+    }
+
+    public static bool AllUnlocked
+    {
+        get
+        {
+            return allUnlocked;
+        }
+        set
+        {
+            allUnlocked = value;
+        }
     }
 
     public static Ability Character
@@ -63,6 +78,10 @@ public class Config
     {
         get
         {
+            //if (allUnlocked)
+            //{
+            //    return true;
+            //}
             return characterLocked;
         }
         set

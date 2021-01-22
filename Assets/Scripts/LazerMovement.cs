@@ -69,7 +69,7 @@ public class LazerMovement : MonoBehaviour
         }
         myBody.Translate(vel[0] * Time.deltaTime, vel[1] * Time.deltaTime, 0); //Don't move in the z axis cause we don't wanna screw up sprite display
 
-        if (myBody.position.y <= cby-.4 && vel[1] < 0)
+        if (myBody.position.y <= cby-.2f && vel[1] < 0)
         {
             anim.SetBool("Up", true);
         }
@@ -78,7 +78,7 @@ public class LazerMovement : MonoBehaviour
             anim.SetBool("Up", false);
         }
 
-        if (myBody.position.y <= cby-.7f || myBody.position.y >= cty)
+        if (myBody.position.y <= cby-.58f || myBody.position.y >= cty)
         {
             bounce();
         }

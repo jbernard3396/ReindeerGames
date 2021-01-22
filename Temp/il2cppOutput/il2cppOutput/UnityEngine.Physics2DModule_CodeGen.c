@@ -109,7 +109,11 @@ extern void RaycastHit2D_get_normal_m6F8B9F4018EFA126CC33126E8E42B09BB5A82637_Ad
 extern void RaycastHit2D_get_distance_mA910B45BD349A8F70139F6BC1E686F47F40A1662_AdjustorThunk (void);
 // 0x0000002D UnityEngine.Collider2D UnityEngine.RaycastHit2D::get_collider()
 extern void RaycastHit2D_get_collider_m00F7EC55C36F39E2ED64B31354FB4D9C8938D563_AdjustorThunk (void);
-static Il2CppMethodPointer s_methodPointers[45] = 
+// 0x0000002E UnityEngine.Bounds UnityEngine.Collider2D::get_bounds()
+extern void Collider2D_get_bounds_mAC9477EF790D42A796B09CD1E946129B3054ACA8 (void);
+// 0x0000002F System.Void UnityEngine.Collider2D::get_bounds_Injected(UnityEngine.Bounds&)
+extern void Collider2D_get_bounds_Injected_mC89A68141060632DD64785824FD40CCBD93D0215 (void);
+static Il2CppMethodPointer s_methodPointers[47] = 
 {
 	PhysicsScene2D_ToString_mDA6F499BD218AA31A450D918BB6C1890A9CE1109_AdjustorThunk,
 	PhysicsScene2D_GetHashCode_m4B5D8DCBA0AD6E5767C4D7A6AD6BC789EB19C8F5_AdjustorThunk,
@@ -156,60 +160,64 @@ static Il2CppMethodPointer s_methodPointers[45] =
 	RaycastHit2D_get_normal_m6F8B9F4018EFA126CC33126E8E42B09BB5A82637_AdjustorThunk,
 	RaycastHit2D_get_distance_mA910B45BD349A8F70139F6BC1E686F47F40A1662_AdjustorThunk,
 	RaycastHit2D_get_collider_m00F7EC55C36F39E2ED64B31354FB4D9C8938D563_AdjustorThunk,
+	Collider2D_get_bounds_mAC9477EF790D42A796B09CD1E946129B3054ACA8,
+	Collider2D_get_bounds_Injected_mC89A68141060632DD64785824FD40CCBD93D0215,
 };
-static const int32_t s_InvokerIndices[45] = 
+static const int32_t s_InvokerIndices[47] = 
 {
 	14,
 	10,
 	9,
-	1185,
-	1186,
-	1187,
-	1188,
-	1189,
-	1190,
 	1189,
 	1190,
 	1191,
 	1192,
 	1193,
 	1194,
+	1193,
 	1194,
 	1195,
 	1196,
-	49,
 	1197,
+	1198,
 	1198,
 	1199,
 	1200,
+	49,
 	1201,
 	1202,
-	1203,
 	1203,
 	1204,
 	1205,
 	1206,
 	1207,
+	1207,
 	1208,
 	1209,
 	1210,
-	3,
 	1211,
-	23,
 	1212,
-	1059,
 	1213,
+	1214,
+	3,
+	1215,
+	23,
+	1216,
+	1059,
+	1217,
 	17,
 	1004,
 	1004,
 	653,
 	14,
+	1121,
+	6,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule = 
 {
 	"UnityEngine.Physics2DModule.dll",
-	45,
+	47,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
