@@ -53,6 +53,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
@@ -209,6 +210,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13926}
     - Class: 114
       Script: {instanceID: 14226}
+    - Class: 114
+      Script: {instanceID: 14544}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -299,7 +302,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14406}
     - Class: 114
-      Script: {instanceID: 14544}
+      Script: {instanceID: 14498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1023,8 +1026,8 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 9
   scenePathNames:
+  - Assets/Scenes/Start.unity
   - Assets/Scenes/menu.unity
   - Assets/Scenes/Game.unity
-  - Assets/Scenes/Start.unity
   - Assets/Scenes/GameOver.unity
   playerPath: C:/Users/jbern/Documents/GitHub/ReindeerGames/Build
