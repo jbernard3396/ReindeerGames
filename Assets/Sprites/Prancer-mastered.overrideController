@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Prancer-mastered
+  m_Controller: {fileID: 9100000, guid: 381c9a8bc212112429616fd0df0e8c83, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5e4557bbe94534f4bb54547f988cbca2, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 16aca2bca3586774e8c4c339bce0d453, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 933d9ce26120e2c4e91b8248a3d41ccb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 54d9e26b67b120745bf414cce804ee66, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 83c92f0b0005173458016546da69f855, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c2ed68f4fc69168488002a85f2f435e1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5f35754ddad593c41b5df73f1acef05b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: eaf98a1f434955e438b5788d0a749e62, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f8e8afe164edeab4f8167056ca80b12c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 30649a06583c50e4e829c8075e9b3e2f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1d8ddd4d00162b34bab2eeacc5ed5427, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e31bbe233793f6b4e82165317d63de5d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9bbb71370a7a33446ba3a0444f084e01, type: 2}

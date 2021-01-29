@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cupid-Mastered
+  m_Controller: {fileID: 9100000, guid: aa8e2da77b0a62849a07963f29edea05, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0d85828bb483e96439003de624bc2276, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 02a8fd736f3b87648b4b47dd1a584456, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b890817c37728424a86803f482917b0c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: faf224a9cb68864419c1f5fe5e8735d0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7212bfb9e41523345b36abcaa54e4c1c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1e01f1940c66a924ea5887c62cebe646, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3863c8bb0f94e2b41ab4a6acc6b01fd4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c36d714bd3733db46b1d972bba23f95d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dc2488304efb96542a194832997abed3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f89c3c5aeba4aee418836f9eb9d152cb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5ef5bbf96e1c21144b9a73b62b8417b6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 65378ba21eda0364dae0715f5cc7a7e2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c892c9baffd422c4ea5e393d0beae51b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2fef0a5d53aea9c48a1fe30494b84620, type: 2}

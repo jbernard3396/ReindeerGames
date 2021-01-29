@@ -10,6 +10,7 @@ public class Ability : MonoBehaviour
     //public GameObject player;
     //protected int testInt = 1;
     public RuntimeAnimatorController Cont;
+    public RuntimeAnimatorController MasteredCont;
 
 
     public Ability()

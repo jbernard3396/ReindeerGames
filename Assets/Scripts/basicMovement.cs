@@ -22,6 +22,8 @@ public class basicMovement : MonoBehaviour
     private RuntimeAnimatorController animatorController;
     private GameObject Settings;
     private SaveData saveDataScript;
+    private int reindeerIndex;
+    private int highScore;
 
     private float speed;
     public Vector2 vel;
@@ -33,17 +35,18 @@ public class basicMovement : MonoBehaviour
     public float physicsTimeout;
 
     private float jumpTimerReset = .1f;
-    private float landInvincibilityTimer = .1f;
+    //private float landInvincibilityTimer = .1f; TODO:J remove
     public int jumpsLeft = 2;
     public int activesLeft = 1;
     public float invincibilityTimer = 0;
+    private bool onScreen = true;
     private static System.Timers.Timer shotTimer;
-    private int clx = -1;
-    private int crx = 21;
+    private float clx;
+    private float crx;
 
     private Color spriteColor;
     private Color invColor;
-    public Color sheildColor;
+    public GameObject sheildDestoryed;
 
 
     private bool createLazer = false;
@@ -69,10 +72,12 @@ public class basicMovement : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteColor = spriteRenderer.color;
-        sheildColor = Color.red;
         Settings = GameObject.FindWithTag("Settings");
         saveDataScript = Settings.GetComponent<SaveData>();
         speed = 5f;
+
+        clx = Config.getClx();
+        crx = Config.getCrx();
 
         g = 13f;
         ffriction = 500f;
@@ -84,7 +89,15 @@ public class basicMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         abilityScript = Config.character;
 
-        animatorController = abilityScript.Cont;
+        reindeerIndex = Config.characterIndex;
+        highScore = saveDataScript.save.reindeerCoins[reindeerIndex];
+        if (highScore >= 25 || Config.allMastered)
+        {
+            animatorController = abilityScript.MasteredCont;
+        } else
+        {
+            animatorController = abilityScript.Cont;
+        }
         anim.runtimeAnimatorController = Instantiate(animatorController) as RuntimeAnimatorController;
 
         vel = new Vector2(speed, 0f);
@@ -101,7 +114,8 @@ public class basicMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.DrawLine(new Vector3(Config.getCrx(), Config.getCby() + .1f, 0f), new Vector3(Config.getClx(), Config.getCby() + .1f, 0f));
+
+        
         if (createLazer)
         {
             fire();
@@ -126,7 +140,7 @@ public class basicMovement : MonoBehaviour
         wrap();
         if (dead && !hasDeadStopped)
         {
-            Time.timeScale *= .01f;
+            Time.timeScale *= .1f;
             hasDeadStopped = true;
 
         } else if (dead)
@@ -200,7 +214,7 @@ public class basicMovement : MonoBehaviour
 
     void fire()
     {
-        if (myBody.position.x < Config.getCrx()-1 && myBody.position.x > Config.getClx()+1)
+        if (myBody.position.x < Config.getCrx()-.5 && myBody.position.x > Config.getClx()+.5)
         {
             GameObject newLazer = Instantiate(lazer, new Vector3(myBody.position.x, myBody.position.y-.8f, -1), Quaternion.identity); //TODO:J figure out the exact right amount
         }
@@ -292,6 +306,13 @@ public class basicMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "Lazer")
         {
+            bool lazerOnScreen = other.gameObject.GetComponent<LazerMovement>().onScreen;
+
+            if (!onScreen || !lazerOnScreen)
+            {
+                //TODO:J doesn't work very well
+                return;
+            }
             bool isHeart = other.gameObject.GetComponent<LazerMovement>().isHeart;
             bool isDeadly = other.gameObject.GetComponent<LazerMovement>().isDeadly;
             Animator theirAnim = other.gameObject.GetComponent<Animator>();
@@ -311,7 +332,8 @@ public class basicMovement : MonoBehaviour
                 if(hasSheild && !isHeart)
                 {
                     hasSheild = false;
-                    spriteRenderer.color = spriteColor;
+                    anim.SetBool("IsSheilded", false);
+                    Instantiate(sheildDestoryed, new Vector3(myBody.position.x, myBody.position.y, -1), Quaternion.identity);
                 }
             };
         }
@@ -327,5 +349,15 @@ public class basicMovement : MonoBehaviour
     void onDestroy()
     {
         SceneManager.LoadScene("GameOver");
+    }
+
+    void OnBecameInvisible()
+    {
+        onScreen = false;
+    }
+
+    void OnBecameVisible()
+    {
+        onScreen = true;
     }
 }

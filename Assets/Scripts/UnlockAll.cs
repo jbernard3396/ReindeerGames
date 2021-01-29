@@ -10,7 +10,6 @@ public class UnlockAll : MonoBehaviour
 
     private GameObject Settings;
     private SaveData saveDataScript;
-    private float ReSize = 1.2f;
     private Transform myTransform;
 
     // Start is called before the first frame update

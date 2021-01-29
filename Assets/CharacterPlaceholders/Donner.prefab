@@ -44,3 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cont: {fileID: 9100000, guid: 3c902810048d3114cbb917b988333f23, type: 2}
+  MasteredCont: {fileID: 22100000, guid: bd3890c930f770140b111273a7a037d4, type: 2}

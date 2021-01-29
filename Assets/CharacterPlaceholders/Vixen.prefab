@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1693576871510641054}
   - component: {fileID: 5298721989926384178}
   m_Layer: 0
-  m_Name: Donner
+  m_Name: Vixen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,4 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a304cf046b27ffa4dbb3694f3df78903, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cont: {fileID: 9100000, guid: 3c902810048d3114cbb917b988333f23, type: 2}
+  Cont: {fileID: 9100000, guid: d1271807917494d4ba6468ec3c116c04, type: 2}
+  MasteredCont: {fileID: 22100000, guid: d7842992db6ed5c41b9b2fe68abdf3e3, type: 2}

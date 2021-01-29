@@ -9,10 +9,10 @@ public class LazerMovement : MonoBehaviour
     public Animator anim;
 
     private Vector3 vel = new Vector3(0, -2f, 0f);
-    private int crx = Config.getCrx();
-    private int clx = Config.getClx();
-    private int cby = Config.getCby();
-    private int cty = Config.getCty();
+    private float crx; 
+    private float clx; 
+    private float cby;
+    private float cty; 
     private GameObject[] lazersInScene;
 
     public bool towardsPlayer = false;
@@ -25,6 +25,7 @@ public class LazerMovement : MonoBehaviour
 
     public bool isHeart = false;
     public bool isDeadly = true;
+    public bool onScreen = false;
     private bool wasHeart = false;
 
     private Transform myBody;
@@ -37,6 +38,14 @@ public class LazerMovement : MonoBehaviour
         myBody = GetComponent<Transform>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        onScreen = spriteRenderer.isVisible;
+        Debug.Log(onScreen);
+
+
+        crx = Config.getCrx();
+        clx = Config.getClx();
+        cby = Config.getCby();
+        cty = Config.getCty();
 
 
         lazersInScene = GameObject.FindGameObjectsWithTag("Lazer");
@@ -78,7 +87,7 @@ public class LazerMovement : MonoBehaviour
             anim.SetBool("Up", false);
         }
 
-        if (myBody.position.y <= cby-.58f || myBody.position.y >= cty)
+        if ((myBody.position.y <= cby-.58f && vel[1] < 0)|| myBody.position.y >= cty && vel[1] > 0)
         {
             bounce();
         }
@@ -87,10 +96,10 @@ public class LazerMovement : MonoBehaviour
         {
             if (isHeart)
             {
-                spriteRenderer.color = new Color(255/255, 30/255, 255/255);
+                anim.SetBool("isHeart", true);
             } else
             {
-                spriteRenderer.color = new Color(0/255, 255/255, 23/255);
+                anim.SetBool("isHeart", false);
             }
             wasHeart = isHeart;
         }
@@ -114,5 +123,15 @@ public class LazerMovement : MonoBehaviour
         {
             myBody.position = new Vector3(crx, myBody.position.y, 0);
         }
+    }
+
+    void OnBecameInvisible()
+    {
+        onScreen = false;
+    }
+
+    void OnBecameVisible()
+    {
+        onScreen = true;
     }
 }

@@ -5,7 +5,6 @@ using UnityEngine;
 public class Vixen : Ability
 {
 
-    private int dashSpeed = 50;
     private basicMovement basicMovementScript;
     private GameObject realCoin;
 
@@ -15,7 +14,7 @@ public class Vixen : Ability
     private Transform myTransform;
     private Transform theirTransform;
 
-    private float physicsTimeout = .025f;
+    private Animator anim;
 
     public Vixen()
     {
@@ -33,6 +32,7 @@ public class Vixen : Ability
         {
             player = GameObject.FindWithTag("Player");
             playerScript = player.GetComponent<basicMovement>();
+            anim = player.GetComponent<Animator>();
         }
         myTransform = gameObject.GetComponent<Transform>();
     }
@@ -42,6 +42,6 @@ public class Vixen : Ability
         startUp();
 
         playerScript.hasSheild = true;
-        playerScript.spriteRenderer.color = playerScript.sheildColor;
+        anim.SetBool("IsSheilded", true);
     }
 }

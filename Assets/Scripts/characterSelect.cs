@@ -62,6 +62,8 @@ public class characterSelect : MonoBehaviour
         characterCosts[7] = 150; //Blitzen
         characterCosts[8] = 200; //Rudolph
 
+        Config.characterCosts = characterCosts;
+
         scriptIndex = Config.characterIndex;
         anim.SetInteger("Character", scriptIndex);
         setCharacter();

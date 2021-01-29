@@ -10,7 +10,7 @@ public class Blitzen : Ability
     private basicMovement playerScript;
     private GameObject player;
 
-    private float range = 2;
+    private float range = 3;
 
     [SerializeField] private GameObject explosion;
 

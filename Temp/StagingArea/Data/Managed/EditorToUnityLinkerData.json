@@ -327,7 +327,8 @@
             "usedInScenes": [
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -539,7 +540,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -578,7 +580,8 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -588,7 +591,8 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -598,7 +602,8 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -608,7 +613,17 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorOverrideController",
+            "fullManagedTypeName": "UnityEngine.AnimatorOverrideController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/menu.unity"
             ]
         },
         {
@@ -618,7 +633,8 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -628,7 +644,8 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -724,6 +741,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "DisplayCoins",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Donner",
             "moduleName": "",
             "usedInScenes": []
@@ -760,6 +784,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "LazerMovement",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MasterAll",
             "moduleName": "",
             "usedInScenes": []
         },

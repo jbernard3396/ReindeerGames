@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Reset.cs" />
+    <Compile Include="Assets\Scripts\DisplayCoins.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Characters\Ability.cs" />
     <Compile Include="Assets\Scripts\NextCharacter.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Assets\Scripts\Characters\Rudolph.cs" />
     <Compile Include="Assets\Scripts\CoinCollected.cs" />
     <Compile Include="Assets\Scripts\Replay.cs" />
+    <Compile Include="Assets\Scripts\UnlockAll.cs" />
     <Compile Include="Assets\Scripts\Characters\Cupid.cs" />
     <Compile Include="Assets\Scripts\MusicSelection.cs" />
     <Compile Include="Assets\Scripts\basicMovement.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="Assets\Scripts\SaveData.cs" />
     <Compile Include="Assets\Scripts\EndPeak.cs" />
     <Compile Include="Assets\Scripts\Characters\Blitzen.cs" />
+    <Compile Include="Assets\Scripts\Spin.cs" />
     <Compile Include="Assets\Scripts\GetTotalCoins.cs" />
     <Compile Include="Assets\Scripts\PlayerSettings.cs" />
     <Compile Include="Assets\Scripts\Initiate.cs" />
@@ -87,8 +90,7 @@
     <Compile Include="Assets\Scripts\Characters\Dash.cs" />
     <Compile Include="Assets\Scripts\Characters\Comet.cs" />
     <Compile Include="Assets\Scripts\LazerMovement.cs" />
-    <Compile Include="Assets\Scripts\UnlockAll.cs" />
-    <Compile Include="Assets\Spin.cs" />
+    <Compile Include="Assets\MasterAll.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AnimationImporter\readme.txt" />

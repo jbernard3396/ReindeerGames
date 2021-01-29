@@ -12,29 +12,53 @@ public class Config
     public static int characterIndex;
     public static bool characterLocked;
     public static bool allUnlocked;
+    public static bool allMastered;
+    public static int[] characterCosts = new int[9];
+    private static float crx = 0;
+    private static float clx = 0;
+
+    
 
     public Config()
     {
-                   
+        
+    }
+
+    static void initializeEdges()
+    {
+        if (crx != 0 && clx != 0)
+        {
+            return;
+        }
+        Camera cam = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
+        Vector3 viewPos = cam.WorldToViewportPoint(new Vector3(-1, -1, 0));
+
+        float unit = .5f - viewPos.x;
+        float numUnitsInScreen = 1.05f / unit;
+        crx = numUnitsInScreen / 2;
+        clx = -numUnitsInScreen / 2;
     }
 
 
-
-    static public int getCrx()
+    static public float getCrx()
     {
-        return 21;
+        initializeEdges();
+        return crx;
     }
 
-    static public int getClx()
+    static public float getClx()
     {
-        return -1;
+        initializeEdges();
+        return clx;
     }
     static public int getCby()
     {
+        initializeEdges();
         return 0;
     }
     static public int getCty()
     {
+        initializeEdges();  
         return 8;
     }
 
@@ -47,6 +71,18 @@ public class Config
         set
         {
             allUnlocked = value;
+        }
+    }
+
+    public static bool AllMastered
+    {
+        get
+        {
+            return allMastered;
+        }
+        set
+        {
+            allMastered = value;
         }
     }
 
@@ -74,14 +110,23 @@ public class Config
         }
     }
 
+    public static int[] CharacterCosts
+    {
+       
+        get
+        {            
+            return characterCosts;
+        }
+        set
+        {
+            characterCosts = value;
+        }
+    }
+
     public static bool CharacterLocked
     {
         get
         {
-            //if (allUnlocked)
-            //{
-            //    return true;
-            //}
             return characterLocked;
         }
         set

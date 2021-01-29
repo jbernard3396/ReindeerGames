@@ -44,5 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cont: {fileID: 9100000, guid: b898adc7a0a320a468673b7f1ef455fa, type: 2}
+  MasteredCont: {fileID: 22100000, guid: 966c7a9806f0cbf419ca10a03a04b84a, type: 2}
   explosion: {fileID: 6028232272694427251, guid: d967dc27c0f46fb40909fb7c253a9c87,
     type: 3}
