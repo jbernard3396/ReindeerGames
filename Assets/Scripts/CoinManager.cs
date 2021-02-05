@@ -15,6 +15,8 @@ public class CoinManager : MonoBehaviour
     private GameObject fakeCoinInstance;
     private GameObject collectedCoinInstance;
     private CircleCollider2D fc_Collider;
+    private GameObject CoinCollectSource;
+    private AudioSource CoinCollectSFX;
 
 
     private float leftBound;
@@ -34,6 +36,8 @@ public class CoinManager : MonoBehaviour
         realCoinInstance = Instantiate(realCoin, generateLocation(), Quaternion.identity);
         fakeCoinInstance = Instantiate(fakeCoin, generateLocation(), Quaternion.identity);
         fc_Collider = fakeCoinInstance.GetComponent<CircleCollider2D>();
+        CoinCollectSource = GameObject.Find("CoinSFX");
+        CoinCollectSFX = CoinCollectSource.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -53,6 +57,7 @@ public class CoinManager : MonoBehaviour
 
     public void collectCoin()
     {
+        CoinCollectSFX.Play();
         collectedCoinInstance = Instantiate(collectedCoin, realCoinInstance.transform.position, Quaternion.identity);
         realCoinInstance.transform.position = fc_Collider.bounds.center + new Vector3(0, -.4f, 0);
         fakeCoinInstance.transform.position = generateLocation();

@@ -18,6 +18,11 @@ public class Ability : MonoBehaviour
         
     }
 
+    public virtual void Update()
+    {
+
+    }
+
     //protected void Awake()
     //{
     //    testInt = 2;

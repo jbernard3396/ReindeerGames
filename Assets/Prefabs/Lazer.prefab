@@ -99,10 +99,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad28509e40cf64644a7a7a111411666e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   towardsPlayer: 0
   timeout: 0
   isLastLazer: 1
   isHeart: 0
+  isDeadly: 1
+  onScreen: 0
   targetBody: {fileID: 0}
 --- !u!50 &7913715829775756233
 Rigidbody2D:

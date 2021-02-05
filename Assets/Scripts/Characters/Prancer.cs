@@ -10,6 +10,8 @@ public class Prancer : Ability
     private basicMovement playerScript;
     private GameObject player;
     private Animator anim;
+    private GameObject PranceSource;
+    private AudioSource PranceSFX;
 
     public Prancer()
     {
@@ -30,6 +32,8 @@ public class Prancer : Ability
     {
         if (!playerScript)
         {
+            PranceSource = GameObject.Find("PrancerSFX");
+            PranceSFX = PranceSource.GetComponent<AudioSource>();
             player = GameObject.FindWithTag("Player");
             playerScript = player.GetComponent<basicMovement>();
             anim = player.GetComponent<Animator>();
@@ -40,6 +44,7 @@ public class Prancer : Ability
     public override void activateAbility()
     {
         startUp();
+        PranceSFX.Play();
         playerScript.vel = new Vector2(-1* playerScript.vel[0], upSpeed);
         playerScript.ffriction = 0;
         playerScript.bfriction = 0;

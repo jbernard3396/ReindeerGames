@@ -81,7 +81,9 @@
     <Compile Include="Assets\Scripts\SaveData.cs" />
     <Compile Include="Assets\Scripts\EndPeak.cs" />
     <Compile Include="Assets\Scripts\Characters\Blitzen.cs" />
+    <Compile Include="Assets\Scripts\MasterAll.cs" />
     <Compile Include="Assets\Scripts\Spin.cs" />
+    <Compile Include="Assets\Scripts\WallAnimatorController.cs" />
     <Compile Include="Assets\Scripts\GetTotalCoins.cs" />
     <Compile Include="Assets\Scripts\PlayerSettings.cs" />
     <Compile Include="Assets\Scripts\Initiate.cs" />
@@ -90,7 +92,7 @@
     <Compile Include="Assets\Scripts\Characters\Dash.cs" />
     <Compile Include="Assets\Scripts\Characters\Comet.cs" />
     <Compile Include="Assets\Scripts\LazerMovement.cs" />
-    <Compile Include="Assets\MasterAll.cs" />
+    <Compile Include="Assets\WallAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AnimationImporter\readme.txt" />

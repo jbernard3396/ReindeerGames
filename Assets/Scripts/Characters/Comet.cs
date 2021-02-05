@@ -8,6 +8,8 @@ public class Comet : Ability
     private int slamSpeed = -30;
     private basicMovement playerScript;
     private GameObject player;
+    private GameObject CometSource;
+    private AudioSource CometSFX;
 
     public Comet()
     {
@@ -27,6 +29,8 @@ public class Comet : Ability
     {
         if (!playerScript)
         {
+            CometSource = GameObject.Find("CometSFX");
+            CometSFX = CometSource.GetComponent<AudioSource>();
             player = GameObject.FindWithTag("Player");
             playerScript = player.GetComponent<basicMovement>();
         }
@@ -35,6 +39,7 @@ public class Comet : Ability
     public override void activateAbility()
     {
         startUp();
+        CometSFX.Play();
         playerScript.vel = new Vector2(playerScript.vel[0], slamSpeed);
         playerScript.invincible = true;
     }

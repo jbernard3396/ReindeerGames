@@ -176,6 +176,9 @@ TextureImporter:
   - first:
       213: 145297295411847872
     second: Vixen(real) 57
+  - first:
+      213: -1580309214004921823
+    second: Vixen(real) 58
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -359,7 +362,7 @@ TextureImporter:
       name: Vixen(real) 5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 384
         width: 64
         height: 64
@@ -380,7 +383,7 @@ TextureImporter:
       name: Vixen(real) 6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 384
         width: 64
         height: 64
@@ -401,7 +404,7 @@ TextureImporter:
       name: Vixen(real) 7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 384
         width: 64
         height: 64
@@ -422,8 +425,8 @@ TextureImporter:
       name: Vixen(real) 8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
+        x: 448
+        y: 384
         width: 64
         height: 64
       alignment: 7
@@ -443,7 +446,7 @@ TextureImporter:
       name: Vixen(real) 9
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 320
         width: 64
         height: 64
@@ -464,7 +467,7 @@ TextureImporter:
       name: Vixen(real) 10
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 320
         width: 64
         height: 64
@@ -485,7 +488,7 @@ TextureImporter:
       name: Vixen(real) 11
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 320
         width: 64
         height: 64
@@ -506,7 +509,7 @@ TextureImporter:
       name: Vixen(real) 12
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 320
         width: 64
         height: 64
@@ -527,7 +530,7 @@ TextureImporter:
       name: Vixen(real) 13
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 320
         width: 64
         height: 64
@@ -548,7 +551,7 @@ TextureImporter:
       name: Vixen(real) 14
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 320
         width: 64
         height: 64
@@ -569,7 +572,7 @@ TextureImporter:
       name: Vixen(real) 15
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 320
         width: 64
         height: 64
@@ -590,8 +593,8 @@ TextureImporter:
       name: Vixen(real) 16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 448
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -611,7 +614,7 @@ TextureImporter:
       name: Vixen(real) 17
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 256
         width: 64
         height: 64
@@ -632,7 +635,7 @@ TextureImporter:
       name: Vixen(real) 18
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 256
         width: 64
         height: 64
@@ -653,7 +656,7 @@ TextureImporter:
       name: Vixen(real) 19
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 256
         width: 64
         height: 64
@@ -674,7 +677,7 @@ TextureImporter:
       name: Vixen(real) 20
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 256
         width: 64
         height: 64
@@ -695,7 +698,7 @@ TextureImporter:
       name: Vixen(real) 21
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 256
         width: 64
         height: 64
@@ -716,7 +719,7 @@ TextureImporter:
       name: Vixen(real) 22
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 256
         width: 64
         height: 64
@@ -737,7 +740,7 @@ TextureImporter:
       name: Vixen(real) 23
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 256
         width: 64
         height: 64
@@ -758,8 +761,8 @@ TextureImporter:
       name: Vixen(real) 24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 448
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -779,7 +782,7 @@ TextureImporter:
       name: Vixen(real) 25
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 192
         width: 64
         height: 64
@@ -800,7 +803,7 @@ TextureImporter:
       name: Vixen(real) 26
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 192
         width: 64
         height: 64
@@ -821,7 +824,7 @@ TextureImporter:
       name: Vixen(real) 27
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 192
         width: 64
         height: 64
@@ -842,7 +845,7 @@ TextureImporter:
       name: Vixen(real) 28
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 192
         width: 64
         height: 64
@@ -863,7 +866,7 @@ TextureImporter:
       name: Vixen(real) 29
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 192
         width: 64
         height: 64
@@ -884,7 +887,7 @@ TextureImporter:
       name: Vixen(real) 30
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 192
         width: 64
         height: 64
@@ -905,7 +908,7 @@ TextureImporter:
       name: Vixen(real) 31
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 192
         width: 64
         height: 64
@@ -926,8 +929,8 @@ TextureImporter:
       name: Vixen(real) 32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 448
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -947,7 +950,7 @@ TextureImporter:
       name: Vixen(real) 33
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 128
         width: 64
         height: 64
@@ -968,7 +971,7 @@ TextureImporter:
       name: Vixen(real) 34
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 128
         width: 64
         height: 64
@@ -989,7 +992,7 @@ TextureImporter:
       name: Vixen(real) 35
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 128
         width: 64
         height: 64
@@ -1010,8 +1013,8 @@ TextureImporter:
       name: Vixen(real) 36
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
+        x: 192
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -1031,8 +1034,8 @@ TextureImporter:
       name: Vixen(real) 37
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 384
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -1052,7 +1055,7 @@ TextureImporter:
       name: Vixen(real) 38
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 128
         width: 64
         height: 64
@@ -1073,7 +1076,7 @@ TextureImporter:
       name: Vixen(real) 39
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 128
         width: 64
         height: 64
@@ -1094,7 +1097,7 @@ TextureImporter:
       name: Vixen(real) 40
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 128
         width: 64
         height: 64
@@ -1115,8 +1118,8 @@ TextureImporter:
       name: Vixen(real) 41
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
+        x: 448
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -1136,8 +1139,8 @@ TextureImporter:
       name: Vixen(real) 42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 128
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -1157,7 +1160,7 @@ TextureImporter:
       name: Vixen(real) 43
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 64
         width: 64
         height: 64
@@ -1178,7 +1181,7 @@ TextureImporter:
       name: Vixen(real) 44
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 64
         width: 64
         height: 64
@@ -1199,8 +1202,8 @@ TextureImporter:
       name: Vixen(real) 45
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
+        x: 128
+        y: 64
         width: 64
         height: 64
       alignment: 7
@@ -1464,6 +1467,27 @@ TextureImporter:
       bones: []
       spriteID: 0c229dfce13340200800000000000000
       internalID: 145297295411847872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vixen(real) 58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ab5f7842d911ae0800000000000000
+      internalID: -1580309214004921823
       vertices: []
       indices: 
       edges: []

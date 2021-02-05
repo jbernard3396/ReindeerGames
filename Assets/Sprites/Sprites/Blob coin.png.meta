@@ -89,6 +89,39 @@ TextureImporter:
   - first:
       213: -7334223579932545585
     second: Blob coin 28
+  - first:
+      213: -1724762526706625062
+    second: Blob coin 29
+  - first:
+      213: -8659494554454088744
+    second: Blob coin 30
+  - first:
+      213: 1125863265301771953
+    second: Blob coin 31
+  - first:
+      213: 6163721661216424888
+    second: Blob coin 32
+  - first:
+      213: 8802980303766063225
+    second: Blob coin 33
+  - first:
+      213: -4804162730645633415
+    second: Blob coin 34
+  - first:
+      213: -5416525867343717292
+    second: Blob coin 35
+  - first:
+      213: 3674604653360095332
+    second: Blob coin 36
+  - first:
+      213: -7848154112445127915
+    second: Blob coin 37
+  - first:
+      213: 3073534164502339538
+    second: Blob coin 38
+  - first:
+      213: 2521461092318273741
+    second: Blob coin 39
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,7 +183,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 320
+    maxTextureSize: 448
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -168,7 +201,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -189,7 +222,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -210,7 +243,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 192
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -231,7 +264,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -252,7 +285,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 192
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -272,8 +305,8 @@ TextureImporter:
       name: Blob coin 5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 320
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -293,8 +326,8 @@ TextureImporter:
       name: Blob coin 6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 384
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -314,8 +347,8 @@ TextureImporter:
       name: Blob coin 7
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 0
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -335,8 +368,8 @@ TextureImporter:
       name: Blob coin 8
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
+        x: 64
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -356,8 +389,8 @@ TextureImporter:
       name: Blob coin 9
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 128
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -377,8 +410,8 @@ TextureImporter:
       name: Blob coin 10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 192
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -398,8 +431,8 @@ TextureImporter:
       name: Blob coin 11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 256
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -419,8 +452,8 @@ TextureImporter:
       name: Blob coin 12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
+        x: 320
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -440,8 +473,8 @@ TextureImporter:
       name: Blob coin 13
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
+        x: 384
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -461,8 +494,8 @@ TextureImporter:
       name: Blob coin 14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
+        x: 0
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -482,8 +515,8 @@ TextureImporter:
       name: Blob coin 15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 64
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -503,8 +536,8 @@ TextureImporter:
       name: Blob coin 16
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 128
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -524,8 +557,8 @@ TextureImporter:
       name: Blob coin 17
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 192
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -545,8 +578,8 @@ TextureImporter:
       name: Blob coin 18
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
+        x: 256
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -566,8 +599,8 @@ TextureImporter:
       name: Blob coin 19
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
+        x: 320
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -587,7 +620,7 @@ TextureImporter:
       name: Blob coin 20
       rect:
         serializedVersion: 2
-        x: 0
+        x: 384
         y: 192
         width: 64
         height: 64
@@ -600,6 +633,405 @@ TextureImporter:
       bones: []
       spriteID: bfa7775d38ac219f0800000000000000
       internalID: -499113941113799941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35711e3edf8779760800000000000000
+      internalID: 7464567939235125075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2db0f19cb3ef9d40800000000000000
+      internalID: 5593439661259275563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c520b98ec6625a010800000000000000
+      internalID: 1199407124964901468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4220be72c064df0800000000000000
+      internalID: -196456168157993779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635d41b8e4b13edc0800000000000000
+      internalID: -3611012452066208458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75767e88f223cd6e0800000000000000
+      internalID: -1811517770368063657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0fc28e7899b5d00800000000000000
+      internalID: 962531754368626939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcda3de238a973a90800000000000000
+      internalID: -7334223579932545585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad51fb1ce996018e0800000000000000
+      internalID: -1724762526706625062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3a55b259b43d780800000000000000
+      internalID: -8659494554454088744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b639f9bcaedf9f00800000000000000
+      internalID: 1125863265301771953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b38f2fa130f98550800000000000000
+      internalID: 6163721661216424888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9788cb232f77a2a70800000000000000
+      internalID: 8802980303766063225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97642b4337f245db0800000000000000
+      internalID: -4804162730645633415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c5340fb62a4d4b0800000000000000
+      internalID: -5416525867343717292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460a68d9671def230800000000000000
+      internalID: 3674604653360095332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513ef218a61c51390800000000000000
+      internalID: -7848154112445127915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df5030d90367aa20800000000000000
+      internalID: 3073534164502339538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blob coin 39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0699211870ef220800000000000000
+      internalID: 2521461092318273741
       vertices: []
       indices: 
       edges: []

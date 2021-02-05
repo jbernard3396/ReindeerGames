@@ -8,6 +8,9 @@ public class Cupid : Ability
     private GameObject[] lazersInScene;
     private basicMovement playerScript;
     private GameObject player;
+    private GameObject ConvertHeartSource;
+    private AudioSource ConvertHeartSFX;
+
 
     public Cupid()
     {
@@ -27,6 +30,8 @@ public class Cupid : Ability
     {
         if (!playerScript)
         {
+            ConvertHeartSource = GameObject.Find("turn_hearts");
+            ConvertHeartSFX = ConvertHeartSource.GetComponent<AudioSource>();
             player = GameObject.FindWithTag("Player");
             playerScript = player.GetComponent<basicMovement>();
         }
@@ -35,6 +40,10 @@ public class Cupid : Ability
     public override void activateAbility()
     {
         startUp();
+        if (ConvertHeartSFX)
+        {
+            ConvertHeartSFX.Play();
+        }
         lazersInScene = GameObject.FindGameObjectsWithTag("Lazer");
 
         foreach (GameObject lazer in lazersInScene)

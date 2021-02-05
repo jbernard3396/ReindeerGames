@@ -7,7 +7,9 @@ public class Dancer : Ability
     private int danceSpeed = -50;
     private basicMovement playerScript;
     private GameObject player;
-    
+    private GameObject DanceSource;
+    private AudioSource DanceSFX;
+
 
 
     public Dancer()
@@ -24,6 +26,8 @@ public class Dancer : Ability
     {
         if (!playerScript)
         {
+            DanceSource = GameObject.Find("DanceSFX");
+            DanceSFX = DanceSource.GetComponent<AudioSource>();
             player = GameObject.FindWithTag("Player");
             playerScript = player.GetComponent<basicMovement>();
         }
@@ -32,6 +36,10 @@ public class Dancer : Ability
     public override void activateAbility()
     {
         startUp();
+        if (DanceSFX)
+        {
+            DanceSFX.Play();
+        }
         playerScript.vel = new Vector2(danceSpeed, 0);
         playerScript.invincible = true;
     }

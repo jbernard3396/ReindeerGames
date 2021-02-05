@@ -16,6 +16,9 @@ public class Vixen : Ability
 
     private Animator anim;
 
+    private GameObject SheildUpSource;
+    private AudioSource sheildUpSFX;
+
     public Vixen()
     {
 
@@ -30,6 +33,9 @@ public class Vixen : Ability
     {
         if (!playerScript)
         {
+            SheildUpSource = GameObject.Find("Sheild_Up");
+            sheildUpSFX = SheildUpSource.GetComponent<AudioSource>();
+
             player = GameObject.FindWithTag("Player");
             playerScript = player.GetComponent<basicMovement>();
             anim = player.GetComponent<Animator>();
@@ -40,6 +46,7 @@ public class Vixen : Ability
     public override void activateAbility()
     {
         startUp();
+        sheildUpSFX.Play();
 
         playerScript.hasSheild = true;
         anim.SetBool("IsSheilded", true);

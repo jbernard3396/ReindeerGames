@@ -287,6 +287,18 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioSource",
+            "fullManagedTypeName": "UnityEngine.AudioSource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/Start.unity",
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioBehaviour",
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
@@ -522,10 +534,34 @@
             ]
         },
         {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioClip",
+            "fullManagedTypeName": "UnityEngine.AudioClip",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/Start.unity",
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
+            ]
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "NavMeshSettings",
             "fullManagedTypeName": "",
             "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/Start.unity",
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "",
+            "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
@@ -542,15 +578,6 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioSource",
-            "fullManagedTypeName": "UnityEngine.AudioSource",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/menu.unity"
             ]
         },
         {
@@ -646,24 +673,6 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioClip",
-            "fullManagedTypeName": "UnityEngine.AudioClip",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/menu.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "SampleClip",
-            "fullManagedTypeName": "",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/menu.unity"
             ]
         },
         {
@@ -889,6 +898,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Vixen",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "WallAnimatorController",
             "moduleName": "",
             "usedInScenes": []
         },

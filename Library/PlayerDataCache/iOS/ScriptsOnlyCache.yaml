@@ -35,6 +35,7 @@ ScriptsOnlyBuild:
     - Spin
     - UnlockAll
     - Vixen
+    - WallAnimatorController
     - basicMovement
     - characterSelect
     - selfDestroy
@@ -88,6 +89,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -121,7 +126,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13628}
     - Class: 114
-      Script: {instanceID: 14442}
+      Script: {instanceID: 14444}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -164,6 +169,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -220,6 +229,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -233,11 +246,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13382}
     - Class: 114
-      Script: {instanceID: 13934}
+      Script: {instanceID: 13676}
     - Class: 114
-      Script: {instanceID: 14234}
+      Script: {instanceID: 13936}
     - Class: 114
-      Script: {instanceID: 14552}
+      Script: {instanceID: 14236}
+    - Class: 114
+      Script: {instanceID: 14554}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -324,17 +339,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13592}
     - Class: 114
-      Script: {instanceID: 13776}
+      Script: {instanceID: 13778}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 14346}
+      Script: {instanceID: 14348}
     - Class: 114
-      Script: {instanceID: 14408}
+      Script: {instanceID: 14410}
     - Class: 114
-      Script: {instanceID: 14414}
+      Script: {instanceID: 14416}
     - Class: 114
-      Script: {instanceID: 14506}
+      Script: {instanceID: 14508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -836,6 +851,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WallAnimatorController
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5

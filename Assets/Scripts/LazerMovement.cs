@@ -15,6 +15,9 @@ public class LazerMovement : MonoBehaviour
     private float cty; 
     private GameObject[] lazersInScene;
 
+    private GameObject LazerBounceSource;
+    private AudioSource LazerBounceSFX;
+
     public bool towardsPlayer = false;
 
     public float timeout;
@@ -39,7 +42,9 @@ public class LazerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         onScreen = spriteRenderer.isVisible;
-        Debug.Log(onScreen);
+
+        LazerBounceSource = GameObject.Find("LazerBounceSFX");
+        LazerBounceSFX = LazerBounceSource.GetComponent<AudioSource>();
 
 
         crx = Config.getCrx();
@@ -107,6 +112,10 @@ public class LazerMovement : MonoBehaviour
 
     void bounce()
     {
+        if (LazerBounceSFX)
+        {
+            //LazerBounceSFX.Play();
+        }
         float yPos = Mathf.Max(Mathf.Min(myBody.position.y, cty), cby-.7f);
         myBody.position = new Vector3(myBody.position.x, yPos, myBody.position.z);
         vel[1] = -vel[1];

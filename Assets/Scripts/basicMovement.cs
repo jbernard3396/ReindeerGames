@@ -16,6 +16,14 @@ public class basicMovement : MonoBehaviour
 {
     public Transform myBody;
     private Rigidbody2D rigidBody2D;
+    private GameObject JumpSource;
+    private AudioSource Jump;
+    private GameObject SplatSource;
+    private AudioSource Splat;
+
+    private GameObject SheildDownSource;
+    private AudioSource sheildDownSFX;
+
     //make this private
     public SpriteRenderer spriteRenderer;
     private Animator anim;
@@ -35,7 +43,6 @@ public class basicMovement : MonoBehaviour
     public float physicsTimeout;
 
     private float jumpTimerReset = .1f;
-    //private float landInvincibilityTimer = .1f; TODO:J remove
     public int jumpsLeft = 2;
     public int activesLeft = 1;
     public float invincibilityTimer = 0;
@@ -70,6 +77,14 @@ public class basicMovement : MonoBehaviour
 
         myBody = GetComponent<Transform>();
         rigidBody2D = GetComponent<Rigidbody2D>();
+        JumpSource = GameObject.Find("JumpSFX");
+        Jump = JumpSource.GetComponent<AudioSource>();
+        SplatSource = GameObject.Find("SplatSFX");
+        Splat = SplatSource.GetComponent<AudioSource>();
+
+        SheildDownSource = GameObject.Find("Sheild_Down");
+        sheildDownSFX = SheildDownSource.GetComponent<AudioSource>();
+
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteColor = spriteRenderer.color;
         Settings = GameObject.FindWithTag("Settings");
@@ -81,7 +96,7 @@ public class basicMovement : MonoBehaviour
 
         g = 13f;
         ffriction = 500f;
-        bfriction = 250f;
+        bfriction = 100f;
         dfriction = 250f;
         jumpStrength = 8f;
         physicsTimeout = 0f;
@@ -114,7 +129,7 @@ public class basicMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        abilityScript.Update();
         
         if (createLazer)
         {
@@ -191,6 +206,7 @@ public class basicMovement : MonoBehaviour
         jumpTimer = jumpTimerReset;
         anim.ResetTrigger("Land");
         shotTimer.Start();
+        Jump.Play();
     }
 
     void special()
@@ -333,6 +349,7 @@ public class basicMovement : MonoBehaviour
                 {
                     hasSheild = false;
                     anim.SetBool("IsSheilded", false);
+                    sheildDownSFX.Play();
                     Instantiate(sheildDestoryed, new Vector3(myBody.position.x, myBody.position.y, -1), Quaternion.identity);
                 }
             };
@@ -341,6 +358,9 @@ public class basicMovement : MonoBehaviour
 
     private void die()
     {
+        Splat.Play();
+        vel[0] = 0;
+        vel[1] = 0;
         dead = true;
         saveDataScript.saveGame();
         anim.SetTrigger("Die");

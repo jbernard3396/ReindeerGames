@@ -10,6 +10,9 @@ public class Blitzen : Ability
     private basicMovement playerScript;
     private GameObject player;
 
+    private GameObject BlitzenSource;
+    private AudioSource BlitzenSFX;
+
     private float range = 3;
 
     [SerializeField] private GameObject explosion;
@@ -36,6 +39,8 @@ public class Blitzen : Ability
     {
         if (!playerScript)
         {
+            BlitzenSource = GameObject.Find("BlitzenSFX");
+            BlitzenSFX = BlitzenSource.GetComponent<AudioSource>();
             player = GameObject.FindWithTag("Player");
             playerScript = player.GetComponent<basicMovement>();
         }
@@ -45,7 +50,7 @@ public class Blitzen : Ability
     public override void activateAbility()
     {
         startUp();
-        Debug.Log("exploding");
+        BlitzenSFX.Play();
         Instantiate(explosion, new Vector3(myTransform.position.x, myTransform.position.y, 0), Quaternion.identity);
         lazersInScene = GameObject.FindGameObjectsWithTag("Lazer");
 
