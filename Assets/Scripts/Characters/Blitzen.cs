@@ -13,7 +13,7 @@ public class Blitzen : Ability
     private GameObject BlitzenSource;
     private AudioSource BlitzenSFX;
 
-    private float range = 3;
+    private float range = 2.5f;
 
     [SerializeField] private GameObject explosion;
 

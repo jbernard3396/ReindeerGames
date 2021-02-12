@@ -47,6 +47,21 @@ TextureImporter:
   - first:
       213: 2657747263819648429
     second: Brick test 14
+  - first:
+      213: -78569159238150655
+    second: Brick test 15
+  - first:
+      213: 7333681981909339526
+    second: Brick test 16
+  - first:
+      213: 4258229316376770455
+    second: Brick test 17
+  - first:
+      213: -6451838947125361589
+    second: Brick test 18
+  - first:
+      213: 6606336496285981205
+    second: Brick test 19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,7 +123,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4000
+    maxTextureSize: 5000
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -209,7 +224,7 @@ TextureImporter:
       name: Brick test 4
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 4000
         y: 3000
         width: 1000
         height: 1000
@@ -314,8 +329,8 @@ TextureImporter:
       name: Brick test 9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1000
+        x: 1000
+        y: 2000
         width: 1000
         height: 1000
       alignment: 7
@@ -335,8 +350,8 @@ TextureImporter:
       name: Brick test 10
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1000
+        x: 4000
+        y: 2000
         width: 1000
         height: 1000
       alignment: 7
@@ -356,7 +371,7 @@ TextureImporter:
       name: Brick test 11
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 0
         y: 1000
         width: 1000
         height: 1000
@@ -377,7 +392,7 @@ TextureImporter:
       name: Brick test 12
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 1000
         y: 1000
         width: 1000
         height: 1000
@@ -398,8 +413,8 @@ TextureImporter:
       name: Brick test 13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 2000
+        y: 1000
         width: 1000
         height: 1000
       alignment: 7
@@ -419,8 +434,8 @@ TextureImporter:
       name: Brick test 14
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 0
+        x: 3000
+        y: 1000
         width: 1000
         height: 1000
       alignment: 7
@@ -432,6 +447,111 @@ TextureImporter:
       bones: []
       spriteID: dad8cba1e0732e420800000000000000
       internalID: 2657747263819648429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick test 15
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1061f4514cdd8eef0800000000000000
+      internalID: -78569159238150655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick test 16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d836338e876c560800000000000000
+      internalID: 7333681981909339526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick test 17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797bace8005481b30800000000000000
+      internalID: 4258229316376770455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick test 18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44009039a67676a0800000000000000
+      internalID: -6451838947125361589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick test 19
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a13df9a0c6eab50800000000000000
+      internalID: 6606336496285981205
       vertices: []
       indices: 
       edges: []

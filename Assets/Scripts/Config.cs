@@ -10,6 +10,8 @@ public class Config
     //private int cty = 9;
     public static Ability character;
     public static int characterIndex;
+    public static int score;
+    public static bool restartAdUsed;
     public static bool characterLocked;
     public static bool allUnlocked;
     public static bool allMastered;
@@ -60,6 +62,30 @@ public class Config
     {
         initializeEdges();  
         return 8;
+    }
+
+    public static bool RestartAdUsed
+    {
+        get
+        {
+            return restartAdUsed;
+        }
+        set
+        {
+            restartAdUsed = value;
+        }
+    }
+
+    public static int Score
+    {
+        get
+        {
+            return score;
+        }
+        set
+        {
+            score = value;
+        }
     }
 
     public static bool AllUnlocked

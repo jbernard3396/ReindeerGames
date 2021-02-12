@@ -745,6 +745,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8465177251822732455, guid: d2fda1a81a51be04396699a1f2bc3fb0,
         type: 3}
+      propertyPath: scoreScript
+      value: 
+      objectReference: {fileID: 2109853492}
+    - target: {fileID: 8465177251822732455, guid: d2fda1a81a51be04396699a1f2bc3fb0,
+        type: 3}
       propertyPath: abilityScript
       value: 
       objectReference: {fileID: 1207789841}
@@ -1254,6 +1259,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1207789838}
+    - target: {fileID: 8085487416278707592, guid: 562d193a320ed7540a7a26292615b244,
+        type: 3}
+      propertyPath: scoreScript
+      value: 
+      objectReference: {fileID: 2109853492}
     - target: {fileID: 8085487416278707593, guid: 562d193a320ed7540a7a26292615b244,
         type: 3}
       propertyPath: m_RootOrder
@@ -1694,6 +1704,18 @@ PrefabInstance:
       objectReference: {fileID: 827518499}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f5e7a5a74583b14ba5f332fd97bb45b, type: 3}
+--- !u!114 &2109853492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3144476219506732647, guid: 4f5e7a5a74583b14ba5f332fd97bb45b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2109853491}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22398c58344defc449c898aa4abb03dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1726942415164307784
 PrefabInstance:
   m_ObjectHideFlags: 0

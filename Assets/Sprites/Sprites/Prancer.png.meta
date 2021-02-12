@@ -107,6 +107,21 @@ TextureImporter:
   - first:
       213: -265392514583020607
     second: Prancer 34
+  - first:
+      213: -5465584907661696198
+    second: Prancer 35
+  - first:
+      213: 3576422688380994569
+    second: Prancer 36
+  - first:
+      213: 8802541019736417889
+    second: Prancer 37
+  - first:
+      213: -7935587624404647579
+    second: Prancer 38
+  - first:
+      213: 7542002986413919374
+    second: Prancer 39
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -168,7 +183,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 384
+    maxTextureSize: 448
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -311,8 +326,8 @@ TextureImporter:
       name: Prancer 6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 384
+        y: 320
         width: 64
         height: 64
       alignment: 7
@@ -332,7 +347,7 @@ TextureImporter:
       name: Prancer 7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 256
         width: 64
         height: 64
@@ -353,7 +368,7 @@ TextureImporter:
       name: Prancer 8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 256
         width: 64
         height: 64
@@ -374,7 +389,7 @@ TextureImporter:
       name: Prancer 9
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 256
         width: 64
         height: 64
@@ -395,7 +410,7 @@ TextureImporter:
       name: Prancer 10
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 256
         width: 64
         height: 64
@@ -416,7 +431,7 @@ TextureImporter:
       name: Prancer 11
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 256
         width: 64
         height: 64
@@ -437,8 +452,8 @@ TextureImporter:
       name: Prancer 12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 320
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -458,8 +473,8 @@ TextureImporter:
       name: Prancer 13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 384
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -479,7 +494,7 @@ TextureImporter:
       name: Prancer 14
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 192
         width: 64
         height: 64
@@ -500,7 +515,7 @@ TextureImporter:
       name: Prancer 15
       rect:
         serializedVersion: 2
-        x: 192
+        x: 64
         y: 192
         width: 64
         height: 64
@@ -521,7 +536,7 @@ TextureImporter:
       name: Prancer 16
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 192
         width: 64
         height: 64
@@ -542,7 +557,7 @@ TextureImporter:
       name: Prancer 17
       rect:
         serializedVersion: 2
-        x: 128
+        x: 192
         y: 192
         width: 64
         height: 64
@@ -563,7 +578,7 @@ TextureImporter:
       name: Prancer 18
       rect:
         serializedVersion: 2
-        x: 64
+        x: 256
         y: 192
         width: 64
         height: 64
@@ -605,8 +620,8 @@ TextureImporter:
       name: Prancer 20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 384
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -626,7 +641,7 @@ TextureImporter:
       name: Prancer 21
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 128
         width: 64
         height: 64
@@ -648,7 +663,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 320
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -668,8 +683,8 @@ TextureImporter:
       name: Prancer 23
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 256
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -689,7 +704,7 @@ TextureImporter:
       name: Prancer 24
       rect:
         serializedVersion: 2
-        x: 192
+        x: 64
         y: 128
         width: 64
         height: 64
@@ -710,7 +725,7 @@ TextureImporter:
       name: Prancer 25
       rect:
         serializedVersion: 2
-        x: 256
+        x: 128
         y: 128
         width: 64
         height: 64
@@ -731,7 +746,7 @@ TextureImporter:
       name: Prancer 26
       rect:
         serializedVersion: 2
-        x: 320
+        x: 192
         y: 128
         width: 64
         height: 64
@@ -752,8 +767,8 @@ TextureImporter:
       name: Prancer 27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 192
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -773,8 +788,8 @@ TextureImporter:
       name: Prancer 28
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 256
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -794,8 +809,8 @@ TextureImporter:
       name: Prancer 29
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
+        x: 320
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -815,8 +830,8 @@ TextureImporter:
       name: Prancer 30
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
+        x: 384
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -836,7 +851,7 @@ TextureImporter:
       name: Prancer 31
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 64
         width: 64
         height: 64
@@ -857,7 +872,7 @@ TextureImporter:
       name: Prancer 32
       rect:
         serializedVersion: 2
-        x: 320
+        x: 64
         y: 64
         width: 64
         height: 64
@@ -878,8 +893,8 @@ TextureImporter:
       name: Prancer 33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 128
+        y: 64
         width: 64
         height: 64
       alignment: 7
@@ -899,8 +914,8 @@ TextureImporter:
       name: Prancer 34
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 192
+        y: 64
         width: 64
         height: 64
       alignment: 7
@@ -912,6 +927,111 @@ TextureImporter:
       bones: []
       spriteID: 1cb3b320ae2215cf0800000000000000
       internalID: -265392514583020607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prancer 35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33a6110c775624b0800000000000000
+      internalID: -5465584907661696198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prancer 36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904c8938c7102a130800000000000000
+      internalID: 3576422688380994569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prancer 37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166a13a6b68e82a70800000000000000
+      internalID: 8802541019736417889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prancer 38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5610063a9112fd190800000000000000
+      internalID: -7935587624404647579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prancer 39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c0324c1c39aa860800000000000000
+      internalID: 7542002986413919374
       vertices: []
       indices: 
       edges: []

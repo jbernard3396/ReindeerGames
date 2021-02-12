@@ -1,23 +1,20 @@
 ReindeerGamesAppTodoList
 bugs and love
-Rudolph is questionable?
-donner needs fixed dash
-blitzen bullets shouldn't look like hearts?
+PRancer prance
+Rodulph antlers
+Vixen sheild 
+bullet danger visibility
 
-Bullets have wierd hit boxes
+Ads
 
-Coin needs better idle, maybe put a flash in?
-Coin needs a collection anim
+Menu 
 
-Lazer needs an explosion anim
-lazer needs a bounce anim????
+text cleanup
 
-blob needs better impact on death
+Fireplace
 
+Snow
 
-Characters
-Vixen and rudolph - exactly as are.  Maybe rudolph should get a short invis timer?
+On boarding
 
-Blitzen - as is but bullets EAT other bullets?  try to scoop them up? ORRR just destroy bullets in a circle around you?  I think what it really is is suck bullets IN and then eat them
-
-Donner - dash invincibly towards present - man this is the worst
+Tips

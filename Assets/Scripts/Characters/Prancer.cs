@@ -46,6 +46,7 @@ public class Prancer : Ability
         startUp();
         PranceSFX.Play();
         playerScript.vel = new Vector2(-1* playerScript.vel[0], upSpeed);
+        anim.SetBool("Forward", playerScript.vel[0] >= 0);
         playerScript.ffriction = 0;
         playerScript.bfriction = 0;
         playerScript.invincible = true;

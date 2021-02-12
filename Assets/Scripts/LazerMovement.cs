@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using static Config;
+using UnityEngine.SceneManagement;
+
 
 public class LazerMovement : MonoBehaviour
 {
@@ -71,6 +73,16 @@ public class LazerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        string sceneName = currentScene.name;
+
+        if (sceneName != "Game")
+        {
+            spriteRenderer.enabled = false;
+            return;
+        }
+        spriteRenderer.enabled = true;
         if (timeout > 0)
         {
             timeout -= 1 * Time.deltaTime;

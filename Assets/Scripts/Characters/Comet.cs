@@ -5,7 +5,7 @@ using UnityEngine;
 public class Comet : Ability
 {
     //Dash
-    private int slamSpeed = -30;
+    private int slamSpeed = -20;
     private basicMovement playerScript;
     private GameObject player;
     private GameObject CometSource;
@@ -40,7 +40,8 @@ public class Comet : Ability
     {
         startUp();
         CometSFX.Play();
-        playerScript.vel = new Vector2(playerScript.vel[0], slamSpeed);
+        playerScript.vel = new Vector2(0, slamSpeed);
+
         playerScript.invincible = true;
     }
 }

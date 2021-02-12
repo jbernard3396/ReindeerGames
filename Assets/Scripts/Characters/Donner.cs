@@ -9,8 +9,8 @@ public class Donner : Ability
 {
 
     private float timeStopLength = 1;
-    private float timer = 0;
-    private bool timeStopped = false;
+    //private float timer = 0;
+    //private bool timeStopped = false;
     private bool timerOver = false;
     private GameObject[] lazersInScene;
 
@@ -95,7 +95,7 @@ public class Donner : Ability
         startUp();
         TimeStopSFX.Play();
         TimeStopTimer.Start();
-        timeStopped = true;
+        //timeStopped = true;
         playerScript.invincible = true;
         lazersInScene = GameObject.FindGameObjectsWithTag("Lazer");
         playerScript.vel.y = 2;//Mathf.Min(playerScript.vel.y, 2);

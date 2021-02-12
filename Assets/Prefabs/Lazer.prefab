@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7913715829775756233}
   - component: {fileID: 7913715829775756246}
   - component: {fileID: -193910648093542431}
+  - component: {fileID: -7816044973328785146}
   m_Layer: 8
   m_Name: Lazer
   m_TagString: Lazer
@@ -173,3 +174,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-7816044973328785146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7913715829775756242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726af7c7ef05dc34782ef978b5a244a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

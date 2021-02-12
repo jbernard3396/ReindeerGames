@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Analytics;
 
 public class Play : MonoBehaviour
 {
     private Transform myTransform;
     private Animator anim;
+    private GameObject[] lazersInScene;
 
 
     // Start is called before the first frame update
@@ -24,7 +26,7 @@ public class Play : MonoBehaviour
 
     void OnMouseDown()
     {
-        anim.SetBool("fingerPressed", true);
+        //anim.SetBool("fingerPressed", true);
         //myTransform.localScale = myTransform.localScale / ReSize;
 
 
@@ -32,13 +34,25 @@ public class Play : MonoBehaviour
 
     void OnMouseUp()
     {
-        anim.SetBool("fingerPressed", false);
+
+        //reset score
+        Config.score = 0;
+        Config.restartAdUsed = false;
+        lazersInScene = GameObject.FindGameObjectsWithTag("Lazer");
+
+        foreach (GameObject lazer in lazersInScene)
+        {
+            GameObject.Destroy(lazer);
+            
+        }
+        //anim.SetBool("fingerPressed", false);
         if (Config.characterLocked)
         {
             //play sound or something
             Debug.Log("Locked");
             return;
         }
+        Debug.Log(AnalyticsEvent.GameStart());
         SceneManager.LoadScene("Game");
         //myTransform.localScale = myTransform.localScale * ReSize;
     }

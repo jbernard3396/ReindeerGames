@@ -1,1 +1,0 @@
-Warning: File C:\Users\jbern\.android\repositories.cfg could not be loaded.

@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AnimationImporter.AnimationImporterSharedConfig
     - AnimationImporter.AnimationImporterWindow
     Assembly-CSharp.dll:
+    - AddButton
     - BackCharacter
     - Blitzen
     - CoinCollected
@@ -27,18 +28,22 @@ ScriptsOnlyBuild:
     - Persist
     - Play
     - PlayerSettings
+    - PositionReplay
     - Prancer
     - Reset
     - Rudolph
     - SaveData
     - ScoreManager
     - Spin
+    - TipGenerator
     - UnlockAll
     - Vixen
     - WallAnimatorController
     - basicMovement
     - characterSelect
+    - initializeAds
     - selfDestroy
+    - snowController
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -59,6 +64,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.Advertisements.dll:
+    - UnityEngine.Advertisements.Placeholder
+    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.CanvasScaler
@@ -106,27 +114,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11850}
     - Class: 114
-      Script: {instanceID: 12654}
+      Script: {instanceID: 12656}
     - Class: 114
-      Script: {instanceID: 12702}
+      Script: {instanceID: 12704}
     - Class: 114
       Script: {instanceID: 12776}
     - Class: 114
-      Script: {instanceID: 12980}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 13152}
     - Class: 114
-      Script: {instanceID: 13158}
+      Script: {instanceID: 13166}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 13214}
     - Class: 114
-      Script: {instanceID: 13438}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13528}
+      Script: {instanceID: 13448}
     - Class: 114
-      Script: {instanceID: 13628}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 14444}
+      Script: {instanceID: 13640}
+    - Class: 114
+      Script: {instanceID: 14460}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -187,9 +197,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11850}
     - Class: 114
-      Script: {instanceID: 12392}
+      Script: {instanceID: 12040}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12394}
+    - Class: 114
+      Script: {instanceID: 12796}
+    - Class: 114
+      Script: {instanceID: 13450}
+    - Class: 114
+      Script: {instanceID: 47434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -240,19 +256,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12980}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 13208}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13382}
+      Script: {instanceID: 13214}
     - Class: 114
-      Script: {instanceID: 13676}
+      Script: {instanceID: 13294}
     - Class: 114
-      Script: {instanceID: 13936}
+      Script: {instanceID: 13390}
     - Class: 114
-      Script: {instanceID: 14236}
+      Script: {instanceID: 13688}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 13952}
+    - Class: 114
+      Script: {instanceID: 14252}
+    - Class: 114
+      Script: {instanceID: 14568}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -262,6 +282,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
       Script: {instanceID: 0}
     Assets/Scenes/menu.unity:
     - Class: 1
@@ -307,49 +329,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 12518}
+      Script: {instanceID: 12520}
     - Class: 114
-      Script: {instanceID: 12572}
+      Script: {instanceID: 12574}
     - Class: 114
-      Script: {instanceID: 12654}
+      Script: {instanceID: 12656}
     - Class: 114
-      Script: {instanceID: 12702}
+      Script: {instanceID: 12704}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 12808}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 13128}
-    - Class: 114
-      Script: {instanceID: 13134}
+      Script: {instanceID: 13136}
     - Class: 114
       Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13182}
+      Script: {instanceID: 13150}
     - Class: 114
-      Script: {instanceID: 13208}
+      Script: {instanceID: 13188}
     - Class: 114
-      Script: {instanceID: 13278}
+      Script: {instanceID: 13214}
     - Class: 114
       Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13438}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13528}
+      Script: {instanceID: 13448}
     - Class: 114
-      Script: {instanceID: 13592}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 13778}
+      Script: {instanceID: 13604}
     - Class: 114
-      Script: {instanceID: 14272}
+      Script: {instanceID: 13790}
     - Class: 114
-      Script: {instanceID: 14348}
+      Script: {instanceID: 14288}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 14364}
     - Class: 114
-      Script: {instanceID: 14416}
+      Script: {instanceID: 14426}
     - Class: 114
-      Script: {instanceID: 14508}
+      Script: {instanceID: 14432}
+    - Class: 114
+      Script: {instanceID: 14522}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -437,6 +459,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4779fd42ed42cb194adb84628ba5ee4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddButton
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -655,6 +683,12 @@ ScriptsOnlyBuild:
     className: CoinManager
   - hash:
       serializedVersion: 2
+      Hash: 4779fd42ed42cb194adb84628ba5ee4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddButton
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -677,6 +711,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Rudolph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: initializeAds
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -727,13 +767,13 @@ ScriptsOnlyBuild:
     className: MusicSelection
   - hash:
       serializedVersion: 2
-      Hash: 1b60a72c52a9b531c0b70ed007e47044
+      Hash: 69103e07375e2a6fbde5b0673aac3072
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: basicMovement
   - hash:
       serializedVersion: 2
-      Hash: 83e769eee07fc231384c812eedbb8224
+      Hash: 3d6a23ca89e8706d45a83a7edcf586e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -775,7 +815,13 @@ ScriptsOnlyBuild:
     className: characterSelect
   - hash:
       serializedVersion: 2
-      Hash: 9dde320e39238d004f7ba2cac994111b
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: snowController
+  - hash:
+      serializedVersion: 2
+      Hash: 452221d8d03820c279446012ba30e815
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreManager
@@ -817,6 +863,12 @@ ScriptsOnlyBuild:
     className: EndPeak
   - hash:
       serializedVersion: 2
+      Hash: b6b923a564d3ce0ab943e1cfd7ac1a87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PositionReplay
+  - hash:
+      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -853,7 +905,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: a109fa40be3fd947ef17a838541b3c36
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WallAnimatorController
@@ -1103,6 +1155,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TipGenerator
   platform: 9
   scenePathNames:
   - Assets/Scenes/Start.unity

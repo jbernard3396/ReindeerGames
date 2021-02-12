@@ -8,6 +8,8 @@ using System.Timers;
 using System;
 using static Config;
 using UnityEngine.SceneManagement;
+using UnityEngine.Analytics;
+
 
 
 
@@ -45,7 +47,7 @@ public class basicMovement : MonoBehaviour
     private float jumpTimerReset = .1f;
     public int jumpsLeft = 2;
     public int activesLeft = 1;
-    public float invincibilityTimer = 0;
+    public float invincibilityTimer;
     private bool onScreen = true;
     private static System.Timers.Timer shotTimer;
     private float clx;
@@ -67,6 +69,7 @@ public class basicMovement : MonoBehaviour
     private float jumpTimer = 0f;
 
     [SerializeField] private GameObject lazer;
+    [SerializeField] private ScoreManager scoreScript;
     private Ability abilityScript;
 
 
@@ -100,6 +103,7 @@ public class basicMovement : MonoBehaviour
         dfriction = 250f;
         jumpStrength = 8f;
         physicsTimeout = 0f;
+        invincibilityTimer = 3f;
 
         anim = GetComponent<Animator>();
         abilityScript = Config.character;
@@ -130,6 +134,7 @@ public class basicMovement : MonoBehaviour
     void Update()
     {
         abilityScript.Update();
+        
         
         if (createLazer)
         {
@@ -280,7 +285,7 @@ public class basicMovement : MonoBehaviour
             vel[1] = 0;
             jumpsLeft = 2;
             activesLeft = 1;
-            if (invincible)
+            if (invincible && invincibilityTimer < .1f)
             { 
                 invincibilityTimer = .1f;
             }
@@ -368,6 +373,19 @@ public class basicMovement : MonoBehaviour
 
     void onDestroy()
     {
+        Debug.Log(AnalyticsEvent.GameOver());
+        Debug.Log(abilityScript.getName());
+        Debug.Log(scoreScript.score);
+
+        
+
+        Debug.Log(AnalyticsEvent.Custom("Reindeer Score", new Dictionary<string, object>
+        {
+            {"Reindeer", abilityScript.getName() },
+            {"Score", scoreScript.score }
+        }));
+
+
         SceneManager.LoadScene("GameOver");
     }
 
