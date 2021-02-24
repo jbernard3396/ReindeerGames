@@ -7,9 +7,6 @@ using UnityEngine.Analytics;
 using UnityEngine.Advertisements;
 
 
-
-
-
 public class GameManager : MonoBehaviour
 {
 
@@ -50,6 +47,7 @@ public class GameManager : MonoBehaviour
         if (restart || !basicMovementScript)// && basicMovementScript.dead)
         {
             Config.score = scoreScript.score;
+            Time.timeScale = 1f;
             SceneManager.LoadScene("GameOver");
 
             Debug.Log(AnalyticsEvent.Custom(abilityScript.getName() + " score", new Dictionary<string, object>

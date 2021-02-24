@@ -27,6 +27,7 @@
 		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
+		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimatorOverrideController" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
@@ -38,6 +39,7 @@
 		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
@@ -49,8 +51,6 @@
 		<type fullname="UnityEngine.BoxCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
-		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
-		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 	</assembly>
@@ -68,6 +68,7 @@
 		<type fullname="DisplayCoins" preserve="nothing"/>
 		<type fullname="Donner" preserve="nothing"/>
 		<type fullname="EndPeak" preserve="nothing"/>
+		<type fullname="FollowTarget" preserve="nothing"/>
 		<type fullname="GameManager" preserve="nothing"/>
 		<type fullname="GetTotalCoins" preserve="nothing"/>
 		<type fullname="Initiate" preserve="nothing"/>
@@ -76,6 +77,7 @@
 		<type fullname="Menu" preserve="nothing"/>
 		<type fullname="MusicSelection" preserve="nothing"/>
 		<type fullname="NextCharacter" preserve="nothing"/>
+		<type fullname="NumberDisplay" preserve="nothing"/>
 		<type fullname="Persist" preserve="nothing"/>
 		<type fullname="Play" preserve="nothing"/>
 		<type fullname="PlayerSettings" preserve="nothing"/>
@@ -92,9 +94,19 @@
 		<type fullname="WallAnimatorController" preserve="nothing"/>
 		<type fullname="basicMovement" preserve="nothing"/>
 		<type fullname="characterSelect" preserve="nothing"/>
+		<type fullname="displayHighScoreInGame" preserve="nothing"/>
+		<type fullname="displayIfMastered" preserve="nothing"/>
+		<type fullname="highScoreSpriteSelector" preserve="nothing"/>
 		<type fullname="initializeAds" preserve="nothing"/>
+		<type fullname="resetConfimation" preserve="nothing"/>
 		<type fullname="selfDestroy" preserve="nothing"/>
 		<type fullname="snowController" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
+		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.Advertisements">
 		<type fullname="UnityEngine.Advertisements.Placeholder" preserve="nothing"/>
@@ -104,5 +116,6 @@
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Outline" preserve="nothing"/>
 	</assembly>
 </linker>

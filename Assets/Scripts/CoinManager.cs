@@ -7,13 +7,19 @@ using static basicMovement;
 
 public class CoinManager : MonoBehaviour
 {
-    [SerializeField] private GameObject realCoin;
-    [SerializeField] private GameObject fakeCoin;
-    [SerializeField] private GameObject collectedCoin;
+    [SerializeField] private GameObject realCoinGold;
+    [SerializeField] private GameObject fakeCoinGold;
+    [SerializeField] private GameObject realCoinSilver;
+    [SerializeField] private GameObject fakeCoinSilver;
+
+    [SerializeField] private GameObject collectedCoinGold;
+    [SerializeField] private GameObject collectedCoinSilver;
+
 
     private GameObject realCoinInstance;
     private GameObject fakeCoinInstance;
     private GameObject collectedCoinInstance;
+    private GameObject ccgo;
     private CircleCollider2D fc_Collider;
     private GameObject CoinCollectSource;
     private AudioSource CoinCollectSFX;
@@ -33,9 +39,8 @@ public class CoinManager : MonoBehaviour
         rightBound = Config.getCrx() - 3;
         bottomBound = Config.getCby()+.1f;
         topBound = Config.getCty() *.6f;
-        realCoinInstance = Instantiate(realCoin, generateLocation(), Quaternion.identity);
-        fakeCoinInstance = Instantiate(fakeCoin, generateLocation(), Quaternion.identity);
-        fc_Collider = fakeCoinInstance.GetComponent<CircleCollider2D>();
+        Debug.Log(scoreScript.highScore);
+        
         CoinCollectSource = GameObject.Find("CoinSFX");
         CoinCollectSFX = CoinCollectSource.GetComponent<AudioSource>();
     }
@@ -43,6 +48,22 @@ public class CoinManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!realCoinInstance)
+        {
+            if (scoreScript.highScore == 0)
+            {
+                ccgo = collectedCoinGold;
+                realCoinInstance = Instantiate(realCoinGold, generateLocation(), Quaternion.identity);
+                fakeCoinInstance = Instantiate(fakeCoinGold, generateLocation(), Quaternion.identity);
+            }
+            else
+            {
+                ccgo = collectedCoinSilver;
+                realCoinInstance = Instantiate(realCoinSilver, generateLocation(), Quaternion.identity);
+                fakeCoinInstance = Instantiate(fakeCoinSilver, generateLocation(), Quaternion.identity);
+            }
+            fc_Collider = fakeCoinInstance.GetComponent<CircleCollider2D>();
+        }
         //Debug.DrawRay(new Vector3(rightBound, bottomBound, 0), Vector3.up*10, Color.yellow);
         //Debug.DrawRay(new Vector3(leftBound, bottomBound, 0), Vector3.up*10, Color.yellow);
     }
@@ -58,9 +79,22 @@ public class CoinManager : MonoBehaviour
     public void collectCoin()
     {
         CoinCollectSFX.Play();
-        collectedCoinInstance = Instantiate(collectedCoin, realCoinInstance.transform.position, Quaternion.identity);
+        
+        collectedCoinInstance = Instantiate(ccgo, realCoinInstance.transform.position, Quaternion.identity);
         realCoinInstance.transform.position = fc_Collider.bounds.center + new Vector3(0, -.4f, 0);
         fakeCoinInstance.transform.position = generateLocation();
+        if (scoreScript.score == scoreScript.highScore - 1)
+        {
+            ccgo = collectedCoinGold;
+            Vector3 rcPos = realCoinInstance.transform.position;
+            Vector3 fcPos = fakeCoinInstance.transform.position;
+            GameObject.Destroy(realCoinInstance);
+            GameObject.Destroy(fakeCoinInstance);
+            realCoinInstance = Instantiate(realCoinGold, rcPos, Quaternion.identity);
+            fakeCoinInstance = Instantiate(fakeCoinGold, fcPos, Quaternion.identity);
+            fc_Collider = fakeCoinInstance.GetComponent<CircleCollider2D>();
+
+        }
         scoreScript.incrementScore(1);
     }
 }

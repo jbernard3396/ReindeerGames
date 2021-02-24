@@ -27,12 +27,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
 
-	void RegisterModule_UnityConnect();
-	RegisterModule_UnityConnect();
-
-	void RegisterModule_UnityAnalytics();
-	RegisterModule_UnityAnalytics();
-
 	void RegisterModule_PerformanceReporting();
 	RegisterModule_PerformanceReporting();
 
@@ -45,14 +39,23 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_TextRendering();
 	RegisterModule_TextRendering();
 
+	void RegisterModule_TextCore();
+	RegisterModule_TextCore();
+
 	void RegisterModule_TLS();
 	RegisterModule_TLS();
 
 	void RegisterModule_UI();
 	RegisterModule_UI();
 
+	void RegisterModule_UnityConnect();
+	RegisterModule_UnityConnect();
+
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
+
+	void RegisterModule_UnityAnalytics();
+	RegisterModule_UnityAnalytics();
 
 }
 

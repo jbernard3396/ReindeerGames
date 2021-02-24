@@ -1,20 +1,12 @@
 ReindeerGamesAppTodoList
 bugs and love
-PRancer prance
+
+Low priority
 Rodulph antlers
 Vixen sheild 
-bullet danger visibility
-
-Ads
-
-Menu 
-
-text cleanup
-
 Fireplace
+Color Pallette change 
 
-Snow
 
-On boarding
 
-Tips
+

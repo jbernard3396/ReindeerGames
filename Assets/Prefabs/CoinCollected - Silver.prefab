@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4433542688453338903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.2814355
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9485002
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.760502
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230684058742567806, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358791784814253189, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4005398287706307656, guid: f9a2d15acd2c7ed4484abf7296dc6efe,
+        type: 3}
+    - target: {fileID: 8566101143556333082, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ca41cb60141ccb94c8447cf9b351787a, type: 2}
+    - target: {fileID: 8596383581408354795, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+        type: 3}
+      propertyPath: m_Name
+      value: CoinCollected - Silver
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63ff17a1afb8b1f45adadb3e367f672c, type: 3}

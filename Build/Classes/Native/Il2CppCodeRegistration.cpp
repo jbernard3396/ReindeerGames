@@ -44,6 +44,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_GameCenterModuleCodeGenM
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_IMGUIModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_PhysicsModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpriteShapeModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TilemapModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModuleCodeGenModule;
@@ -53,9 +54,10 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Analytics_StandardEventsCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AdvertisementsCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshProCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[29] = 
+const Il2CppCodeGenModule* g_CodeGenModules[31] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -76,6 +78,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[29] =
 	(&g_UnityEngine_IMGUIModuleCodeGenModule),
 	(&g_UnityEngine_PhysicsModuleCodeGenModule),
 	(&g_UnityEngine_SpriteShapeModuleCodeGenModule),
+	(&g_UnityEngine_TextCoreModuleCodeGenModule),
 	(&g_UnityEngine_TilemapModuleCodeGenModule),
 	(&g_UnityEngine_UIModuleCodeGenModule),
 	(&g_UnityEngine_UnityAnalyticsModuleCodeGenModule),
@@ -85,6 +88,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[29] =
 	(&g_Unity_Analytics_StandardEventsCodeGenModule),
 	(&g_UnityEngine_AdvertisementsCodeGenModule),
 	(&g_UnityEngine_UICodeGenModule),
+	(&g_Unity_TextMeshProCodeGenModule),
 	(&g_AssemblyU2DCSharpCodeGenModule),
 };
 extern const Il2CppCodeRegistration g_CodeRegistration;
@@ -92,19 +96,19 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	15,
 	g_ReversePInvokeWrapperPointers,
-	5051,
+	7261,
 	g_Il2CppGenericMethodPointers,
-	2021,
+	2409,
 	g_Il2CppInvokerPointers,
-	3353,
+	3833,
 	g_AttributeGenerators,
-	276,
+	313,
 	g_UnresolvedVirtualMethodPointers,
-	190,
+	208,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	29,
+	31,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

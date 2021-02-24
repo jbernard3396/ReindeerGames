@@ -22,6 +22,8 @@ public class basicMovement : MonoBehaviour
     private AudioSource Jump;
     private GameObject SplatSource;
     private AudioSource Splat;
+    private GameObject ChompBulletSource;
+    private AudioSource ChompBulletSFX;
 
     private GameObject SheildDownSource;
     private AudioSource sheildDownSFX;
@@ -54,7 +56,7 @@ public class basicMovement : MonoBehaviour
     private float crx;
 
     private Color spriteColor;
-    private Color invColor;
+    public Color invColor;
     public GameObject sheildDestoryed;
 
 
@@ -84,6 +86,8 @@ public class basicMovement : MonoBehaviour
         Jump = JumpSource.GetComponent<AudioSource>();
         SplatSource = GameObject.Find("SplatSFX");
         Splat = SplatSource.GetComponent<AudioSource>();
+        ChompBulletSource = GameObject.Find("ChompBulletSFX");
+        ChompBulletSFX = ChompBulletSource.GetComponent<AudioSource>();
 
         SheildDownSource = GameObject.Find("Sheild_Down");
         sheildDownSFX = SheildDownSource.GetComponent<AudioSource>();
@@ -103,7 +107,7 @@ public class basicMovement : MonoBehaviour
         dfriction = 250f;
         jumpStrength = 8f;
         physicsTimeout = 0f;
-        invincibilityTimer = 3f;
+        invincibilityTimer = 0f;
 
         anim = GetComponent<Animator>();
         abilityScript = Config.character;
@@ -120,7 +124,7 @@ public class basicMovement : MonoBehaviour
         anim.runtimeAnimatorController = Instantiate(animatorController) as RuntimeAnimatorController;
 
         vel = new Vector2(speed, 0f);
-        myBody.position = new Vector3(2, 0, 0);
+        //myBody.position = new Vector3(2, 0, 0);
 
         shotTimer = new System.Timers.Timer(jumpTimerReset*1000);
         shotTimer.Elapsed += OnTimedEvent;
@@ -172,9 +176,14 @@ public class basicMovement : MonoBehaviour
                 Time.timeScale = 1;
             }
         }
+        if (invincible)
+        {
+            spriteRenderer.color = invColor;
+        }
         if (invincibilityTimer > 0)
         {
             invincible = true;
+            spriteRenderer.color = invColor;
             invincibilityTimer -= 1 * Time.deltaTime;
             if (invincibilityTimer <= 0)
             {
@@ -235,7 +244,7 @@ public class basicMovement : MonoBehaviour
 
     void fire()
     {
-        if (myBody.position.x < Config.getCrx()-.5 && myBody.position.x > Config.getClx()+.5)
+        if (myBody.position.x < Config.getCrx()-1 && myBody.position.x > Config.getClx()+1)
         {
             GameObject newLazer = Instantiate(lazer, new Vector3(myBody.position.x, myBody.position.y-.8f, -1), Quaternion.identity); //TODO:J figure out the exact right amount
         }
@@ -349,6 +358,7 @@ public class basicMovement : MonoBehaviour
             {
 
                 theirAnim.SetTrigger("Splat");
+                ChompBulletSFX.Play();
                 isDeadly = false;
                 if(hasSheild && !isHeart)
                 {

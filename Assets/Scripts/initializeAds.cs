@@ -7,9 +7,9 @@ public class initializeAds : MonoBehaviour
 {
 
     //apple id
-    string gameId = "4006508";
+    //string gameId = "4006508";
     //android id
-    //string gameId = "4006509";
+    string gameId = "4006509";
     bool testMode = false;
 
     void Start()

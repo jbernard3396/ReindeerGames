@@ -20,6 +20,7 @@ public class LazerMovement : MonoBehaviour
     private GameObject LazerBounceSource;
     private AudioSource LazerBounceSFX;
 
+
     public bool towardsPlayer = false;
 
     public float timeout;
@@ -47,6 +48,7 @@ public class LazerMovement : MonoBehaviour
 
         LazerBounceSource = GameObject.Find("LazerBounceSFX");
         LazerBounceSFX = LazerBounceSource.GetComponent<AudioSource>();
+
 
 
         crx = Config.getCrx();
