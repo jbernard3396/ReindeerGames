@@ -52,7 +52,7 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //numDisplay.displayNum(score);
+        numDisplay.displayNum(score);
 
     }
 

@@ -29,6 +29,6 @@ public class GetTotalCoins : MonoBehaviour
     void Update()
     {
         totalCoins = saveDataScript.save.totalCoins;
-        //numDisplay.displayNum(totalCoins);
+        numDisplay.displayNum(totalCoins);
     }
 }

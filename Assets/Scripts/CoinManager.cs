@@ -64,8 +64,6 @@ public class CoinManager : MonoBehaviour
             }
             fc_Collider = fakeCoinInstance.GetComponent<CircleCollider2D>();
         }
-        //Debug.DrawRay(new Vector3(rightBound, bottomBound, 0), Vector3.up*10, Color.yellow);
-        //Debug.DrawRay(new Vector3(leftBound, bottomBound, 0), Vector3.up*10, Color.yellow);
     }
 
     private Vector3 generateLocation()
