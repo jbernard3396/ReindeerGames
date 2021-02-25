@@ -53,13 +53,13 @@ MonoBehaviour:
     type: 3}
   fakeCoinGold: {fileID: 3229615405608306213, guid: 1603e480101a46941a576af99ae90468,
     type: 3}
-  realCoinSilver: {fileID: 4004689291051418918, guid: 4e026ecd9fdde2744803a156e1e74513,
+  realCoinSilver: {fileID: 8165450381965260535, guid: d4a22431a57f7ed4f8a798fe4716ed7b,
     type: 3}
   fakeCoinSilver: {fileID: 3229615405608306213, guid: 1603e480101a46941a576af99ae90468,
     type: 3}
   collectedCoinGold: {fileID: 8596383581408354795, guid: 63ff17a1afb8b1f45adadb3e367f672c,
     type: 3}
-  collectedCoinSilver: {fileID: 8596383581408354795, guid: 63ff17a1afb8b1f45adadb3e367f672c,
+  collectedCoinSilver: {fileID: 5389514386296719100, guid: 3037c97d38e52c94bb21327e59f8d342,
     type: 3}
   scoreScript: {fileID: 3144476219506732647}
 --- !u!114 &3144476219506732647

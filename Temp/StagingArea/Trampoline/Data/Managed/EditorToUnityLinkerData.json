@@ -340,7 +340,8 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/Start.unity",
-                "Assets/Scenes/menu.unity"
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity"
             ]
         },
         {

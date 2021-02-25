@@ -158,7 +158,7 @@ Camera:
   m_GameObject: {fileID: 7878210}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 4
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -261,6 +261,27 @@ PrefabInstance:
       propertyPath: thunderClip
       value: 
       objectReference: {fileID: 8300000, guid: fb435a8734aca1549b539c8bd37a17ef, type: 3}
+    - target: {fileID: 1324210736078940764, guid: 75b7e1142aa848b4e996f468c88d1598,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 10.15625
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324210736078940764, guid: 75b7e1142aa848b4e996f468c88d1598,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 7.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324210736078940764, guid: 75b7e1142aa848b4e996f468c88d1598,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7160625097007860658, guid: c45a4c85a1023b44abddc20ef787dad3,
+        type: 3}
+    - target: {fileID: 1324210736078940764, guid: 75b7e1142aa848b4e996f468c88d1598,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6651748785542514582, guid: 75b7e1142aa848b4e996f468c88d1598,
         type: 3}
       propertyPath: m_RootOrder
@@ -279,12 +300,12 @@ PrefabInstance:
     - target: {fileID: 6651748785542514582, guid: 75b7e1142aa848b4e996f468c88d1598,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6651748785542514582, guid: 75b7e1142aa848b4e996f468c88d1598,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 6651748785542514582, guid: 75b7e1142aa848b4e996f468c88d1598,
         type: 3}

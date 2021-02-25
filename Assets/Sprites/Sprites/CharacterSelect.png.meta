@@ -134,6 +134,114 @@ TextureImporter:
   - first:
       213: 6360408342600109970
     second: CharacterSelect 43
+  - first:
+      213: -4775979114318584726
+    second: CharacterSelect 44
+  - first:
+      213: -4595563255416601754
+    second: CharacterSelect 45
+  - first:
+      213: -161596132693426225
+    second: CharacterSelect 46
+  - first:
+      213: -4840077873299600195
+    second: CharacterSelect 47
+  - first:
+      213: -6610908034520877546
+    second: CharacterSelect 48
+  - first:
+      213: 5306992814183277475
+    second: CharacterSelect 49
+  - first:
+      213: -8306875717308548715
+    second: CharacterSelect 50
+  - first:
+      213: -8285470072804335224
+    second: CharacterSelect 51
+  - first:
+      213: -250195782040689400
+    second: CharacterSelect 52
+  - first:
+      213: 281253021726807645
+    second: CharacterSelect 53
+  - first:
+      213: 6368053078741031090
+    second: CharacterSelect 54
+  - first:
+      213: 3783703346666816135
+    second: CharacterSelect 55
+  - first:
+      213: -6943176996193828337
+    second: CharacterSelect 56
+  - first:
+      213: 4652516120193700215
+    second: CharacterSelect 57
+  - first:
+      213: -8557853738287954585
+    second: CharacterSelect 58
+  - first:
+      213: 2472768531272843293
+    second: CharacterSelect 59
+  - first:
+      213: -8630237977866304539
+    second: CharacterSelect 60
+  - first:
+      213: -9000446856733131661
+    second: CharacterSelect 61
+  - first:
+      213: 1387741882804658563
+    second: CharacterSelect 62
+  - first:
+      213: 6578550371417483037
+    second: CharacterSelect 63
+  - first:
+      213: 5085944235441479124
+    second: CharacterSelect 64
+  - first:
+      213: 1688208383704412005
+    second: CharacterSelect 65
+  - first:
+      213: -4277589331369918055
+    second: CharacterSelect 66
+  - first:
+      213: -1909869219390217447
+    second: CharacterSelect 67
+  - first:
+      213: -1167142154785056847
+    second: CharacterSelect 68
+  - first:
+      213: -278688302175636215
+    second: CharacterSelect 69
+  - first:
+      213: 3709725836060035227
+    second: CharacterSelect 70
+  - first:
+      213: 2267048220812593822
+    second: CharacterSelect 71
+  - first:
+      213: -8510056040193722599
+    second: CharacterSelect 72
+  - first:
+      213: 1918002397964869424
+    second: CharacterSelect 73
+  - first:
+      213: -8095721880382604365
+    second: CharacterSelect 74
+  - first:
+      213: 6701856902237626585
+    second: CharacterSelect 75
+  - first:
+      213: 5400947494018112344
+    second: CharacterSelect 76
+  - first:
+      213: 221499775778414150
+    second: CharacterSelect 77
+  - first:
+      213: -9146366953757359764
+    second: CharacterSelect 78
+  - first:
+      213: 7034638091598621766
+    second: CharacterSelect 79
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -195,7 +303,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 672
+    maxTextureSize: 1152
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -213,9 +321,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 576
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,9 +342,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 576
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,9 +363,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 576
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,9 +384,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 288
-        y: 576
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,9 +405,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 576
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,9 +426,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 480
-        y: 576
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,9 +447,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 576
-        y: 576
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +467,10 @@ TextureImporter:
       name: CharacterSelect 7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 480
+        x: 672
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +488,10 @@ TextureImporter:
       name: CharacterSelect 8
       rect:
         serializedVersion: 2
-        x: 96
-        y: 480
+        x: 768
+        y: 1024
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +509,10 @@ TextureImporter:
       name: CharacterSelect 9
       rect:
         serializedVersion: 2
-        x: 192
-        y: 480
+        x: 0
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +530,10 @@ TextureImporter:
       name: CharacterSelect 10
       rect:
         serializedVersion: 2
-        x: 288
-        y: 480
+        x: 96
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +551,10 @@ TextureImporter:
       name: CharacterSelect 11
       rect:
         serializedVersion: 2
-        x: 384
-        y: 480
+        x: 192
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +572,10 @@ TextureImporter:
       name: CharacterSelect 12
       rect:
         serializedVersion: 2
-        x: 480
-        y: 480
+        x: 288
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +593,10 @@ TextureImporter:
       name: CharacterSelect 13
       rect:
         serializedVersion: 2
-        x: 576
-        y: 480
+        x: 384
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +614,10 @@ TextureImporter:
       name: CharacterSelect 14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
+        x: 480
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +635,10 @@ TextureImporter:
       name: CharacterSelect 15
       rect:
         serializedVersion: 2
-        x: 96
-        y: 384
+        x: 576
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +656,10 @@ TextureImporter:
       name: CharacterSelect 16
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
+        x: 672
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +677,10 @@ TextureImporter:
       name: CharacterSelect 17
       rect:
         serializedVersion: 2
-        x: 288
-        y: 384
+        x: 768
+        y: 896
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +698,10 @@ TextureImporter:
       name: CharacterSelect 18
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
+        x: 0
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,10 +719,10 @@ TextureImporter:
       name: CharacterSelect 19
       rect:
         serializedVersion: 2
-        x: 480
-        y: 384
+        x: 96
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +740,10 @@ TextureImporter:
       name: CharacterSelect 20
       rect:
         serializedVersion: 2
-        x: 576
-        y: 384
+        x: 192
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,10 +761,10 @@ TextureImporter:
       name: CharacterSelect 21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
+        x: 288
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,10 +782,10 @@ TextureImporter:
       name: CharacterSelect 22
       rect:
         serializedVersion: 2
-        x: 96
-        y: 288
+        x: 384
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -695,10 +803,10 @@ TextureImporter:
       name: CharacterSelect 23
       rect:
         serializedVersion: 2
-        x: 192
-        y: 288
+        x: 480
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,10 +824,10 @@ TextureImporter:
       name: CharacterSelect 24
       rect:
         serializedVersion: 2
-        x: 288
-        y: 288
+        x: 576
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -737,10 +845,10 @@ TextureImporter:
       name: CharacterSelect 25
       rect:
         serializedVersion: 2
-        x: 384
-        y: 288
+        x: 672
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -758,10 +866,10 @@ TextureImporter:
       name: CharacterSelect 26
       rect:
         serializedVersion: 2
-        x: 480
-        y: 288
+        x: 768
+        y: 768
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -779,10 +887,10 @@ TextureImporter:
       name: CharacterSelect 27
       rect:
         serializedVersion: 2
-        x: 576
-        y: 288
+        x: 0
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +908,10 @@ TextureImporter:
       name: CharacterSelect 28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 96
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,10 +929,10 @@ TextureImporter:
       name: CharacterSelect 29
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
+        x: 192
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +950,10 @@ TextureImporter:
       name: CharacterSelect 30
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 288
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,10 +971,10 @@ TextureImporter:
       name: CharacterSelect 31
       rect:
         serializedVersion: 2
-        x: 288
-        y: 192
+        x: 384
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,10 +992,10 @@ TextureImporter:
       name: CharacterSelect 32
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
+        x: 480
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,10 +1013,10 @@ TextureImporter:
       name: CharacterSelect 33
       rect:
         serializedVersion: 2
-        x: 480
-        y: 192
+        x: 576
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -926,10 +1034,10 @@ TextureImporter:
       name: CharacterSelect 34
       rect:
         serializedVersion: 2
-        x: 576
-        y: 192
+        x: 672
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -947,10 +1055,10 @@ TextureImporter:
       name: CharacterSelect 35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 768
+        y: 640
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -968,10 +1076,10 @@ TextureImporter:
       name: CharacterSelect 36
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 0
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -989,10 +1097,10 @@ TextureImporter:
       name: CharacterSelect 37
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
+        x: 96
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,10 +1118,10 @@ TextureImporter:
       name: CharacterSelect 38
       rect:
         serializedVersion: 2
-        x: 288
-        y: 96
+        x: 192
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,10 +1139,10 @@ TextureImporter:
       name: CharacterSelect 39
       rect:
         serializedVersion: 2
-        x: 384
-        y: 96
+        x: 288
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1160,10 @@ TextureImporter:
       name: CharacterSelect 40
       rect:
         serializedVersion: 2
-        x: 480
-        y: 96
+        x: 384
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1073,10 +1181,10 @@ TextureImporter:
       name: CharacterSelect 41
       rect:
         serializedVersion: 2
-        x: 576
-        y: 96
+        x: 480
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1094,10 +1202,10 @@ TextureImporter:
       name: CharacterSelect 42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 576
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,10 +1223,10 @@ TextureImporter:
       name: CharacterSelect 43
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 672
+        y: 512
         width: 96
-        height: 96
+        height: 128
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1128,6 +1236,762 @@ TextureImporter:
       bones: []
       spriteID: 29f4c1f40b5b44850800000000000000
       internalID: 6360408342600109970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a642b5cbc4058bdb0800000000000000
+      internalID: -4775979114318584726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6634e0a41974930c0800000000000000
+      internalID: -4595563255416601754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf3bb96c25e1cdf0800000000000000
+      internalID: -161596132693426225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbccfbc61d694dcb0800000000000000
+      internalID: -4840077873299600195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 48
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6167b9f2b265144a0800000000000000
+      internalID: -6610908034520877546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3e1fac8d936a940800000000000000
+      internalID: 5306992814183277475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 50
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599718cfb8c08bc80800000000000000
+      internalID: -8306875717308548715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 51
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8812e59fdd8140d80800000000000000
+      internalID: -8285470072804335224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 52
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805e9270340278cf0800000000000000
+      internalID: -250195782040689400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 53
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d561804122637e300800000000000000
+      internalID: 281253021726807645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b81135298edf5850800000000000000
+      internalID: 6368053078741031090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7824889952a628430800000000000000
+      internalID: 3783703346666816135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f020439fe41e4af90800000000000000
+      internalID: -6943176996193828337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7719cefd2ce019040800000000000000
+      internalID: 4652516120193700215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7650991dd556c3980800000000000000
+      internalID: -8557853738287954585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 59
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10484eb0e9015220800000000000000
+      internalID: 2472768531272843293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 60
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3813ab84c3b3880800000000000000
+      internalID: -8630237977866304539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 61
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cf3ac254df71380800000000000000
+      internalID: -9000446856733131661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381e08cc3ef324310800000000000000
+      internalID: 1387741882804658563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d176a5945b4bb4b50800000000000000
+      internalID: 6578550371417483037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd5fece557e49640800000000000000
+      internalID: 5085944235441479124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fa9899498bd6710800000000000000
+      internalID: 1688208383704412005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99102b0ba23f2a4c0800000000000000
+      internalID: -4277589331369918055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9132bca5018ce75e0800000000000000
+      internalID: -1909869219390217447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b717add46a7dcfe0800000000000000
+      internalID: -1167142154785056847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905b3c93776e12cf0800000000000000
+      internalID: -278688302175636215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 70
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9882703ef79b7330800000000000000
+      internalID: 3709725836060035227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 71
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a4732785c267f10800000000000000
+      internalID: 2267048220812593822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917f591ae1536e980800000000000000
+      internalID: -8510056040193722599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f1b09d40d1e9a10800000000000000
+      internalID: 1918002397964869424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbff6fb7d736af80800000000000000
+      internalID: -8095721880382604365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0af593857c10d50800000000000000
+      internalID: 6701856902237626585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b5c7f512504fa40800000000000000
+      internalID: 5400947494018112344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 77
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ed91d5fdce21300800000000000000
+      internalID: 221499775778414150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 78
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61cbef07b3911180800000000000000
+      internalID: -9146366953757359764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterSelect 79
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 128
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cea2db21e00a160800000000000000
+      internalID: 7034638091598621766
       vertices: []
       indices: 
       edges: []

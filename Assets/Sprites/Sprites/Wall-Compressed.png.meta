@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: c45a4c85a1023b44abddc20ef787dad3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7160625097007860658
+    second: Wall-Compressed 0
+  - first:
+      213: 1685774616913565109
+    second: Wall-Compressed 1
+  - first:
+      213: -1783466536997263556
+    second: Wall-Compressed 2
+  - first:
+      213: 6875379920308073027
+    second: Wall-Compressed 3
+  - first:
+      213: -8307521131709589507
+    second: Wall-Compressed 4
+  - first:
+      213: 2083378293892790288
+    second: Wall-Compressed 5
+  - first:
+      213: -3526733685875612999
+    second: Wall-Compressed 6
+  - first:
+      213: 743328174210020347
+    second: Wall-Compressed 7
+  - first:
+      213: -7848843681226464933
+    second: Wall-Compressed 8
+  - first:
+      213: -6401941946990482254
+    second: Wall-Compressed 9
+  - first:
+      213: -6725138639027944548
+    second: Wall-Compressed 10
+  - first:
+      213: -2549748441657617007
+    second: Wall-Compressed 11
+  - first:
+      213: -3219798269520162008
+    second: Wall-Compressed 12
+  - first:
+      213: -1145859907589943688
+    second: Wall-Compressed 13
+  - first:
+      213: -204672877146225341
+    second: Wall-Compressed 14
+  - first:
+      213: 5664368049426902070
+    second: Wall-Compressed 15
+  - first:
+      213: 5287477333062960243
+    second: Wall-Compressed 16
+  - first:
+      213: -3465011715845691234
+    second: Wall-Compressed 17
+  - first:
+      213: 2689127191393034541
+    second: Wall-Compressed 18
+  - first:
+      213: -2135291055131438518
+    second: Wall-Compressed 19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 3250
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall-Compressed 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb86ec4696af5360800000000000000
+      internalID: 7160625097007860658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 1
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5d08c1513156710800000000000000
+      internalID: 1685774616913565109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 2
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c376b7142aadf37e0800000000000000
+      internalID: -1783466536997263556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 3
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342f0d53c914a6f50800000000000000
+      internalID: 6875379920308073027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 4
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7166cbb81c5bc80800000000000000
+      internalID: -8307521131709589507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0183d342585a9ec10800000000000000
+      internalID: 2083378293892790288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1000
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2eafbe5668e0fc0800000000000000
+      internalID: -3526733685875612999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 7
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1000
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3f35f3905d05a00800000000000000
+      internalID: 743328174210020347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 8
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1000
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b516de2c14e431390800000000000000
+      internalID: -7848843681226464933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 9
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1000
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bca5f8d7bbb727a0800000000000000
+      internalID: -6401941946990482254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 10
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1000
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c934c730a028ba2a0800000000000000
+      internalID: -6725138639027944548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195546c2d497d9cd0800000000000000
+      internalID: -2549748441657617007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 12
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82355d8788af053d0800000000000000
+      internalID: -3219798269520162008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e4dbd2c761910f0800000000000000
+      internalID: -1145859907589943688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 14
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345ca864a1bd82df0800000000000000
+      internalID: -204672877146225341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 15
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 500
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ca927dab0eb9e40800000000000000
+      internalID: 5664368049426902070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374c523ce94e06940800000000000000
+      internalID: 5287477333062960243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 17
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98637ee33ec9efc0800000000000000
+      internalID: -3465011715845691234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 18
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2163d6dee2b15520800000000000000
+      internalID: 2689127191393034541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Compressed 19
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 650
+        height: 500
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4252de391ced52e0800000000000000
+      internalID: -2135291055131438518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
