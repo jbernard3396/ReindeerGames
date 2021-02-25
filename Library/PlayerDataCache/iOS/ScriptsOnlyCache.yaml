@@ -35,12 +35,17 @@ ScriptsOnlyBuild:
     - SaveData
     - ScoreManager
     - Spin
+    - TipGenerator
     - UnlockAll
     - Vixen
     - WallAnimatorController
     - basicMovement
     - characterSelect
+    - displayHighScoreInGame
+    - displayIfMastered
+    - highScoreSpriteSelector
     - initializeAds
+    - resetConfimation
     - selfDestroy
     - snowController
     Unity.2D.Tilemap.Editor.dll:
@@ -113,11 +118,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11876}
     - Class: 114
+      Script: {instanceID: 12650}
+    - Class: 114
       Script: {instanceID: 12684}
     - Class: 114
       Script: {instanceID: 12732}
     - Class: 114
       Script: {instanceID: 12806}
+    - Class: 114
+      Script: {instanceID: 12942}
     - Class: 114
       Script: {instanceID: 13018}
     - Class: 114
@@ -204,7 +213,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13482}
     - Class: 114
-      Script: {instanceID: 13960}
+      Script: {instanceID: 47776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -352,11 +361,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13480}
     - Class: 114
+      Script: {instanceID: 13494}
+    - Class: 114
       Script: {instanceID: 13574}
     - Class: 114
       Script: {instanceID: 13638}
     - Class: 114
       Script: {instanceID: 13824}
+    - Class: 114
+      Script: {instanceID: 13932}
     - Class: 114
       Script: {instanceID: 14326}
     - Class: 114
@@ -367,6 +380,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14470}
     - Class: 114
       Script: {instanceID: 14560}
+    - Class: 114
+      Script: {instanceID: 14602}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
