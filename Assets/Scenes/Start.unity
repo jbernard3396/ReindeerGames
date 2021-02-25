@@ -339,7 +339,7 @@ PrefabInstance:
     - target: {fileID: 8541541695163458827, guid: 75b7e1142aa848b4e996f468c88d1598,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75b7e1142aa848b4e996f468c88d1598, type: 3}
@@ -513,6 +513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: snow1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8587166894374203548, guid: 4c325e09291eb914cacc8cde2e6a0a9c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c325e09291eb914cacc8cde2e6a0a9c, type: 3}
@@ -767,6 +772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: snow2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8587166894374203548, guid: 4c325e09291eb914cacc8cde2e6a0a9c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c325e09291eb914cacc8cde2e6a0a9c, type: 3}

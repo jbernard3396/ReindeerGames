@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &21531020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -751,7 +751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &703350688
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1358,7 +1358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1121302161
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2107,6 +2107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CoinManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144476219506732645, guid: 4f5e7a5a74583b14ba5f332fd97bb45b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3144476219506732646, guid: 4f5e7a5a74583b14ba5f332fd97bb45b,
         type: 3}
