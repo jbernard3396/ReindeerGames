@@ -11,13 +11,17 @@ public class WallAnimatorController : MonoBehaviour
     private AudioSource RainSFX;
     private GameObject ThunderSource;
     private AudioSource ThunderSFX;
+    public AudioClip thunderClip;
+    private GameObject SnowStormSource;
+    private AudioSource SnowSFX;
     private float ogVolume;
+    private float ogSnowVolume;
 
     private bool isRaining;
     private bool isSnowing;
     private bool isSunny;
     private int chanceToChange = 5000;
-    private int minimumStormTime = 15;
+    private int minimumStormTime = 10;
     private float timeSinceLastStorm = 0;
     private int chanceToThunder = 3000;
     private System.Random random = new System.Random();
@@ -34,7 +38,11 @@ public class WallAnimatorController : MonoBehaviour
         RainSFX = RainSource.GetComponent<AudioSource>();
         ThunderSource = GameObject.Find("ThunderSFX");
         ThunderSFX = ThunderSource.GetComponent<AudioSource>();
+        SnowStormSource = GameObject.Find("ColdWind");
+        SnowSFX = SnowStormSource.GetComponent<AudioSource>();
         ogVolume = (float)RainSFX.volume;
+        ogSnowVolume = (float)SnowSFX.volume;
+
 
         snow1 = GameObject.Find("snow1").GetComponent<snowController>();
         snow2 = GameObject.Find("snow2").GetComponent<snowController>();
@@ -48,11 +56,12 @@ public class WallAnimatorController : MonoBehaviour
     {
         if (isRaining)
         {
+            SnowSFX.Stop();
             snow1.setWeather("rain");
             snow2.setWeather("rain");
             if (random.Next(chanceToThunder) == 1)
             {
-                ThunderSFX.Play();
+                ThunderSFX.PlayOneShot(thunderClip, 1f);
                 anim.SetTrigger("Thunder");
             }
         } else if (isSunny)
@@ -67,20 +76,20 @@ public class WallAnimatorController : MonoBehaviour
             {
                 RainSFX.Stop();
             }
-        } else if(isSnowing)
-        {
-
-       
-            snow1.setWeather("snow");   
-            snow2.setWeather("snow");
-            if (RainSFX.volume > 0)
+            if (SnowSFX.volume > 0)
             {
-                RainSFX.volume -= .1f*Time.deltaTime;
+                SnowSFX.volume -= .1f * Time.deltaTime;
             }
             else
             {
-                RainSFX.Stop();
+                SnowSFX.Stop();
             }
+        } else if(isSnowing)
+        {
+
+            snow1.setWeather("snow");   
+            snow2.setWeather("snow");
+            RainSFX.Stop();
         }
 
         if (timeSinceLastStorm < minimumStormTime)
@@ -96,13 +105,11 @@ public class WallAnimatorController : MonoBehaviour
             { //already sunny, pick a weather
                 if(random.Next(2) != 1)
                 {
-                    Debug.Log("Snow now");
                     isSunny = false;
                     isRaining = false;
                     isSnowing = true;
                 } else
                 {
-                    Debug.Log("rain now");
                     isSunny = false;
                     isRaining = true;
                     isSnowing = false;
@@ -113,6 +120,7 @@ public class WallAnimatorController : MonoBehaviour
             anim.SetBool("isSnowing", isSnowing);
             if (isRaining)
             {
+
                 ThunderSFX.Play();
                 RainSFX.Stop();
                 RainSFX.volume = (float)ogVolume;
@@ -120,7 +128,9 @@ public class WallAnimatorController : MonoBehaviour
             }
             if (isSnowing)
             {
-                //you know play snow sounds;
+                SnowSFX.Stop();
+                SnowSFX.volume = (float)ogSnowVolume;
+                SnowSFX.Play();
             }
         }
 

@@ -182,6 +182,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_PlayHelper();
 		Register_UnityEngine_AudioSource_PlayHelper();
 
+		//System.Void UnityEngine.AudioSource::PlayOneShotHelper(UnityEngine.AudioSource,UnityEngine.AudioClip,System.Single)
+		void Register_UnityEngine_AudioSource_PlayOneShotHelper();
+		Register_UnityEngine_AudioSource_PlayOneShotHelper();
+
 		//System.Void UnityEngine.AudioSource::Stop(System.Boolean)
 		void Register_UnityEngine_AudioSource_Stop();
 		Register_UnityEngine_AudioSource_Stop();
@@ -1606,6 +1610,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Renderer_get_sortingOrder();
 		Register_UnityEngine_Renderer_get_sortingOrder();
 
+		//System.Void UnityEngine.Renderer::get_bounds_Injected(UnityEngine.Bounds&)
+		void Register_UnityEngine_Renderer_get_bounds_Injected();
+		Register_UnityEngine_Renderer_get_bounds_Injected();
+
 		//System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
 		void Register_UnityEngine_Renderer_set_enabled();
 		Register_UnityEngine_Renderer_set_enabled();
@@ -1942,6 +1950,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_SpriteRenderer_set_color_Injected();
 		Register_UnityEngine_SpriteRenderer_set_color_Injected();
 
+		//System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
+		void Register_UnityEngine_SpriteRenderer_set_sprite();
+		Register_UnityEngine_SpriteRenderer_set_sprite();
+
 	//End Registrations for type : UnityEngine.SpriteRenderer
 
 	//Start Registrations for type : UnityEngine.SystemInfo
@@ -2018,13 +2030,9 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.TextMesh
 
-		//System.Void UnityEngine.TextMesh::get_color_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TextMesh_get_color_Injected();
-		Register_UnityEngine_TextMesh_get_color_Injected();
-
-		//System.Void UnityEngine.TextMesh::set_color_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_TextMesh_set_color_Injected();
-		Register_UnityEngine_TextMesh_set_color_Injected();
+		//System.String UnityEngine.TextMesh::get_text()
+		void Register_UnityEngine_TextMesh_get_text();
+		Register_UnityEngine_TextMesh_get_text();
 
 		//System.Void UnityEngine.TextMesh::set_text(System.String)
 		void Register_UnityEngine_TextMesh_set_text();

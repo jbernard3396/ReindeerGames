@@ -120,6 +120,7 @@ MonoBehaviour:
   jumpsLeft: 2
   activesLeft: 1
   invincibilityTimer: 0
+  invColor: {r: 0.7311321, g: 0.82602096, b: 1, a: 1}
   sheildDestoryed: {fileID: 6681354066145483309, guid: 78aba4e39890a164b853bc6baf1c2d4e,
     type: 3}
   dead: 0
@@ -142,6 +143,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   lazer: {fileID: 7913715829775756242, guid: 872590e80cbca1240ac0f862fba87fe0, type: 3}
+  scoreScript: {fileID: 0}
 --- !u!114 &2582202905120766745
 MonoBehaviour:
   m_ObjectHideFlags: 0

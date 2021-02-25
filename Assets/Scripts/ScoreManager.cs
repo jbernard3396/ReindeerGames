@@ -9,9 +9,11 @@ public class ScoreManager : MonoBehaviour
 {
     private GameObject Settings;
     private SaveData saveDataScript;
+    private NumberDisplay numDisplay;
+
 
     public int score = 0;
-    private int highScore;
+    public int highScore;
 
     [SerializeField] private GameObject scoreTextCanvas;
     private GameObject scoreGameObject;
@@ -24,8 +26,10 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("starting scores");
         scoreGameObject = scoreTextCanvas.transform.Find("scoreText").gameObject;
-        scoreTextMesh = scoreGameObject.GetComponent<TextMesh>();
+        numDisplay = gameObject.GetComponent<NumberDisplay>();
+
 
         highScoreGameObject = scoreTextCanvas.transform.Find("highScoreText").gameObject;
         highScoreTextMesh = highScoreGameObject.GetComponent<TextMesh>();
@@ -38,23 +42,25 @@ public class ScoreManager : MonoBehaviour
 
         score = Config.score;
 
-        scoreTextMesh.text = "Score: " + score;
+
 
 
         highScore = saveDataScript.save.reindeerCoins[reindeerIndex];
-        highScoreTextMesh.text = "High Score: " + highScore;
+        highScoreTextMesh.text = "" + highScore;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //numDisplay.displayNum(score);
+
     }
 
     public void incrementScore(int inc = 1)
     {
         score += inc;
-        scoreTextMesh.text = "Score: " + score;
+        //scoreTextMesh.text = "" + score;
+        //numDisplay.displayNum(score);
         Ability abilityScript = Config.character;
         string name = abilityScript.getName();
 
@@ -83,6 +89,6 @@ public class ScoreManager : MonoBehaviour
                 }
             };
         }
-        highScoreTextMesh.text = "High Score: " + highScore;
+        highScoreTextMesh.text = "" + highScore;
     }
 }

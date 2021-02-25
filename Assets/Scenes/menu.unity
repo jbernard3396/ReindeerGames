@@ -1745,6 +1745,7 @@ GameObject:
   - component: {fileID: 1188806402}
   - component: {fileID: 1188806401}
   - component: {fileID: 1188806399}
+  - component: {fileID: 1188806400}
   m_Layer: 5
   m_Name: Total Coins
   m_TagString: Untagged
@@ -1783,6 +1784,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c5080ba0896a524c84c83d9bc8b6141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1188806400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188806397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcff2a541acabf141835c31f703991be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  one: {fileID: 5810701418854934151, guid: 0aeefb6d725390a4db4eca8b3be05a41, type: 3}
+  two: {fileID: 1748909018667632304, guid: d9b1d977e0e75674fb244a70bc7a789a, type: 3}
+  three: {fileID: 8910210167434119719, guid: 1c72c11cb82e786468684855fba5acfb, type: 3}
+  four: {fileID: -7045597637032013004, guid: 17ea1bc67a600df4cb1dd2245ee2b7b0, type: 3}
+  five: {fileID: -8141999546628463219, guid: 08b6448103dfad1459bb3f80792ee294, type: 3}
+  six: {fileID: -5235611042195327824, guid: bc9054802dd57ec4b8251fa93f2c3130, type: 3}
+  seven: {fileID: -7495957697913046080, guid: 6bda23e5cf0e720458ae18d2bc1e5253, type: 3}
+  eight: {fileID: -1065413304502834081, guid: c2b1bd4a0878ea744b1542ced11bcae9, type: 3}
+  nine: {fileID: -3907109939796707291, guid: fe71de3a424c7c04281d35fa90ac235e, type: 3}
+  zero: {fileID: -5881724131020717296, guid: 8f686426b5837ca47819c8c10e391d49, type: 3}
+  xOffset: 0
+  yOffset: 0
+  scaleOffset: 0
 --- !u!102 &1188806401
 TextMesh:
   serializedVersion: 3
@@ -2010,6 +2036,7 @@ GameObject:
   - component: {fileID: 2031402993}
   - component: {fileID: 2031402992}
   - component: {fileID: 2031402991}
+  - component: {fileID: 2031402996}
   m_Layer: 5
   m_Name: HighScore/lockedTokens
   m_TagString: Untagged
@@ -2147,3 +2174,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031402989}
   m_CullTransparentMesh: 0
+--- !u!114 &2031402996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031402989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcff2a541acabf141835c31f703991be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  one: {fileID: 5810701418854934151, guid: 0aeefb6d725390a4db4eca8b3be05a41, type: 3}
+  two: {fileID: 1748909018667632304, guid: d9b1d977e0e75674fb244a70bc7a789a, type: 3}
+  three: {fileID: 8910210167434119719, guid: 1c72c11cb82e786468684855fba5acfb, type: 3}
+  four: {fileID: -7045597637032013004, guid: 17ea1bc67a600df4cb1dd2245ee2b7b0, type: 3}
+  five: {fileID: -8141999546628463219, guid: 08b6448103dfad1459bb3f80792ee294, type: 3}
+  six: {fileID: -5235611042195327824, guid: bc9054802dd57ec4b8251fa93f2c3130, type: 3}
+  seven: {fileID: -7495957697913046080, guid: 6bda23e5cf0e720458ae18d2bc1e5253, type: 3}
+  eight: {fileID: -1065413304502834081, guid: c2b1bd4a0878ea744b1542ced11bcae9, type: 3}
+  nine: {fileID: -3907109939796707291, guid: fe71de3a424c7c04281d35fa90ac235e, type: 3}
+  zero: {fileID: -5881724131020717296, guid: 8f686426b5837ca47819c8c10e391d49, type: 3}
+  xOffset: 0
+  yOffset: 0
+  scaleOffset: 0

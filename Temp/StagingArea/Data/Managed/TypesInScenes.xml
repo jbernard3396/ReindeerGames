@@ -24,9 +24,6 @@
 		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
-		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
-		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
-		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimatorOverrideController" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
@@ -46,12 +43,15 @@
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
+		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
@@ -76,17 +76,16 @@
 		<type fullname="Menu" preserve="nothing"/>
 		<type fullname="MusicSelection" preserve="nothing"/>
 		<type fullname="NextCharacter" preserve="nothing"/>
+		<type fullname="NumberDisplay" preserve="nothing"/>
 		<type fullname="Persist" preserve="nothing"/>
 		<type fullname="Play" preserve="nothing"/>
 		<type fullname="PlayerSettings" preserve="nothing"/>
-		<type fullname="PositionReplay" preserve="nothing"/>
 		<type fullname="Prancer" preserve="nothing"/>
 		<type fullname="Reset" preserve="nothing"/>
 		<type fullname="Rudolph" preserve="nothing"/>
 		<type fullname="SaveData" preserve="nothing"/>
 		<type fullname="ScoreManager" preserve="nothing"/>
 		<type fullname="Spin" preserve="nothing"/>
-		<type fullname="TipGenerator" preserve="nothing"/>
 		<type fullname="UnlockAll" preserve="nothing"/>
 		<type fullname="Vixen" preserve="nothing"/>
 		<type fullname="WallAnimatorController" preserve="nothing"/>

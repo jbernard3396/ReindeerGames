@@ -11,6 +11,9 @@ public class DisplayCoins : MonoBehaviour
     private GameObject Settings;
     private SaveData saveDataScript;
     private Transform myTransform;
+    private Vector3 ogPosition;
+    private NumberDisplay numDisplay;
+
 
     private int reindeerIndex;
     private int highScore;
@@ -25,7 +28,9 @@ public class DisplayCoins : MonoBehaviour
     void Start()
     {
         myTransform = gameObject.GetComponent<Transform>();
-        myTextMesh = gameObject.GetComponent<TextMesh>();
+        ogPosition = myTransform.position;
+        numDisplay = gameObject.GetComponent<NumberDisplay>();
+
 
         Settings = GameObject.FindWithTag("Settings");
         saveDataScript = Settings.GetComponent<SaveData>();
@@ -35,8 +40,7 @@ public class DisplayCoins : MonoBehaviour
 
         characterCosts = Config.characterCosts;
 
-        masteredColor = new Color(100, 100, 0, 255);
-        originalColor = myTextMesh.color;
+        masteredColor = new Color(.94f, .76f, .24f, 1);
 
     }
 
@@ -46,19 +50,16 @@ public class DisplayCoins : MonoBehaviour
         reindeerIndex = Config.characterIndex;
         if (!Config.CharacterLocked)
         {
+            numDisplay.xOffset = 0;
+            myTransform.position = ogPosition;
             highScore = saveDataScript.save.reindeerCoins[reindeerIndex];
-            myTextMesh.text = "HighScore: " + highScore;
-            if (highScore >= 25)
-            {
-                myTextMesh.color = masteredColor;
-            } else
-            {
-                myTextMesh.color = originalColor;
-            }
+            numDisplay.displayNum(highScore);
         } else
         {
+            //myTransform.position = new Vector3(-2, ogPosition.y, ogPosition.z);
             cost = characterCosts[reindeerIndex];
-            myTextMesh.text = "Cost: " + cost;
+            numDisplay.xOffset = -1;
+            numDisplay.displayNum(cost);
         }
     }
 }

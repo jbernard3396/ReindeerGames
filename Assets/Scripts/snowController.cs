@@ -21,13 +21,12 @@ public class snowController : MonoBehaviour
             snowAmount += .1f*Time.deltaTime; // slow this down
         } else if (!isSnowing && !isRaining && snowAmount > 0)
         {
-            snowAmount -= .1f*Time.deltaTime; // slow this down
+            snowAmount -= .05f*Time.deltaTime; // slow this down
         } else if (isRaining && snowAmount > 0)
         {
-            snowAmount -= .05f*Time.deltaTime; // slow this down
+            snowAmount -= .01f*Time.deltaTime; // slow this down
         }
 
-        Debug.Log(snowAmount);
         anim.SetFloat("SnowAmmount", snowAmount);
     }
 

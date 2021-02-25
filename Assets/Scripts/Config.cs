@@ -15,10 +15,10 @@ public class Config
     public static bool characterLocked;
     public static bool allUnlocked;
     public static bool allMastered;
+    public static bool resetToggled = false;
     public static int[] characterCosts = new int[9];
     private static float crx = 0;
     private static float clx = 0;
-
     
 
     public Config()
@@ -109,6 +109,18 @@ public class Config
         set
         {
             allMastered = value;
+        }
+    }
+
+    public static bool RestartToggled
+    {
+        get
+        {
+            return resetToggled;
+        }
+        set
+        {
+            resetToggled = value;
         }
     }
 

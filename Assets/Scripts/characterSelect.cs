@@ -11,7 +11,7 @@ public class characterSelect : MonoBehaviour
     private Transform myTransform;
     private Animator anim;
 
-
+    private int highScore;
 
 
     [SerializeField] private Ability dasherScript;
@@ -90,6 +90,8 @@ public class characterSelect : MonoBehaviour
         Config.characterIndex = scriptIndex;
         anim.SetInteger("Character", scriptIndex);
 
+        highScore = saveDataScript.save.reindeerCoins[scriptIndex];
+
         if (characterCosts[scriptIndex] <= saveDataScript.save.totalCoins || (Config.allUnlocked == true))
         {
             Config.characterLocked = false;
@@ -100,6 +102,14 @@ public class characterSelect : MonoBehaviour
         {
             Config.characterLocked = true;
             anim.SetBool("Locked", true);
+        }
+
+        if(highScore >= 25)
+        {
+            anim.SetBool("Mastered", true);
+        } else
+        {
+            anim.SetBool("Mastered", false);
         }
     }
 }
