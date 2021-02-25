@@ -24,7 +24,6 @@ ScriptsOnlyBuild:
     - LazerMovement
     - MasterAll
     - Menu
-    - MusicSelection
     - NextCharacter
     - NumberDisplay
     - Persist
@@ -66,10 +65,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -255,10 +252,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -277,8 +270,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12786}
     - Class: 114
       Script: {instanceID: 12950}
-    - Class: 114
-      Script: {instanceID: 13018}
     - Class: 114
       Script: {instanceID: 13246}
     - Class: 114
@@ -379,11 +370,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 13182}
-    - Class: 114
       Script: {instanceID: 13220}
-    - Class: 114
-      Script: {instanceID: 13246}
     - Class: 114
       Script: {instanceID: 13316}
     - Class: 114

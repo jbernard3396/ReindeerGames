@@ -24,9 +24,6 @@
 		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
-		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
-		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
-		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimatorOverrideController" preserve="nothing"/>
@@ -48,10 +45,13 @@
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
+		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
@@ -75,7 +75,6 @@
 		<type fullname="LazerMovement" preserve="nothing"/>
 		<type fullname="MasterAll" preserve="nothing"/>
 		<type fullname="Menu" preserve="nothing"/>
-		<type fullname="MusicSelection" preserve="nothing"/>
 		<type fullname="NextCharacter" preserve="nothing"/>
 		<type fullname="NumberDisplay" preserve="nothing"/>
 		<type fullname="Persist" preserve="nothing"/>
