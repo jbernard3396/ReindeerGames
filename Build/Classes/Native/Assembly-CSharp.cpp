@@ -8699,22 +8699,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoinManager_Start_mADB0DC63161F8C16FB6E3
 		// topBound = Config.getCty() *.6f;
 		int32_t L_3 = Config_getCty_mCAC15D7E348EF0E49B7D3277C25441DEEFA2634F(/*hidden argument*/NULL);
 		__this->set_topBound_20(((float)il2cpp_codegen_multiply((float)(((float)((float)L_3))), (float)(0.600000024f))));
-		// Debug.Log(scoreScript.highScore);
-		ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_4 = __this->get_scoreScript_21();
-		NullCheck(L_4);
-		int32_t L_5 = L_4->get_highScore_8();
-		int32_t L_6 = L_5;
-		RuntimeObject * L_7 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_6);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_7, /*hidden argument*/NULL);
 		// CoinCollectSource = GameObject.Find("CoinSFX");
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_8 = GameObject_Find_m20157C941F1A9DA0E33E0ACA1324FAA41C2B199B(_stringLiteral867326DB6005BAEA307715E74B61382CB050D0C2, /*hidden argument*/NULL);
-		__this->set_CoinCollectSource_15(L_8);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_4 = GameObject_Find_m20157C941F1A9DA0E33E0ACA1324FAA41C2B199B(_stringLiteral867326DB6005BAEA307715E74B61382CB050D0C2, /*hidden argument*/NULL);
+		__this->set_CoinCollectSource_15(L_4);
 		// CoinCollectSFX = CoinCollectSource.GetComponent<AudioSource>();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_9 = __this->get_CoinCollectSource_15();
-		NullCheck(L_9);
-		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_10 = GameObject_GetComponent_TisAudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B_mAF312D503D6F1D34AF86F86AE5CD74920A901E53(L_9, /*hidden argument*/GameObject_GetComponent_TisAudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B_mAF312D503D6F1D34AF86F86AE5CD74920A901E53_RuntimeMethod_var);
-		__this->set_CoinCollectSFX_16(L_10);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_5 = __this->get_CoinCollectSource_15();
+		NullCheck(L_5);
+		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_6 = GameObject_GetComponent_TisAudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B_mAF312D503D6F1D34AF86F86AE5CD74920A901E53(L_5, /*hidden argument*/GameObject_GetComponent_TisAudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B_mAF312D503D6F1D34AF86F86AE5CD74920A901E53_RuntimeMethod_var);
+		__this->set_CoinCollectSFX_16(L_6);
 		// }
 		return;
 	}

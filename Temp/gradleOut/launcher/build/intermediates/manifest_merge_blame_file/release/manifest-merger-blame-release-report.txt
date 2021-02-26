@@ -120,7 +120,7 @@
 67-->[:unityLibrary] C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:68
 68            android:name="unity.build-id"
 68-->[:unityLibrary] C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-42
-69            android:value="fabc21dd-564d-437e-9b16-4277367a7ac3" />
+69            android:value="56c50496-7d8a-4f8a-ab95-e6cd2ce8549d" />
 69-->[:unityLibrary] C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-65
 70
 71        <activity

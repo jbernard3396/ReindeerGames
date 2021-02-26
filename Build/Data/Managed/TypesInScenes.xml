@@ -55,6 +55,7 @@
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AddButton" preserve="nothing"/>
 		<type fullname="BackCharacter" preserve="nothing"/>
 		<type fullname="Blitzen" preserve="nothing"/>
 		<type fullname="CoinCollected" preserve="nothing"/>

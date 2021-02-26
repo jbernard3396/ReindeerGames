@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AnimationImporter.AnimationImporterSharedConfig
     - AnimationImporter.AnimationImporterWindow
     Assembly-CSharp.dll:
+    - AddButton
     - BackCharacter
     - Blitzen
     - CoinCollected
@@ -209,11 +210,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11850}
     - Class: 114
-      Script: {instanceID: 12040}
-    - Class: 114
       Script: {instanceID: 12156}
     - Class: 114
       Script: {instanceID: 12396}
+    - Class: 114
+      Script: {instanceID: 12784}
     - Class: 114
       Script: {instanceID: 12802}
     - Class: 114

@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8722609625104545727, guid: 6d8be5f43ceba4541955961401b30658,
+  m_Sprite: {fileID: -5774356622197127957, guid: 7c41d0537a1803d4fb4b3c5f7613afe4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad28509e40cf64644a7a7a111411666e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
+  anim: {fileID: -193910648093542431}
   towardsPlayer: 0
   timeout: 0
   isLastLazer: 1

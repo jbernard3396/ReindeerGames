@@ -52,7 +52,7 @@
             android:value="True" />
         <meta-data
             android:name="unity.build-id"
-            android:value="fabc21dd-564d-437e-9b16-4277367a7ac3" />
+            android:value="56c50496-7d8a-4f8a-ab95-e6cd2ce8549d" />
     </application>
 
 </manifest>

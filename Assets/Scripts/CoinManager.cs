@@ -39,7 +39,7 @@ public class CoinManager : MonoBehaviour
         rightBound = Config.getCrx() - 3;
         bottomBound = Config.getCby()+.1f;
         topBound = Config.getCty() *.6f;
-        Debug.Log(scoreScript.highScore);
+        //Debug.Log(scoreScript.highScore);
         
         CoinCollectSource = GameObject.Find("CoinSFX");
         CoinCollectSFX = CoinCollectSource.GetComponent<AudioSource>();

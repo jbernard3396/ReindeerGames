@@ -94,7 +94,7 @@
 53-->C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:5-101
 54            android:name="unity.build-id"
 54-->C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:16-45
-55            android:value="fabc21dd-564d-437e-9b16-4277367a7ac3" />
+55            android:value="56c50496-7d8a-4f8a-ab95-e6cd2ce8549d" />
 55-->C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:46-98
 56    </application>
 57
