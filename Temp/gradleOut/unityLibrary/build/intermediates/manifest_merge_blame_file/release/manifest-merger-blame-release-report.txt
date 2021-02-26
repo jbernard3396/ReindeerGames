@@ -4,7 +4,7 @@
 4    xmlns:tools="http://schemas.android.com/tools"
 5    package="com.unity3d.player"
 6    android:versionCode="1"
-7    android:versionName="0.1" >
+7    android:versionName="1.0" >
 8
 9    <uses-sdk
 10        android:minSdkVersion="19"
@@ -94,7 +94,7 @@
 53-->C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:5-101
 54            android:name="unity.build-id"
 54-->C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:16-45
-55            android:value="56c50496-7d8a-4f8a-ab95-e6cd2ce8549d" />
+55            android:value="2d9dad0f-8f75-46da-b4bf-3e4b42504eae" />
 55-->C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:15:46-98
 56    </application>
 57

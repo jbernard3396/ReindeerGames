@@ -98,13 +98,13 @@
     <Compile Include="Assets\Scripts\Initiate.cs" />
     <Compile Include="Assets\Scripts\BackCharacter.cs" />
     <Compile Include="Assets\Scripts\Characters\Prancer.cs" />
+    <Compile Include="Assets\Scripts\PositionCost.cs" />
     <Compile Include="Assets\Scripts\Characters\Dash.cs" />
     <Compile Include="Assets\Scripts\Characters\Comet.cs" />
     <Compile Include="Assets\Scripts\PositionReplay.cs" />
     <Compile Include="Assets\Scripts\LazerMovement.cs" />
     <Compile Include="Assets\Scripts\displayIfMastered.cs" />
     <Compile Include="Assets\Scripts\WallAnimator.cs" />
-    <Compile Include="Assets\Scripts\PositionCost.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AnimationImporter\readme.txt" />

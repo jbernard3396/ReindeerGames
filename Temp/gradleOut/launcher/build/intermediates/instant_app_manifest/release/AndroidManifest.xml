@@ -5,7 +5,7 @@
     android:installLocation="preferExternal"
     android:targetSandboxVersion="2"
     android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -67,7 +67,7 @@
             android:value="True" />
         <meta-data
             android:name="unity.build-id"
-            android:value="56c50496-7d8a-4f8a-ab95-e6cd2ce8549d" />
+            android:value="2d9dad0f-8f75-46da-b4bf-3e4b42504eae" />
 
         <activity
             android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
