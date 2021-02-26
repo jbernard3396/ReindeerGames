@@ -62,7 +62,7 @@ public class highScoreSpriteSelector : MonoBehaviour
         } 
         if (Config.CharacterLocked)
         {
-            myTransform.position = new Vector3(ogPosition.x -1, ogPosition.y, ogPosition.z);
+            myTransform.position = new Vector3(ogPosition.x -.5f, ogPosition.y, ogPosition.z);
             myRenderer.sprite = costSprite;
         }
     }

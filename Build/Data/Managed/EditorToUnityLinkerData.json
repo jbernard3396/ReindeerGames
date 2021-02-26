@@ -586,8 +586,7 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/Game.unity"
             ]
         },
         {
@@ -597,8 +596,7 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/Game.unity"
             ]
         },
         {
@@ -682,13 +680,6 @@
             "usedInScenes": [
                 "Assets/Scenes/Game.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "AddButton",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -777,6 +768,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "FollowTarget",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "GameManager",
             "moduleName": "",
             "usedInScenes": []
@@ -855,6 +853,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "PlayerSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PositionCost",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PositionReplay",
             "moduleName": "",
             "usedInScenes": []
         },

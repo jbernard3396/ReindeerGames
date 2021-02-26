@@ -55,7 +55,6 @@
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="AddButton" preserve="nothing"/>
 		<type fullname="BackCharacter" preserve="nothing"/>
 		<type fullname="Blitzen" preserve="nothing"/>
 		<type fullname="CoinCollected" preserve="nothing"/>
@@ -68,6 +67,7 @@
 		<type fullname="DisplayCoins" preserve="nothing"/>
 		<type fullname="Donner" preserve="nothing"/>
 		<type fullname="EndPeak" preserve="nothing"/>
+		<type fullname="FollowTarget" preserve="nothing"/>
 		<type fullname="GameManager" preserve="nothing"/>
 		<type fullname="GetTotalCoins" preserve="nothing"/>
 		<type fullname="Initiate" preserve="nothing"/>
@@ -80,6 +80,8 @@
 		<type fullname="Persist" preserve="nothing"/>
 		<type fullname="Play" preserve="nothing"/>
 		<type fullname="PlayerSettings" preserve="nothing"/>
+		<type fullname="PositionCost" preserve="nothing"/>
+		<type fullname="PositionReplay" preserve="nothing"/>
 		<type fullname="Prancer" preserve="nothing"/>
 		<type fullname="Reset" preserve="nothing"/>
 		<type fullname="Rudolph" preserve="nothing"/>

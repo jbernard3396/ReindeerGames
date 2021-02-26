@@ -108,6 +108,10 @@ public class basicMovement : MonoBehaviour
         jumpStrength = 8f;
         physicsTimeout = 0f;
         invincibilityTimer = 0f;
+        if (Config.restartAdUsed)
+        {
+            invincibilityTimer = 3f;
+        }
 
         anim = GetComponent<Animator>();
         abilityScript = Config.character;

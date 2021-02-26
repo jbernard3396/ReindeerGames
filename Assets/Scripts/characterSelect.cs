@@ -81,6 +81,12 @@ public class characterSelect : MonoBehaviour
         setCharacter();
     }
 
+    public void resetCharacter()
+    {
+        scriptIndex = 0;
+        setCharacter();
+    }
+
     void setCharacter()
     {
         currentScript = scripts[scriptIndex];

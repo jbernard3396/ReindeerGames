@@ -20,10 +20,10 @@ public class WallAnimatorController : MonoBehaviour
     private bool isRaining;
     private bool isSnowing;
     private bool isSunny;
-    private int chanceToChange = 5000;
+    private int chanceToChange = 3000;
     private int minimumStormTime = 10;
     private float timeSinceLastStorm = 0;
-    private int chanceToThunder = 3000;
+    private int chanceToThunder = 1000;
     private System.Random random = new System.Random();
 
     public snowController snow1;
@@ -116,8 +116,8 @@ public class WallAnimatorController : MonoBehaviour
                 }
             }
             timeSinceLastStorm = 0;
-            anim.SetBool("isRaining", isRaining);
-            anim.SetBool("isSnowing", isSnowing);
+            anim.SetBool("isRaining", isRaining); 
+            anim.SetBool("isSnowing", isSnowing); 
             if (isRaining)
             {
 

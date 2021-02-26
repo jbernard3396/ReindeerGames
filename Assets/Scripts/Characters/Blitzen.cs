@@ -13,6 +13,8 @@ public class Blitzen : Ability
     private GameObject BlitzenSource;
     private AudioSource BlitzenSFX;
 
+    private float explosionHeight;
+
     private float range = 2.5f;
 
     [SerializeField] private GameObject explosion;
@@ -37,6 +39,7 @@ public class Blitzen : Ability
 
     void startUp()
     {
+        explosionHeight = explosion.GetComponent<Transform>().lossyScale.y;
         if (!playerScript)
         {
             BlitzenSource = GameObject.Find("BlitzenSFX");
@@ -51,7 +54,10 @@ public class Blitzen : Ability
     {
         startUp();
         BlitzenSFX.Play();
-        Instantiate(explosion, new Vector3(myTransform.position.x, myTransform.position.y, 0), Quaternion.identity);
+        explosion.GetComponent<FollowTarget>().target = player;
+        explosion.GetComponent<FollowTarget>().yOffset = -(explosionHeight / 3.5f);
+        explosion.GetComponent<FollowTarget>().xOffset = -(explosionHeight / 25);
+        Instantiate(explosion, new Vector3(myTransform.position.x, myTransform.position.y - (explosionHeight / 2), 0), Quaternion.identity);
         lazersInScene = GameObject.FindGameObjectsWithTag("Lazer");
 
         foreach (GameObject lazer in lazersInScene)
@@ -60,7 +66,7 @@ public class Blitzen : Ability
             {
                 LazerMovement lazerScript = lazer.GetComponent<LazerMovement>();
                 lazerScript.towardsPlayer = true;
-                lazerScript.isHeart = true; //TODO:J Maybe no
+                lazerScript.isHeart = true; 
                 lazerScript.targetBody = myTransform;
             }
         }
