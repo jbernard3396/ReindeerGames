@@ -231,6 +231,10 @@ public class basicMovement : MonoBehaviour
     {
         anim.SetTrigger("Ability");
         abilityScript.activateAbility();
+        if (invincible)
+        {
+            invincibilityTimer = 0;
+        }
         activesLeft -= 1;
         jumpTimer = jumpTimerReset;
     }

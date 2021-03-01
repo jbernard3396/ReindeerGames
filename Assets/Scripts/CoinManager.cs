@@ -50,7 +50,7 @@ public class CoinManager : MonoBehaviour
     {
         if (!realCoinInstance)
         {
-            if (scoreScript.highScore == 0)
+            if (scoreScript.highScore == scoreScript.score)
             {
                 ccgo = collectedCoinGold;
                 realCoinInstance = Instantiate(realCoinGold, generateLocation(), Quaternion.identity);
