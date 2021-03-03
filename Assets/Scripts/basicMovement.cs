@@ -229,7 +229,7 @@ public class basicMovement : MonoBehaviour
 
     void special()
     {
-        anim.SetTrigger("Ability");
+        anim.SetTrigger("Ability");     
         abilityScript.activateAbility();
         if (invincible)
         {
