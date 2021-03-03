@@ -116,3 +116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3021003aef8cd5645ad899cd042a2789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thunderClip: {fileID: 0}
+  snow1: {fileID: 0}
+  snow2: {fileID: 0}
