@@ -1,0 +1,10 @@
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:42
+-keep class com.unity3d.player.UnityPlayerActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:71
+-keep class com.unity3d.services.ads.adunit.AdUnitActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:86
+-keep class com.unity3d.services.ads.adunit.AdUnitSoftwareActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:76
+-keep class com.unity3d.services.ads.adunit.AdUnitTransparentActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:81
+-keep class com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity { <init>(); }

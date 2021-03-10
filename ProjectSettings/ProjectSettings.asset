@@ -240,7 +240,7 @@ PlayerSettings:
   appleDeveloperTeamID: Jacob Bernard
   iOSManualSigningProvisioningProfileID: ae92d449-bacb-4975-8151-74331e50a2ff
   tvOSManualSigningProvisioningProfileID: 
-  iOSManualSigningProvisioningProfileType: 1
+  iOSManualSigningProvisioningProfileType: 2
   tvOSManualSigningProvisioningProfileType: 0
   appleEnableAutomaticSigning: 2
   iOSRequireARKit: 0
