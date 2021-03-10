@@ -113,7 +113,11 @@ extern void RaycastHit2D_get_collider_m00F7EC55C36F39E2ED64B31354FB4D9C8938D563_
 extern void Collider2D_get_bounds_mAC9477EF790D42A796B09CD1E946129B3054ACA8 (void);
 // 0x0000002F System.Void UnityEngine.Collider2D::get_bounds_Injected(UnityEngine.Bounds&)
 extern void Collider2D_get_bounds_Injected_mC89A68141060632DD64785824FD40CCBD93D0215 (void);
-static Il2CppMethodPointer s_methodPointers[47] = 
+// 0x00000030 UnityEngine.Vector2 UnityEngine.BoxCollider2D::get_size()
+extern void BoxCollider2D_get_size_m011E7AA7861BF58898A64D986A4235C1E2061BF9 (void);
+// 0x00000031 System.Void UnityEngine.BoxCollider2D::get_size_Injected(UnityEngine.Vector2&)
+extern void BoxCollider2D_get_size_Injected_m84DAF1A8224C23D55F083622BD9C6CE7A6891CD4 (void);
+static Il2CppMethodPointer s_methodPointers[49] = 
 {
 	PhysicsScene2D_ToString_mDA6F499BD218AA31A450D918BB6C1890A9CE1109_AdjustorThunk,
 	PhysicsScene2D_GetHashCode_m4B5D8DCBA0AD6E5767C4D7A6AD6BC789EB19C8F5_AdjustorThunk,
@@ -162,8 +166,10 @@ static Il2CppMethodPointer s_methodPointers[47] =
 	RaycastHit2D_get_collider_m00F7EC55C36F39E2ED64B31354FB4D9C8938D563_AdjustorThunk,
 	Collider2D_get_bounds_mAC9477EF790D42A796B09CD1E946129B3054ACA8,
 	Collider2D_get_bounds_Injected_mC89A68141060632DD64785824FD40CCBD93D0215,
+	BoxCollider2D_get_size_m011E7AA7861BF58898A64D986A4235C1E2061BF9,
+	BoxCollider2D_get_size_Injected_m84DAF1A8224C23D55F083622BD9C6CE7A6891CD4,
 };
-static const int32_t s_InvokerIndices[47] = 
+static const int32_t s_InvokerIndices[49] = 
 {
 	14,
 	10,
@@ -212,12 +218,14 @@ static const int32_t s_InvokerIndices[47] =
 	14,
 	1012,
 	6,
+	1001,
+	6,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule = 
 {
 	"UnityEngine.Physics2DModule.dll",
-	47,
+	49,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

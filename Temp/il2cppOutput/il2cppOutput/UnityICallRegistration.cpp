@@ -142,6 +142,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_unityVersion();
 		Register_UnityEngine_Application_get_unityVersion();
 
+		//System.Void UnityEngine.Application::OpenURL(System.String)
+		void Register_UnityEngine_Application_OpenURL();
+		Register_UnityEngine_Application_OpenURL();
+
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
@@ -207,6 +211,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Behaviour_set_enabled();
 
 	//End Registrations for type : UnityEngine.Behaviour
+
+	//Start Registrations for type : UnityEngine.BoxCollider2D
+
+		//System.Void UnityEngine.BoxCollider2D::get_size_Injected(UnityEngine.Vector2&)
+		void Register_UnityEngine_BoxCollider2D_get_size_Injected();
+		Register_UnityEngine_BoxCollider2D_get_size_Injected();
+
+	//End Registrations for type : UnityEngine.BoxCollider2D
 
 	//Start Registrations for type : UnityEngine.Camera
 

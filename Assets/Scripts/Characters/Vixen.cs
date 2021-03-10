@@ -46,6 +46,10 @@ public class Vixen : Ability
     public override void activateAbility()
     {
         startUp();
+        if(playerScript.hasSheild == true)
+        {
+            return;
+        }
         sheildUpSFX.Play();
 
         playerScript.hasSheild = true;
