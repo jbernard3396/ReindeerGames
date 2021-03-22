@@ -38,6 +38,7 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
@@ -58,6 +59,8 @@
 		<type fullname="AddButton" preserve="nothing"/>
 		<type fullname="BackCharacter" preserve="nothing"/>
 		<type fullname="Blitzen" preserve="nothing"/>
+		<type fullname="ChangeScene" preserve="nothing"/>
+		<type fullname="CheckBoxController" preserve="nothing"/>
 		<type fullname="CoinCollected" preserve="nothing"/>
 		<type fullname="CoinManager" preserve="nothing"/>
 		<type fullname="Comet" preserve="nothing"/>
@@ -89,12 +92,15 @@
 		<type fullname="Rudolph" preserve="nothing"/>
 		<type fullname="SaveData" preserve="nothing"/>
 		<type fullname="ScoreManager" preserve="nothing"/>
+		<type fullname="SelectorActivator" preserve="nothing"/>
 		<type fullname="Spin" preserve="nothing"/>
 		<type fullname="TipGenerator" preserve="nothing"/>
 		<type fullname="UnlockAll" preserve="nothing"/>
 		<type fullname="Vixen" preserve="nothing"/>
 		<type fullname="WallAnimatorController" preserve="nothing"/>
+		<type fullname="Yodo1.MAS.Yodo1AdSettings" preserve="nothing"/>
 		<type fullname="basicMovement" preserve="nothing"/>
+		<type fullname="bulletSelector" preserve="nothing"/>
 		<type fullname="characterSelect" preserve="nothing"/>
 		<type fullname="displayHighScoreInGame" preserve="nothing"/>
 		<type fullname="displayIfMastered" preserve="nothing"/>
@@ -103,10 +109,6 @@
 		<type fullname="resetConfimation" preserve="nothing"/>
 		<type fullname="selfDestroy" preserve="nothing"/>
 		<type fullname="snowController" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEngine.Advertisements">
-		<type fullname="UnityEngine.Advertisements.Placeholder" preserve="nothing"/>
-		<type fullname="UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>

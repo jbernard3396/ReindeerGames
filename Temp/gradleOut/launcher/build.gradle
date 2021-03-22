@@ -16,6 +16,7 @@ android {
     }
 
     defaultConfig {
+		multiDexEnabled true
         minSdkVersion 19
         targetSdkVersion 30
         applicationId 'com.TeenyGames.ReindeerGames'
@@ -34,7 +35,7 @@ android {
     signingConfigs {
         release {
             storeFile file('C:/Users/jbern/Documents/GitHub/ReindeerGames/user.keystore')
-            storePassword 'GandiComma7*'
+            storePassword 'GhandiComma7*'
             keyAlias 'jbernard'
             keyPassword 'GhandiComma7*'
         }

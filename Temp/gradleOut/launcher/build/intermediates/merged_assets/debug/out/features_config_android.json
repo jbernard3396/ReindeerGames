@@ -1,0 +1,228 @@
+{
+  "features" : [
+    {
+      "id": "close_button",
+      "params" : {
+        "add_transparent_close_btn": false,
+        "show_fallback_close_btn": false,
+        "close_btn_padding": 10
+      },
+      "experiments" : [
+        {
+          "id": "instl_cc",
+          "perc" : 100,
+          "variants" : [
+            {
+              "id" : "1",
+              "perc" : 20,
+              "params" : {
+                "fallback_close_btn_delay": 5,
+                "show_fallback_close_btn": true,
+                "add_transparent_close_btn": false
+              }
+            },
+            {
+              "id" : "2",
+              "perc" : 20,
+              "params" : {
+                "fallback_close_btn_delay" : 3,
+                "show_fallback_close_btn": true,
+                "add_transparent_close_btn": true
+              }
+            },
+            {
+              "id" : "3",
+              "perc" : 20,
+              "params" : {
+                "fallback_close_btn_delay" : 5,
+                "show_fallback_close_btn": true,
+                "add_transparent_close_btn": true
+              }
+            },
+            {
+              "id" : "4",
+              "perc" : 20,
+              "params" : {
+                "fallback_close_btn_delay" : 7,
+                "show_fallback_close_btn": true,
+                "add_transparent_close_btn": true
+              }
+            }
+          ],
+          "include" : {
+            "sdk" : "7.+"
+          }
+        },
+        {
+          "id": "instl_padding",
+          "perc" : 50,
+          "variants" : [
+            {
+              "id" : "1",
+              "perc" : 10,
+              "params" : {
+                "close_btn_padding" : 15
+              }
+            },
+            {
+              "id" : "2",
+              "perc" : 10,
+              "params" : {
+                "close_btn_padding" : 17.5
+              }
+            },
+            {
+              "id" : "3",
+              "perc" : 10,
+              "params" : {
+                "close_btn_padding" : 20
+              }
+            }
+          ],
+          "include" : {
+            "sdk" : "7.+"
+          }
+        }
+      ]
+    },
+    {
+      "id" : "video_player",
+      "params" : {
+        "click_action" : "none",
+        "endcard_x_btn_delay_rv" : 3,
+        "endcard_x_btn_delay_iv" : 3,
+        "countdown_rv": false,
+        "cta_text_all_caps": false,
+        "countdown_iv": false,
+        "use_fmp_cache_mechanism": false
+      },
+      "experiments" : [
+        {
+          "id": "video_click_action",
+          "perc" : 100,
+          "variants" : [
+            {
+              "id" : "click_to_open",
+              "perc" : 99,
+              "params" : {
+                "click_action" : "open"
+              }
+            }
+          ],
+          "include" : {
+            "sdk" : "7.+"
+          }
+        },
+        {
+          "id": "endcard_x_btn_delay_rewarded",
+          "perc" : 100,
+          "variants" : [
+            {
+              "id" : "no_delay",
+              "perc" : 30,
+              "params" : {
+                "endcard_x_btn_delay_rv" : 0
+              }
+            },
+            {
+              "id" : "5_sec_delay",
+              "perc" : 100,
+              "params" : {
+                "endcard_x_btn_delay_rv" : 5,
+                "countdown_rv": true
+              }
+            }
+          ],
+          "include" : {
+            "sdk" : "7.+"
+          }
+        },
+        {
+          "id": "endcard_x_btn_delay_interstitial",
+          "perc" : 80,
+          "variants" : [
+            {
+              "id" : "no_delay",
+              "perc" : 30,
+              "params" : {
+                "endcard_x_btn_delay_iv" : 0
+              }
+            },
+            {
+              "id" : "3_sec_delay",
+              "perc" : 30,
+              "params" : {
+                "endcard_x_btn_delay_iv" : 3,
+                "countdown_iv": true
+              }
+            }
+          ],
+          "include" : {
+            "sdk" : "7.+"
+          }
+        },
+        {
+          "id": "cta_text_caps",
+          "perc" : 80,
+          "variants" : [
+            {
+              "id" : "cta_text_all_caps",
+              "perc" : 90,
+              "params" : {
+                "cta_text_all_caps" : true
+              }
+            }
+          ],
+          "include" : {
+            "sdk" : "7.+"
+          }
+        },
+        {
+          "id": "cache_mechanism",
+          "perc" : 80,
+          "variants" : [
+            {
+              "id" : "fmp_cache_mechanism",
+              "perc" : 30,
+              "params" : {
+                "use_fmp_cache_mechanism" : true
+              }
+            }
+          ],
+          "include" : {
+            "sdk" : "7.+"
+          }
+        }
+      ]
+    },
+    {
+      "id" : "ad_request",
+      "params" : {
+        "connect_timeout" : 5000,
+        "read_timeout" : 5000
+      },
+      "experiments" : [
+        {
+          "id": "increase_timeout",
+          "perc" : 30,
+          "variants" : [
+            {
+              "id" : "increase10000",
+              "perc" : 10,
+              "params" : {
+                "read_timeout" : 10000
+              }
+            }
+          ],
+          "events" : [ "sdk" ],
+          "include" : {
+            "sdk" : "7.*"
+          },
+          "exclude" : {
+            "pub_id" : [ 553 ]
+          }
+        }
+      ]
+    }
+  ]
+}

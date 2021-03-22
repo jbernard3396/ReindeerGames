@@ -6,6 +6,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_Free();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_Free();
 
+		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpy(System.Void*,System.Void*,System.Int64)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpy();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpy();
+
 	//End Registrations for type : Unity.Collections.LowLevel.Unsafe.UnsafeUtility
 
 	//Start Registrations for type : Unity.Jobs.JobHandle
@@ -15,14 +19,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_Unity_Jobs_JobHandle_ScheduleBatchedJobs();
 
 	//End Registrations for type : Unity.Jobs.JobHandle
-
-	//Start Registrations for type : UnityEngine.Advertisements.UnityAdsSettings
-
-		//System.Boolean UnityEngine.Advertisements.UnityAdsSettings::get_testMode()
-		void Register_UnityEngine_Advertisements_UnityAdsSettings_get_testMode();
-		Register_UnityEngine_Advertisements_UnityAdsSettings_get_testMode();
-
-	//End Registrations for type : UnityEngine.Advertisements.UnityAdsSettings
 
 	//Start Registrations for type : UnityEngine.Analytics.Analytics
 
@@ -137,10 +133,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.String UnityEngine.Application::get_persistentDataPath()
 		void Register_UnityEngine_Application_get_persistentDataPath();
 		Register_UnityEngine_Application_get_persistentDataPath();
-
-		//System.String UnityEngine.Application::get_unityVersion()
-		void Register_UnityEngine_Application_get_unityVersion();
-		Register_UnityEngine_Application_get_unityVersion();
 
 		//System.Void UnityEngine.Application::OpenURL(System.String)
 		void Register_UnityEngine_Application_OpenURL();
@@ -816,18 +808,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Gradient
 
-	//Start Registrations for type : UnityEngine.Graphics
-
-		//System.Int32 UnityEngine.Graphics::Internal_GetMaxDrawMeshInstanceCount()
-		void Register_UnityEngine_Graphics_Internal_GetMaxDrawMeshInstanceCount();
-		Register_UnityEngine_Graphics_Internal_GetMaxDrawMeshInstanceCount();
-
-		//System.Void UnityEngine.Graphics::Internal_DrawTexture(UnityEngine.Internal_DrawTextureArguments&)
-		void Register_UnityEngine_Graphics_Internal_DrawTexture();
-		Register_UnityEngine_Graphics_Internal_DrawTexture();
-
-	//End Registrations for type : UnityEngine.Graphics
-
 	//Start Registrations for type : UnityEngine.GUI
 
 		//System.Boolean UnityEngine.GUI::HasMouseControl(System.Int32)
@@ -842,29 +822,9 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUI_ReleaseMouseControl();
 		Register_UnityEngine_GUI_ReleaseMouseControl();
 
-		//System.Void UnityEngine.GUI::get_color_Injected(UnityEngine.Color&)
-		void Register_UnityEngine_GUI_get_color_Injected();
-		Register_UnityEngine_GUI_get_color_Injected();
-
 		//System.Void UnityEngine.GUI::set_changed(System.Boolean)
 		void Register_UnityEngine_GUI_set_changed();
 		Register_UnityEngine_GUI_set_changed();
-
-		//UnityEngine.Material UnityEngine.GUI::get_blendMaterial()
-		void Register_UnityEngine_GUI_get_blendMaterial();
-		Register_UnityEngine_GUI_get_blendMaterial();
-
-		//UnityEngine.Material UnityEngine.GUI::get_blitMaterial()
-		void Register_UnityEngine_GUI_get_blitMaterial();
-		Register_UnityEngine_GUI_get_blitMaterial();
-
-		//UnityEngine.Material UnityEngine.GUI::get_roundedRectMaterial()
-		void Register_UnityEngine_GUI_get_roundedRectMaterial();
-		Register_UnityEngine_GUI_get_roundedRectMaterial();
-
-		//UnityEngine.Material UnityEngine.GUI::get_roundedRectWithColorPerBorderMaterial()
-		void Register_UnityEngine_GUI_get_roundedRectWithColorPerBorderMaterial();
-		Register_UnityEngine_GUI_get_roundedRectWithColorPerBorderMaterial();
 
 	//End Registrations for type : UnityEngine.GUI
 
@@ -898,10 +858,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUIStyle_GetStyleStatePtr();
 		Register_UnityEngine_GUIStyle_GetStyleStatePtr();
 
-		//System.IntPtr UnityEngine.GUIStyle::Internal_Copy(UnityEngine.GUIStyle,UnityEngine.GUIStyle)
-		void Register_UnityEngine_GUIStyle_Internal_Copy();
-		Register_UnityEngine_GUIStyle_Internal_Copy();
-
 		//System.IntPtr UnityEngine.GUIStyle::Internal_Create(UnityEngine.GUIStyle)
 		void Register_UnityEngine_GUIStyle_Internal_Create();
 		Register_UnityEngine_GUIStyle_Internal_Create();
@@ -933,14 +889,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GUIStyle::SetDefaultFont(UnityEngine.Font)
 		void Register_UnityEngine_GUIStyle_SetDefaultFont();
 		Register_UnityEngine_GUIStyle_SetDefaultFont();
-
-		//System.Void UnityEngine.GUIStyle::set_alignment(UnityEngine.TextAnchor)
-		void Register_UnityEngine_GUIStyle_set_alignment();
-		Register_UnityEngine_GUIStyle_set_alignment();
-
-		//System.Void UnityEngine.GUIStyle::set_fontSize(System.Int32)
-		void Register_UnityEngine_GUIStyle_set_fontSize();
-		Register_UnityEngine_GUIStyle_set_fontSize();
 
 		//System.Void UnityEngine.GUIStyle::set_rawName(System.String)
 		void Register_UnityEngine_GUIStyle_set_rawName();
@@ -1454,15 +1402,35 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_PlayerPrefs_TrySetInt();
 		Register_UnityEngine_PlayerPrefs_TrySetInt();
 
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetSetString(System.String,System.String)
+		void Register_UnityEngine_PlayerPrefs_TrySetSetString();
+		Register_UnityEngine_PlayerPrefs_TrySetSetString();
+
 		//System.Int32 UnityEngine.PlayerPrefs::GetInt(System.String,System.Int32)
 		void Register_UnityEngine_PlayerPrefs_GetInt();
 		Register_UnityEngine_PlayerPrefs_GetInt();
+
+		//System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
+		void Register_UnityEngine_PlayerPrefs_GetString();
+		Register_UnityEngine_PlayerPrefs_GetString();
 
 		//System.Void UnityEngine.PlayerPrefs::Save()
 		void Register_UnityEngine_PlayerPrefs_Save();
 		Register_UnityEngine_PlayerPrefs_Save();
 
 	//End Registrations for type : UnityEngine.PlayerPrefs
+
+	//Start Registrations for type : UnityEngine.Profiling.Profiler
+
+		//System.Void UnityEngine.Profiling.Profiler::BeginSampleImpl(System.String,UnityEngine.Object)
+		void Register_UnityEngine_Profiling_Profiler_BeginSampleImpl();
+		Register_UnityEngine_Profiling_Profiler_BeginSampleImpl();
+
+		//System.Void UnityEngine.Profiling.Profiler::EndSample()
+		void Register_UnityEngine_Profiling_Profiler_EndSample();
+		Register_UnityEngine_Profiling_Profiler_EndSample();
+
+	//End Registrations for type : UnityEngine.Profiling.Profiler
 
 	//Start Registrations for type : UnityEngine.QualitySettings
 
@@ -1685,6 +1653,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Object UnityEngine.Resources::GetBuiltinResource(System.Type,System.String)
 		void Register_UnityEngine_Resources_GetBuiltinResource();
 		Register_UnityEngine_Resources_GetBuiltinResource();
+
+		//UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
+		void Register_UnityEngine_Resources_Load();
+		Register_UnityEngine_Resources_Load();
 
 	//End Registrations for type : UnityEngine.Resources
 
@@ -2070,17 +2042,9 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Texture2D_get_isReadable();
 		Register_UnityEngine_Texture2D_get_isReadable();
 
-		//System.Void UnityEngine.Texture2D::ApplyImpl(System.Boolean,System.Boolean)
-		void Register_UnityEngine_Texture2D_ApplyImpl();
-		Register_UnityEngine_Texture2D_ApplyImpl();
-
 		//System.Void UnityEngine.Texture2D::GetPixelBilinearImpl_Injected(System.Int32,System.Single,System.Single,UnityEngine.Color&)
 		void Register_UnityEngine_Texture2D_GetPixelBilinearImpl_Injected();
 		Register_UnityEngine_Texture2D_GetPixelBilinearImpl_Injected();
-
-		//System.Void UnityEngine.Texture2D::SetPixelsImpl(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color[],System.Int32,System.Int32)
-		void Register_UnityEngine_Texture2D_SetPixelsImpl();
-		Register_UnityEngine_Texture2D_SetPixelsImpl();
 
 		//UnityEngine.Texture2D UnityEngine.Texture2D::get_whiteTexture()
 		void Register_UnityEngine_Texture2D_get_whiteTexture();

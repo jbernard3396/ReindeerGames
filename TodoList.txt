@@ -1,20 +1,17 @@
 ReindeerGamesAppTodoList
 bugs and love
-PRancer prance
-Rodulph antlers
-Vixen sheild 
-bullet danger visibility
+Reset dialoge needs to reset on play
 
-Ads
 
-Menu 
-
-text cleanup
-
+Possible features
 Fireplace
-
-Snow
-
 On boarding
+Shop
+Modes
+Leaderboard
 
-Tips
+Settings:
+	Bullet color select
+	Double tap buffer toggle 
+
+
