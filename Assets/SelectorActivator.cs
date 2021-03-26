@@ -5,7 +5,8 @@ using static Config;
 
 public class SelectorActivator : MonoBehaviour
 {
-    public string myColor;
+    public string myKey;
+    public string myValue;
     private Renderer myRenderer;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,7 @@ public class SelectorActivator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetString("bulletColor") == myColor)
+        if (PlayerPrefs.GetString(myKey) == myValue)
         {
             myRenderer.enabled = true;
         } else

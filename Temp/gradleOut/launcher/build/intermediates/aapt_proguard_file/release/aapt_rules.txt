@@ -1,0 +1,397 @@
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:106
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:106
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:154
+-keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:160
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:164
+-keep class androidx.work.impl.WorkManagerInitializer { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:188
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:198
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:218
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:208
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:238
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:227
+-keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:171
+-keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:176
+-keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:183
+-keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:254
+-keep class com.adcolony.sdk.AdColonyAdViewActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:248
+-keep class com.adcolony.sdk.AdColonyInterstitialActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:264
+-keep class com.applovin.adview.AppLovinFullscreenActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:259
+-keep class com.applovin.adview.AppLovinInterstitialActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:299
+-keep class com.applovin.impl.adview.activity.FullscreenAdService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:295
+-keep class com.applovin.impl.sdk.utils.AppKilledService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:274
+-keep class com.applovin.mediation.MaxDebuggerActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:290
+-keep class com.applovin.mediation.MaxDebuggerAdUnitDetailActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:286
+-keep class com.applovin.mediation.MaxDebuggerAdUnitsListActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:278
+-keep class com.applovin.mediation.MaxDebuggerDetailActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:282
+-keep class com.applovin.mediation.MaxDebuggerMultiAdActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:271
+-keep class com.applovin.sdk.AppLovinWebViewActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:379
+-keep class com.bytedance.sdk.openadsdk.activity.TTDelegateActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:374
+-keep class com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:369
+-keep class com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:344
+-keep class com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:349
+-keep class com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:364
+-keep class com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:359
+-keep class com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:354
+-keep class com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:383
+-keep class com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:390
+-keep class com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:303
+-keep class com.bytedance.sdk.openadsdk.multipro.TTMultiProvider { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:388
+-keep class com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:391
+-keep class com.facebook.ads.AudienceNetworkActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:397
+-keep class com.facebook.ads.AudienceNetworkContentProvider { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:407
+-keep class com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:402
+-keep class com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:412
+-keep class com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:418
+-keep class com.fyber.inneractive.sdk.mraid.IAMraidKit { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:426
+-keep class com.fyber.inneractive.sdk.video.IAVideoKit { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:434
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:446
+-keep class com.google.android.gms.ads.AdService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:440
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:451
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:460
+-keep class com.inmobi.ads.rendering.InMobiAdActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:497
+-keep class com.ironsource.lifecycle.IronsourceLifecycleProvider { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:308
+-keep class com.ironsource.sdk.controller.ControllerActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:313
+-keep class com.ironsource.sdk.controller.InterstitialActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:319
+-keep class com.ironsource.sdk.controller.OpenUrlActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:500
+-keep class com.mintegral.msdk.activity.MTGCommonActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:508
+-keep class com.mintegral.msdk.interactiveads.activity.InteractiveShowActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:513
+-keep class com.mintegral.msdk.interstitial.view.MTGInterstitialActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:507
+-keep class com.mintegral.msdk.out.LoadingActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:517
+-keep class com.mintegral.msdk.reward.player.MTGRewardVideoActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:325
+-keep class com.my.target.common.MyTargetActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:523
+-keep class com.squareup.picasso.PicassoProvider { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:328
+-keep class com.tapjoy.TJAdUnitActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:339
+-keep class com.tapjoy.TJContentActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:528
+-keep class com.tapjoy.TapjoyReceiver { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:333
+-keep class com.tapjoy.mraid.view.ActionHandler { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:336
+-keep class com.tapjoy.mraid.view.Browser { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:125
+-keep class com.unity3d.player.UnityPlayerActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:465
+-keep class com.unity3d.services.ads.adunit.AdUnitActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:480
+-keep class com.unity3d.services.ads.adunit.AdUnitSoftwareActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:470
+-keep class com.unity3d.services.ads.adunit.AdUnitTransparentActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:475
+-keep class com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:529
+-keep class com.vungle.warren.NetworkProviderReceiver { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:485
+-keep class com.vungle.warren.ui.VungleActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:490
+-keep class com.vungle.warren.ui.VungleFlexViewActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:539
+-keep class com.vungle.warren.utility.VungleProvider { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:584
+-keep class com.yandex.metrica.ConfigurationJobService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:568
+-keep class com.yandex.metrica.ConfigurationService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:598
+-keep class com.yandex.metrica.ConfigurationServiceReceiver { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:590
+-keep class com.yandex.metrica.MetricaEventHandler { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:551
+-keep class com.yandex.metrica.MetricaService { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:608
+-keep class com.yandex.metrica.PreloadInfoContentProvider { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:547
+-keep class com.yandex.mobile.ads.AdActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:637
+-keep class com.yodo1.mas.mediation.yodo1.kit.Yodo1VPActivity { <init>(); }
+# Referenced at C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml:614
+-keep class com.yodo1.onlineconfig.Yodo1OlConfigProvider { <init>(); }
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_alert_dialog_title_material.xml:57
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_cascading_menu_item_layout.xml:20
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_popup_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_action_mode_bar.xml:19
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:43
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_dialog_title_material.xml:22
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_simple.xml:17
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_simple.xml:25
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\2f4e38186bcbf61b9c7ddf384dbc7a6c\androidx.browser.browser-1.3.0\res\layout\browser_actions_context_menu_page.xml:17
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\540778289d06c4fa11d81e37391dd9c8\androidx.appcompat.appcompat-1.2.0\res\layout\abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7b329406b7616ed2b9af9772355030aa\com.applovin.applovin-sdk-9.15.3\res\layout\mediation_debugger_ad_unit_detail_activity.xml:31
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7b329406b7616ed2b9af9772355030aa\com.applovin.applovin-sdk-9.15.3\res\layout\mediation_debugger_multi_ad_activity.xml:47
+-keep class com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_pangle_ad_banner_layout_600_300.xml:76
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_pangle_ad_instersitial_layout_2_3.xml:67
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_pangle_ad_instersitial_layout_3_2.xml:69
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_pangle_ad_instersitial_layout_3_2_1_1.xml:48
+-keep class com.bytedance.sdk.openadsdk.adapter.NiceImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video.xml:24
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video_new_bar_3_style.xml:24
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video_newstyle.xml:205
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_video_newstyle.xml:203
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_rewardvideo.xml:24
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_rewardvideo_new_bar_3_style.xml:25
+-keep class com.bytedance.sdk.openadsdk.component.reward.top.TopProxyLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video.xml:17
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video_new_bar_3_style.xml:17
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video_newstyle.xml:193
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_video_newstyle.xml:191
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_rewardvideo.xml:17
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_rewardvideo_new_bar_3_style.xml:18
+-keep class com.bytedance.sdk.openadsdk.core.widget.PlayableLoadingView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_banner_layout4_video.xml:47
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_insert_layout2_3.xml:14
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_insert_layout2_image_1_1.xml:14
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_insert_layout3_2_image_191_1.xml:18
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_insert_layout3_2_image_1_1.xml:15
+-keep class com.bytedance.sdk.openadsdk.core.widget.RatioFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_banner_layout4.xml:70
+-keep class com.bytedance.sdk.openadsdk.core.widget.RatioImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_videolandingpage.xml:75
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_banner_layout2.xml:63
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_feed_img_group.xml:21
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_video_ad_cover_layout.xml:26
+-keep class com.bytedance.sdk.openadsdk.core.widget.RoundImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_top_full_1.xml:23
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_top_reward_1.xml:7
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_top_reward_dislike_2.xml:23
+-keep class com.bytedance.sdk.openadsdk.core.widget.ShadowImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_top_reward_1.xml:24
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_top_reward_dislike_2.xml:40
+-keep class com.bytedance.sdk.openadsdk.core.widget.ShadowTextView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_privacy_dialog.xml:13
+-keep class com.bytedance.sdk.openadsdk.core.widget.TTCornersWebView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_splash_view.xml:36
+-keep class com.bytedance.sdk.openadsdk.core.widget.TTCountdownView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video_newstyle.xml:68
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_and_full_video_bar.xml:58
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_and_full_video_new_bar.xml:64
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_video_newstyle.xml:67
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_banner_layout1.xml:60
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_feed_video.xml:62
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_insert_layout2_3.xml:73
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_insert_layout3_2_image_1_1.xml:94
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_pangle_ad_instersitial_layout_2_3.xml:90
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_pangle_ad_instersitial_layout_3_2.xml:92
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_pangle_ad_instersitial_layout_3_2_1_1.xml:99
+-keep class com.bytedance.sdk.openadsdk.core.widget.TTRatingBar { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video_newstyle.xml:27
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_and_full_video_bar.xml:18
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_and_full_video_new_bar.xml:21
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_video_newstyle.xml:26
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_backup_feed_video.xml:22
+-keep class com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_splash_view.xml:19
+-keep class com.bytedance.sdk.openadsdk.core.widget.gif.GifView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_full_video_newstyle.xml:121
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_and_full_video_bar.xml:96
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_and_full_video_new_bar.xml:110
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_reward_video_newstyle.xml:119
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_ttlandingpage.xml:24
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_ttlandingpage_playable.xml:11
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_activity_videolandingpage.xml:145
+-keep class com.bytedance.sdk.openadsdk.core.widget.webview.SSWebView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\95d5cba76f10bcbc27394897353e94fd\com.bytedance.sdk.pangle-sdk-3.4.1.1\res\layout\tt_dislike_dialog_layout.xml:48
+-keep class com.bytedance.sdk.openadsdk.dislike.TTDislikeListView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\215c40928e39c16460c7558ff2105857\com.fyber.vamp.video-kit-7.8.1\res\layout\ia_video_view.xml:119
+-keep class com.fyber.inneractive.sdk.ui.IAsmoothProgressBar { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\e5a817924c6431ffe43249eaf2ea7c84\com.mintegral.msdk.oversea.interactiveads-15.4.51\res\layout\mintegral_loading_view.xml:7
+-keep class com.mintegral.msdk.interactiveads.view.MTGCircleView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\e5a817924c6431ffe43249eaf2ea7c84\com.mintegral.msdk.oversea.interactiveads-15.4.51\res\layout\mintegral_loading_dialog.xml:17
+-keep class com.mintegral.msdk.interactiveads.view.MTGLoadingView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\042f0f81dd9230a94e73f7cfd82c7657\com.mintegral.msdk.oversea.interstitial-15.4.51\res\layout\mintegral_interstitial_activity.xml:7
+-keep class com.mintegral.msdk.mtgsignalcommon.windvane.WindVaneWebView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\3b2537c2196fbd4f7ee7976e2e7e5493\com.mintegral.msdk.oversea.videojs-15.4.51\res\layout\mintegral_reward_videoview_item.xml:8
+-keep class com.mintegral.msdk.playercommon.PlayerView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7bb330424ae9496b51c2425fd5861807\com.mintegral.msdk.oversea.reward-15.4.51\res\layout\mintegral_more_offer_activity.xml:12
+-keep class com.mintegral.msdk.video.bt.module.MTGTempContainer { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7bb330424ae9496b51c2425fd5861807\com.mintegral.msdk.oversea.reward-15.4.51\res\layout\mintegral_more_offer_activity.xml:6
+-keep class com.mintegral.msdk.video.bt.module.MintegralBTContainer { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7bb330424ae9496b51c2425fd5861807\com.mintegral.msdk.oversea.reward-15.4.51\res\layout\mintegral_reward_activity_video_templete.xml:20
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7bb330424ae9496b51c2425fd5861807\com.mintegral.msdk.oversea.reward-15.4.51\res\layout\mintegral_reward_activity_video_templete_transparent.xml:23
+-keep class com.mintegral.msdk.video.module.MintegralContainerView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7bb330424ae9496b51c2425fd5861807\com.mintegral.msdk.oversea.reward-15.4.51\res\layout\mintegral_reward_activity_video_templete.xml:14
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\7bb330424ae9496b51c2425fd5861807\com.mintegral.msdk.oversea.reward-15.4.51\res\layout\mintegral_reward_activity_video_templete_transparent.xml:16
+-keep class com.mintegral.msdk.video.module.MintegralVideoView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\3b2537c2196fbd4f7ee7976e2e7e5493\com.mintegral.msdk.oversea.videojs-15.4.51\res\layout\mintegral_reward_videoview_item.xml:13
+-keep class com.mintegral.msdk.video.widget.SoundImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\3b2537c2196fbd4f7ee7976e2e7e5493\com.mintegral.msdk.oversea.videojs-15.4.51\res\layout\mintegral_reward_clickable_cta.xml:20
+-keep class com.mintegral.msdk.videocommon.view.MyImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\3b2537c2196fbd4f7ee7976e2e7e5493\com.mintegral.msdk.oversea.videojs-15.4.51\res\layout\mintegral_reward_endcard_native_hor.xml:29
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\3b2537c2196fbd4f7ee7976e2e7e5493\com.mintegral.msdk.oversea.videojs-15.4.51\res\layout\mintegral_reward_endcard_native_land.xml:28
+-keep class com.mintegral.msdk.videocommon.view.RoundImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\3b2537c2196fbd4f7ee7976e2e7e5493\com.mintegral.msdk.oversea.videojs-15.4.51\res\layout\mintegral_reward_endcard_native_hor.xml:72
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\3b2537c2196fbd4f7ee7976e2e7e5493\com.mintegral.msdk.oversea.videojs-15.4.51\res\layout\mintegral_reward_endcard_native_land.xml:80
+-keep class com.mintegral.msdk.videocommon.view.StarLevelView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\ddb65949c128dc4a232c29a4aa2d5751\com.yandex.android.mobileads-3.3.0\res\layout\yandex_ads_internal_instream_controls_skin.xml:2
+-keep class com.yandex.mobile.ads.instream.view.InstreamAdControlsView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\ddb65949c128dc4a232c29a4aa2d5751\com.yandex.android.mobileads-3.3.0\res\layout\yandex_ads_internal_instream_controls_skin.xml:27
+-keep class com.yandex.mobile.ads.instream.view.InstreamMuteView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\ddb65949c128dc4a232c29a4aa2d5751\com.yandex.android.mobileads-3.3.0\res\layout\yandex_ads_internal_native_interstitial.xml:12
+-keep class com.yandex.mobile.ads.interstitial.template.InterstitialNativeAdView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\ddb65949c128dc4a232c29a4aa2d5751\com.yandex.android.mobileads-3.3.0\res\layout\yandex_ads_internal_native_interstitial.xml:116
+-keep class com.yandex.mobile.ads.interstitial.template.view.CircleImageView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\ddb65949c128dc4a232c29a4aa2d5751\com.yandex.android.mobileads-3.3.0\res\layout\yandex_ads_internal_native_interstitial.xml:172
+-keep class com.yandex.mobile.ads.interstitial.template.view.ColorizedRatingView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\ddb65949c128dc4a232c29a4aa2d5751\com.yandex.android.mobileads-3.3.0\res\layout\yandex_ads_internal_native_interstitial.xml:28
+-keep class com.yandex.mobile.ads.interstitial.template.view.MediaViewContainer { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\ddb65949c128dc4a232c29a4aa2d5751\com.yandex.android.mobileads-3.3.0\res\layout\yandex_ads_internal_native_interstitial.xml:33
+-keep class com.yandex.mobile.ads.nativeads.MediaView { <init>(...); }
+
+# Referenced at C:\Users\jbern\.gradle\caches\transforms-2\files-2.1\9a05d12ec38e009f7fe0a0acf5add5b8\com.yodo1.mas.mediation.yodo1-4.0.3.0\res\layout\yodo1_vp_activity.xml:18
+-keep class com.yodo1.mas.mediation.yodo1.kit.Yodo1CountDownView { <init>(...); }
+

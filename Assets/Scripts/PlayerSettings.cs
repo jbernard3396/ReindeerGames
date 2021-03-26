@@ -42,7 +42,12 @@ public class PlayerSettings : MonoBehaviour
         {
             PlayerPrefs.SetString("bulletColor", "Red");
             PlayerPrefs.Save();
-        }        
+        }
+        if (!PlayerPrefs.HasKey("weatherStyle"))
+        {
+            PlayerPrefs.SetString("weatherStyle", "All");
+            PlayerPrefs.Save();
+        }
     }
 
     public void ToggleMusic()
