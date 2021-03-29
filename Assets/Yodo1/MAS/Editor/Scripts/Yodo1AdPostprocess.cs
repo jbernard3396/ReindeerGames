@@ -346,8 +346,7 @@ namespace Yodo1.MAS
         static void Yodo1ValidateGradle(string path)
         {
             Debug.Log("[Yodo1 Mas] path: " + path);
-            Debug.Log("PlayerSettings");
-            var gradlePath = Path.Combine(path, "Reindeer Games" + "/build.gradle");
+            var gradlePath = Path.Combine(path, "Reindeer Games" + " / build.gradle");
             ValidateGradlePluginVersion_(gradlePath);
 
         }

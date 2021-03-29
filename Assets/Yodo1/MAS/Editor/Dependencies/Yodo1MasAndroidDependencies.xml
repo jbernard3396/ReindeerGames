@@ -10,6 +10,6 @@
             <repository>https://dl.bintray.com/mintegral-official/Andorid_ad_SDK_for_china</repository>
             <repository>https://fyber.bintray.com/marketplace</repository>
         </repositories>
-        <androidPackage spec="com.yodo1.mas:full:4.0.2.1" />
+        <androidPackage spec="com.yodo1.mas:full:4.0.3.0" />
     </androidPackages>
 </dependencies>
