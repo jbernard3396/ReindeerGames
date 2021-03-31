@@ -54,6 +54,7 @@ public class basicMovement : MonoBehaviour
     private static System.Timers.Timer shotTimer;
     private float clx;
     private float crx;
+    private bool doubleTapPrevention;
 
     private Color spriteColor;
     public Color invColor;
@@ -97,6 +98,7 @@ public class basicMovement : MonoBehaviour
         Settings = GameObject.FindWithTag("Settings");
         saveDataScript = Settings.GetComponent<SaveData>();
         speed = 5f;
+        doubleTapPrevention = PlayerPrefs.GetInt("DoubleTapPrevention") == 1;
 
         clx = Config.getClx();
         crx = Config.getCrx();
@@ -108,6 +110,10 @@ public class basicMovement : MonoBehaviour
         jumpStrength = 8f;
         physicsTimeout = 0f;
         invincibilityTimer = 0f;
+        if (Config.restartAdUsed)
+        {
+            invincibilityTimer = 3f;
+        }
 
         anim = GetComponent<Animator>();
         abilityScript = Config.character;
@@ -199,13 +205,13 @@ public class basicMovement : MonoBehaviour
         bool jumpAttempt = Input.GetButtonDown("Fire1");
         if (jumpAttempt && (jumpsLeft > 0))
         {
-            if (jumpTimer <= 0)
+            if (jumpTimer <= 0 || !doubleTapPrevention)
             {
                 jump();
             }
         } else if (jumpAttempt && (activesLeft > 0))
         {
-            if (jumpTimer <= 0)
+            if (jumpTimer <= 0 || !doubleTapPrevention)
             {
                 special();
             }
@@ -225,8 +231,12 @@ public class basicMovement : MonoBehaviour
 
     void special()
     {
-        anim.SetTrigger("Ability");
+        anim.SetTrigger("Ability");     
         abilityScript.activateAbility();
+        if (invincible)
+        {
+            invincibilityTimer = 0;
+        }
         activesLeft -= 1;
         jumpTimer = jumpTimerReset;
     }

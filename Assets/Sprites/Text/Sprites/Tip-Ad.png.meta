@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -928217778783428271
     second: Tip-Ad 0
+  - first:
+      213: -5915042697505567091
+    second: tip-Ad 0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -80,7 +83,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tip-Ad 0
+      name: tip-Ad 0
       rect:
         serializedVersion: 2
         x: 0
@@ -94,8 +97,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 151696d19de4e13f0800000000000000
-      internalID: -928217778783428271
+      spriteID: d8e89ef710c89eda0800000000000000
+      internalID: -5915042697505567091
       vertices: []
       indices: 
       edges: []

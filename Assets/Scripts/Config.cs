@@ -11,6 +11,7 @@ public class Config
     public static Ability character;
     public static int characterIndex;
     public static int score;
+    public static string bulletColor;
     public static bool restartAdUsed;
     public static bool characterLocked;
     public static bool allUnlocked;
@@ -145,6 +146,18 @@ public class Config
         set
         {
             characterIndex = value;
+        }
+    }
+
+    public static string BulletColor
+    {
+        get
+        {
+            return bulletColor;
+        }
+        set
+        {
+            bulletColor = value;
         }
     }
 

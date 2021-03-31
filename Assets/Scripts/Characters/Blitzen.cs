@@ -66,7 +66,7 @@ public class Blitzen : Ability
             {
                 LazerMovement lazerScript = lazer.GetComponent<LazerMovement>();
                 lazerScript.towardsPlayer = true;
-                lazerScript.isHeart = true; //TODO:J Maybe no
+                lazerScript.isHeart = true; 
                 lazerScript.targetBody = myTransform;
             }
         }

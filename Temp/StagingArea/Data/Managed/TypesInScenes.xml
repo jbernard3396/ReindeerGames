@@ -24,7 +24,6 @@
 		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
-		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimatorOverrideController" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
@@ -36,10 +35,10 @@
 		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
-		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
@@ -49,6 +48,8 @@
 		<type fullname="UnityEngine.BoxCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody2D" preserve="nothing"/>
 		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
@@ -58,6 +59,8 @@
 		<type fullname="AddButton" preserve="nothing"/>
 		<type fullname="BackCharacter" preserve="nothing"/>
 		<type fullname="Blitzen" preserve="nothing"/>
+		<type fullname="ChangeScene" preserve="nothing"/>
+		<type fullname="CheckBoxController" preserve="nothing"/>
 		<type fullname="CoinCollected" preserve="nothing"/>
 		<type fullname="CoinManager" preserve="nothing"/>
 		<type fullname="Comet" preserve="nothing"/>
@@ -75,22 +78,28 @@
 		<type fullname="LazerMovement" preserve="nothing"/>
 		<type fullname="MasterAll" preserve="nothing"/>
 		<type fullname="Menu" preserve="nothing"/>
+		<type fullname="MusicSelection" preserve="nothing"/>
 		<type fullname="NextCharacter" preserve="nothing"/>
 		<type fullname="NumberDisplay" preserve="nothing"/>
 		<type fullname="Persist" preserve="nothing"/>
 		<type fullname="Play" preserve="nothing"/>
 		<type fullname="PlayerSettings" preserve="nothing"/>
+		<type fullname="PositionCost" preserve="nothing"/>
 		<type fullname="PositionReplay" preserve="nothing"/>
 		<type fullname="Prancer" preserve="nothing"/>
+		<type fullname="PrivacyPolicyLink" preserve="nothing"/>
 		<type fullname="Reset" preserve="nothing"/>
 		<type fullname="Rudolph" preserve="nothing"/>
 		<type fullname="SaveData" preserve="nothing"/>
 		<type fullname="ScoreManager" preserve="nothing"/>
+		<type fullname="SelectorActivator" preserve="nothing"/>
+		<type fullname="SettingsSelectorScript" preserve="nothing"/>
 		<type fullname="Spin" preserve="nothing"/>
 		<type fullname="TipGenerator" preserve="nothing"/>
 		<type fullname="UnlockAll" preserve="nothing"/>
 		<type fullname="Vixen" preserve="nothing"/>
 		<type fullname="WallAnimatorController" preserve="nothing"/>
+		<type fullname="Yodo1.MAS.Yodo1AdSettings" preserve="nothing"/>
 		<type fullname="basicMovement" preserve="nothing"/>
 		<type fullname="characterSelect" preserve="nothing"/>
 		<type fullname="displayHighScoreInGame" preserve="nothing"/>
@@ -101,20 +110,9 @@
 		<type fullname="selfDestroy" preserve="nothing"/>
 		<type fullname="snowController" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="Unity.TextMeshPro">
-		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
-		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
-		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
-		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEngine.Advertisements">
-		<type fullname="UnityEngine.Advertisements.Placeholder" preserve="nothing"/>
-		<type fullname="UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Outline" preserve="nothing"/>
 	</assembly>
 </linker>

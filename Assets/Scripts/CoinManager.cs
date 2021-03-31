@@ -39,7 +39,7 @@ public class CoinManager : MonoBehaviour
         rightBound = Config.getCrx() - 3;
         bottomBound = Config.getCby()+.1f;
         topBound = Config.getCty() *.6f;
-        Debug.Log(scoreScript.highScore);
+        //Debug.Log(scoreScript.highScore);
         
         CoinCollectSource = GameObject.Find("CoinSFX");
         CoinCollectSFX = CoinCollectSource.GetComponent<AudioSource>();
@@ -50,7 +50,7 @@ public class CoinManager : MonoBehaviour
     {
         if (!realCoinInstance)
         {
-            if (scoreScript.highScore == 0)
+            if (scoreScript.highScore == scoreScript.score)
             {
                 ccgo = collectedCoinGold;
                 realCoinInstance = Instantiate(realCoinGold, generateLocation(), Quaternion.identity);
@@ -64,8 +64,6 @@ public class CoinManager : MonoBehaviour
             }
             fc_Collider = fakeCoinInstance.GetComponent<CircleCollider2D>();
         }
-        //Debug.DrawRay(new Vector3(rightBound, bottomBound, 0), Vector3.up*10, Color.yellow);
-        //Debug.DrawRay(new Vector3(leftBound, bottomBound, 0), Vector3.up*10, Color.yellow);
     }
 
     private Vector3 generateLocation()

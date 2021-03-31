@@ -14,14 +14,12 @@ public class PlayerSettings : MonoBehaviour
 
     public void Awake()
     {
-        // 1
         if (!PlayerPrefs.HasKey("music"))
         {
             PlayerPrefs.SetInt("music", 1);
             songOn = true;
             PlayerPrefs.Save();
         }
-        // 2
         else
         {
             if (PlayerPrefs.GetInt("music") == 0)
@@ -32,6 +30,23 @@ public class PlayerSettings : MonoBehaviour
             {
                 songOn = true;
             }
+        }
+
+        if (!PlayerPrefs.HasKey("DoubleTapPrevention"))
+        {
+            PlayerPrefs.SetInt("DoubleTapPrevention", 1);
+            PlayerPrefs.Save();
+        }
+
+        if (!PlayerPrefs.HasKey("bulletColor"))
+        {
+            PlayerPrefs.SetString("bulletColor", "Red");
+            PlayerPrefs.Save();
+        }
+        if (!PlayerPrefs.HasKey("weatherStyle"))
+        {
+            PlayerPrefs.SetString("weatherStyle", "All");
+            PlayerPrefs.Save();
         }
     }
 

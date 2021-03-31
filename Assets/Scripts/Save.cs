@@ -9,4 +9,5 @@ public class Save
     public System.DateTime startDate = System.DateTime.Now;
     public int[] reindeerCoins = new int[9];
     public int totalCoins;
+    public string bulletColor;
 }

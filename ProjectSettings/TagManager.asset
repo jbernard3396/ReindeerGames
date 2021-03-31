@@ -8,7 +8,6 @@ TagManager:
   - Coin
   - Heart
   - Settings
-  - Tip
   layers:
   - Default
   - TransparentFX

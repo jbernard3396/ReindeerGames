@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         bool restart = Input.GetButtonDown("Fire2");
-        if (restart || !basicMovementScript)// && basicMovementScript.dead)
+        if (restart || !basicMovementScript)
         {
             Config.score = scoreScript.score;
             Time.timeScale = 1f;

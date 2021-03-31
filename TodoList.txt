@@ -1,12 +1,17 @@
 ReindeerGamesAppTodoList
 bugs and love
+Reset dialoge needs to reset on play
 
-Low priority
-Rodulph antlers
-Vixen sheild 
+
+Possible features
 Fireplace
-Color Pallette change 
+On boarding
+Shop
+Modes
+Leaderboard
 
-
+Settings:
+	Bullet color select
+	Double tap buffer toggle 
 
 

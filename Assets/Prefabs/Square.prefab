@@ -120,7 +120,7 @@ MonoBehaviour:
   jumpsLeft: 2
   activesLeft: 1
   invincibilityTimer: 0
-  invColor: {r: 0.73333335, g: 0.8392157, b: 1, a: 1}
+  invColor: {r: 0.7311321, g: 0.82602096, b: 1, a: 1}
   sheildDestoryed: {fileID: 6681354066145483309, guid: 78aba4e39890a164b853bc6baf1c2d4e,
     type: 3}
   dead: 0

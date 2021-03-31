@@ -10,6 +10,9 @@ public class resetConfimation : MonoBehaviour
     private Transform myTransform;
     private Renderer myRenderer;
 
+    private GameObject characterSelector;
+    private characterSelect characterSelectScript;
+
     public bool confirm;
 
     // Start is called before the first frame update
@@ -19,6 +22,9 @@ public class resetConfimation : MonoBehaviour
         myRenderer = gameObject.GetComponent<Renderer>();
         Settings = GameObject.FindWithTag("Settings");
         saveDataScript = Settings.GetComponent<SaveData>();
+
+        characterSelector = GameObject.Find("CharacterPanel");
+        characterSelectScript = characterSelector.GetComponent<characterSelect>();
 
         myRenderer.enabled = false;
 
@@ -42,6 +48,10 @@ public class resetConfimation : MonoBehaviour
         if (confirm)
         {
             saveDataScript.deleteSave();
+            Config.characterIndex = 0;
+            Debug.Log(characterSelector);
+            Debug.Log(characterSelectScript);
+            characterSelectScript.resetCharacter();
         }
         Config.resetToggled = false;
     }

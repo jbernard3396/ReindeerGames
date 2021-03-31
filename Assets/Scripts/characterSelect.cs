@@ -81,6 +81,12 @@ public class characterSelect : MonoBehaviour
         setCharacter();
     }
 
+    public void resetCharacter()
+    {
+        scriptIndex = 0;
+        setCharacter();
+    }
+
     void setCharacter()
     {
         currentScript = scripts[scriptIndex];
@@ -104,7 +110,7 @@ public class characterSelect : MonoBehaviour
             anim.SetBool("Locked", true);
         }
 
-        if(highScore > 25)
+        if(highScore >= 25)
         {
             anim.SetBool("Mastered", true);
         } else

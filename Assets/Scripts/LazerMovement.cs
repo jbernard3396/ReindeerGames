@@ -10,6 +10,13 @@ public class LazerMovement : MonoBehaviour
 {
     public Animator anim;
 
+    public RuntimeAnimatorController blueAnimator;
+    public RuntimeAnimatorController blackAnimator;
+    public RuntimeAnimatorController redAnimator;
+    public RuntimeAnimatorController goldAnimator;
+    private RuntimeAnimatorController animatorController;
+
+
     private Vector3 vel = new Vector3(0, -2f, 0f);
     private float crx; 
     private float clx; 
@@ -49,6 +56,24 @@ public class LazerMovement : MonoBehaviour
         LazerBounceSource = GameObject.Find("LazerBounceSFX");
         LazerBounceSFX = LazerBounceSource.GetComponent<AudioSource>();
 
+
+        if (PlayerPrefs.GetString("bulletColor") == "Blue")
+        {
+            animatorController = blueAnimator;
+        }
+        else if (PlayerPrefs.GetString("bulletColor") == "Red")
+        {
+            animatorController = redAnimator;
+        }
+        else if (PlayerPrefs.GetString("bulletColor") == "Black")
+        {
+            animatorController = blackAnimator;
+        }
+        else if (PlayerPrefs.GetString("bulletColor") == "Gold")
+        {
+            animatorController = goldAnimator;
+        }
+        anim.runtimeAnimatorController = Instantiate(animatorController) as RuntimeAnimatorController;
 
 
         crx = Config.getCrx();

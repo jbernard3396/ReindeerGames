@@ -10,7 +10,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -22,7 +23,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -34,7 +36,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -46,7 +49,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -58,7 +62,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -84,7 +89,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -110,7 +116,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -199,7 +206,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -246,7 +254,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -258,7 +267,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -270,7 +280,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -282,7 +293,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -306,7 +318,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -318,19 +331,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RectTransform",
-            "fullManagedTypeName": "UnityEngine.RectTransform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Start.unity",
-                "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -342,7 +344,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -365,7 +368,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -377,7 +381,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -389,7 +394,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -401,7 +407,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -413,7 +420,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -425,7 +433,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -437,7 +446,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -449,7 +459,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -461,18 +472,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Font",
-            "fullManagedTypeName": "UnityEngine.Font",
-            "moduleName": "TextRendering",
-            "usedInScenes": [
-                "Assets/Scenes/Start.unity",
-                "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -484,7 +485,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -496,7 +498,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -508,7 +511,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -520,7 +524,17 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightProbes",
+            "fullManagedTypeName": "UnityEngine.LightProbes",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start.unity"
             ]
         },
         {
@@ -532,7 +546,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -556,7 +571,8 @@
                 "Assets/Scenes/Start.unity",
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -589,7 +605,8 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -599,7 +616,8 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -610,7 +628,7 @@
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -621,7 +639,7 @@
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity"
+                "Assets/Scenes/Settings.unity"
             ]
         },
         {
@@ -631,7 +649,8 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity"
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity"
             ]
         },
         {
@@ -639,6 +658,30 @@
             "nativeClass": "Canvas",
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
@@ -701,6 +744,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Blitzen",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ChangeScene",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CheckBoxController",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -826,6 +883,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "MusicSelection",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "NextCharacter",
             "moduleName": "",
             "usedInScenes": []
@@ -861,6 +925,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "PositionCost",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "PositionReplay",
             "moduleName": "",
             "usedInScenes": []
@@ -869,6 +940,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Prancer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PrivacyPolicyLink",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -897,6 +975,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ScoreManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SelectorActivator",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SettingsSelectorScript",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -932,6 +1024,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "WallAnimatorController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Yodo1.MAS.Yodo1AdSettings",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -999,48 +1098,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_FontAsset",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_Settings",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.Advertisements.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Advertisements.Placeholder",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.Advertisements.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventTrigger",
@@ -1058,13 +1115,6 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.Outline",
             "moduleName": "",
             "usedInScenes": []
         }

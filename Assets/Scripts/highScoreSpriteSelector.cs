@@ -11,6 +11,11 @@ public class highScoreSpriteSelector : MonoBehaviour
     private SaveData saveDataScript;
     private Transform myTransform;
 
+    private GameObject highScoreText;
+    private Transform highScoreTransform;
+    private float highScoreRightSide;
+
+
     private int reindeerIndex;
     private int highScore;
     private int cost;
@@ -30,6 +35,10 @@ public class highScoreSpriteSelector : MonoBehaviour
         myTransform = gameObject.GetComponent<Transform>();
         myRenderer = gameObject.GetComponent<SpriteRenderer>();
         ogPosition = myTransform.position;
+
+        highScoreText = GameObject.Find("HighscoreSprite");
+        highScoreTransform = highScoreText.GetComponent<Transform>();
+
 
         characterCosts = Config.characterCosts;
 
@@ -62,7 +71,9 @@ public class highScoreSpriteSelector : MonoBehaviour
         } 
         if (Config.CharacterLocked)
         {
-            myTransform.position = new Vector3(ogPosition.x -1, ogPosition.y, ogPosition.z);
+            highScoreRightSide = highScoreTransform.position.x - (highScoreText.GetComponent<BoxCollider2D>().size.x / 2);
+            Debug.Log(highScoreText.GetComponent<BoxCollider2D>().size.x);
+            myTransform.position = new Vector3(highScoreRightSide + .0f, ogPosition.y, ogPosition.z);
             myRenderer.sprite = costSprite;
         }
     }

@@ -44,6 +44,7 @@ public class SaveData : MonoBehaviour
             save.reindeerCoins[i] = 0;
         }
         save.totalCoins = 0;
+        save.bulletColor = "Red";
 
         return save;
     }
