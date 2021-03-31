@@ -1307,4 +1307,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game.unity
   - Assets/Scenes/GameOver.unity
   - Assets/Scenes/Settings.unity
-  playerPath: C:/Users/jbern/Documents/GitHub/ReindeerGames/Build
+  playerPath: C:/Users/jbern/Documents/GitHub/ReindeerGames/BuildTestNOPODSINSTALLPROJIntegration
