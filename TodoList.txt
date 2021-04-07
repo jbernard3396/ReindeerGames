@@ -1,0 +1,17 @@
+ReindeerGamesAppTodoList
+bugs and love
+Reset dialoge needs to reset on play
+
+
+Possible features
+Fireplace
+On boarding
+Shop
+Modes
+Leaderboard
+
+Settings:
+	Bullet color select
+	Double tap buffer toggle 
+
+

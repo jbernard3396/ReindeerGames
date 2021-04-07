@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dasher-Mastered
+  m_Controller: {fileID: 9100000, guid: 06c156a6f8b024342a7a29b1ba18a6b6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6fd96232d1e91d147a7cf6a221fd2bbc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bb5a34af8258a9942b593ce80b22a41d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2cc16d9e729119b469f2b0e42ff576d3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9c234fa50eeb63d439455c8c37fb5c94, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: def6db4bf93a85a44845b439d3b4120e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2e8f7a6d3d9e7df4dabf322201399f4f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ef10cfec16dba8049a1c82a17161d392, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 27a6657503188a34db3aca080c8449db, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a42478b7b0e037c429858b45b26ab167, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 79d379938d96f7947bdb28432b0124fd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d3571dea347d07a459a9120277b770a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 09800d22a9bf18342b1475d52f136c71, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e8cca222f77a9244cb9509a3663afdd5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 38c37f1bb68f4444e9a73de02e60e325, type: 2}
