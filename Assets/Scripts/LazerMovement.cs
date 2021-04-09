@@ -10,11 +10,18 @@ public class LazerMovement : MonoBehaviour
 {
     public Animator anim;
 
+    public RuntimeAnimatorController blueAnimator;
+    public RuntimeAnimatorController blackAnimator;
+    public RuntimeAnimatorController redAnimator;
+    public RuntimeAnimatorController goldAnimator;
+    private RuntimeAnimatorController animatorController;
+
+
     private Vector3 vel = new Vector3(0, -2f, 0f);
-    private float crx; 
-    private float clx; 
+    private float crx;
+    private float clx;
     private float cby;
-    private float cty; 
+    private float cty;
     private GameObject[] lazersInScene;
 
     private GameObject LazerBounceSource;
@@ -50,6 +57,24 @@ public class LazerMovement : MonoBehaviour
         LazerBounceSFX = LazerBounceSource.GetComponent<AudioSource>();
 
 
+        if (PlayerPrefs.GetString("bulletColor") == "Blue")
+        {
+            animatorController = blueAnimator;
+        }
+        else if (PlayerPrefs.GetString("bulletColor") == "Red")
+        {
+            animatorController = redAnimator;
+        }
+        else if (PlayerPrefs.GetString("bulletColor") == "Black")
+        {
+            animatorController = blackAnimator;
+        }
+        else if (PlayerPrefs.GetString("bulletColor") == "Gold")
+        {
+            animatorController = goldAnimator;
+        }
+        anim.runtimeAnimatorController = Instantiate(animatorController) as RuntimeAnimatorController;
+
 
         crx = Config.getCrx();
         clx = Config.getClx();
@@ -64,7 +89,8 @@ public class LazerMovement : MonoBehaviour
             if (lazer.GetComponent<Transform>() == myBody)
             {
                 //its me, do nothing
-            } else
+            }
+            else
             {
                 LazerMovement lazerScript = lazer.GetComponent<LazerMovement>();
                 lazerScript.isLastLazer = false;
@@ -93,11 +119,11 @@ public class LazerMovement : MonoBehaviour
         if (towardsPlayer)
         {
             vel = (targetBody.position - myBody.position).normalized * 30;
-            
+
         }
         myBody.Translate(vel[0] * Time.deltaTime, vel[1] * Time.deltaTime, 0); //Don't move in the z axis cause we don't wanna screw up sprite display
 
-        if (myBody.position.y <= cby-.2f && vel[1] < 0)
+        if (myBody.position.y <= cby - .2f && vel[1] < 0)
         {
             anim.SetBool("Up", true);
         }
@@ -106,7 +132,7 @@ public class LazerMovement : MonoBehaviour
             anim.SetBool("Up", false);
         }
 
-        if ((myBody.position.y <= cby-.58f && vel[1] < 0)|| myBody.position.y >= cty && vel[1] > 0)
+        if ((myBody.position.y <= cby - .58f && vel[1] < 0) || myBody.position.y >= cty && vel[1] > 0)
         {
             bounce();
         }
@@ -116,7 +142,8 @@ public class LazerMovement : MonoBehaviour
             if (isHeart)
             {
                 anim.SetBool("isHeart", true);
-            } else
+            }
+            else
             {
                 anim.SetBool("isHeart", false);
             }
@@ -130,10 +157,10 @@ public class LazerMovement : MonoBehaviour
         {
             //LazerBounceSFX.Play();
         }
-        float yPos = Mathf.Max(Mathf.Min(myBody.position.y, cty), cby-.7f);
+        float yPos = Mathf.Max(Mathf.Min(myBody.position.y, cty), cby - .7f);
         myBody.position = new Vector3(myBody.position.x, yPos, myBody.position.z);
         vel[1] = -vel[1];
-        
+
     }
 
     void wrap() //TODO:J move this to a global helper script?

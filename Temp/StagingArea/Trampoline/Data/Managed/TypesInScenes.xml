@@ -38,6 +38,7 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
@@ -58,6 +59,8 @@
 		<type fullname="AddButton" preserve="nothing"/>
 		<type fullname="BackCharacter" preserve="nothing"/>
 		<type fullname="Blitzen" preserve="nothing"/>
+		<type fullname="ChangeScene" preserve="nothing"/>
+		<type fullname="CheckBoxController" preserve="nothing"/>
 		<type fullname="CoinCollected" preserve="nothing"/>
 		<type fullname="CoinManager" preserve="nothing"/>
 		<type fullname="Comet" preserve="nothing"/>
@@ -74,7 +77,6 @@
 		<type fullname="Initiate" preserve="nothing"/>
 		<type fullname="LazerMovement" preserve="nothing"/>
 		<type fullname="MasterAll" preserve="nothing"/>
-		<type fullname="Menu" preserve="nothing"/>
 		<type fullname="MusicSelection" preserve="nothing"/>
 		<type fullname="NextCharacter" preserve="nothing"/>
 		<type fullname="NumberDisplay" preserve="nothing"/>
@@ -89,6 +91,8 @@
 		<type fullname="Rudolph" preserve="nothing"/>
 		<type fullname="SaveData" preserve="nothing"/>
 		<type fullname="ScoreManager" preserve="nothing"/>
+		<type fullname="SelectorActivator" preserve="nothing"/>
+		<type fullname="SettingsSelectorScript" preserve="nothing"/>
 		<type fullname="Spin" preserve="nothing"/>
 		<type fullname="TipGenerator" preserve="nothing"/>
 		<type fullname="UnlockAll" preserve="nothing"/>

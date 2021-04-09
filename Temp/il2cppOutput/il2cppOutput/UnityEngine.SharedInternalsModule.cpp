@@ -39,6 +39,8 @@ struct FreeFunctionAttribute_tBB3B939D760190FEC84762F1BA94B99672613D03;
 struct IDictionary_t99871C56B8EC2452AC5C4CF3831695E617B89D3A;
 // UnityEngine.Bindings.IgnoreAttribute
 struct IgnoreAttribute_tAB4906F0BB2E4FD1CAE2D8D21DFD776EA434E5CA;
+// UnityEngine.Bindings.NativeAsStructAttribute
+struct NativeAsStructAttribute_tB664BE8A337A63DCA81BC69418AC482FAD5CDB3E;
 // UnityEngine.NativeClassAttribute
 struct NativeClassAttribute_tBE8213A7A54307A9A771B70B38CB946BED926B0D;
 // UnityEngine.Bindings.NativeConditionalAttribute
@@ -874,6 +876,15 @@ public:
 	{
 		___U3CDoesNotContributeToSizeU3Ek__BackingField_0 = value;
 	}
+};
+
+
+// UnityEngine.Bindings.NativeAsStructAttribute
+struct  NativeAsStructAttribute_tB664BE8A337A63DCA81BC69418AC482FAD5CDB3E  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+
+public:
 };
 
 
@@ -2200,6 +2211,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreAttribute_set_DoesNotContributeToS
 }
 // System.Void UnityEngine.Bindings.IgnoreAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreAttribute__ctor_mCB2F67CEE16D75C8921A9DE4473CA00CBF4825BF (IgnoreAttribute_tAB4906F0BB2E4FD1CAE2D8D21DFD776EA434E5CA * __this, const RuntimeMethod* method)
+{
+	{
+		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.Bindings.NativeAsStructAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeAsStructAttribute__ctor_m0AF3CC547D89290119C9C2B6C65025A3C34CDBEF (NativeAsStructAttribute_tB664BE8A337A63DCA81BC69418AC482FAD5CDB3E * __this, const RuntimeMethod* method)
 {
 	{
 		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);

@@ -54,6 +54,7 @@ public class basicMovement : MonoBehaviour
     private static System.Timers.Timer shotTimer;
     private float clx;
     private float crx;
+    private bool doubleTapPrevention;
 
     private Color spriteColor;
     public Color invColor;
@@ -97,6 +98,7 @@ public class basicMovement : MonoBehaviour
         Settings = GameObject.FindWithTag("Settings");
         saveDataScript = Settings.GetComponent<SaveData>();
         speed = 5f;
+        doubleTapPrevention = PlayerPrefs.GetInt("DoubleTapPrevention") == 1;
 
         clx = Config.getClx();
         crx = Config.getCrx();
@@ -121,7 +123,8 @@ public class basicMovement : MonoBehaviour
         if (highScore >= 25 || Config.allMastered)
         {
             animatorController = abilityScript.MasteredCont;
-        } else
+        }
+        else
         {
             animatorController = abilityScript.Cont;
         }
@@ -130,7 +133,7 @@ public class basicMovement : MonoBehaviour
         vel = new Vector2(speed, 0f);
         //myBody.position = new Vector3(2, 0, 0);
 
-        shotTimer = new System.Timers.Timer(jumpTimerReset*1000);
+        shotTimer = new System.Timers.Timer(jumpTimerReset * 1000);
         shotTimer.Elapsed += OnTimedEvent;
         shotTimer.Enabled = true;
         shotTimer.AutoReset = false;
@@ -142,8 +145,8 @@ public class basicMovement : MonoBehaviour
     void Update()
     {
         abilityScript.Update();
-        
-        
+
+
         if (createLazer)
         {
             fire();
@@ -157,7 +160,8 @@ public class basicMovement : MonoBehaviour
             {
                 vel[1] = Mathf.Min(0, vel[1]);
             }
-        } else
+        }
+        else
         {
             gravity();
             terminalVelocity();
@@ -171,11 +175,14 @@ public class basicMovement : MonoBehaviour
             Time.timeScale *= .1f;
             hasDeadStopped = true;
 
-        } else if (dead)
+        }
+        else if (dead)
         {
-            if (Time.timeScale* 1.01f < 1) {
+            if (Time.timeScale * 1.01f < 1)
+            {
                 Time.timeScale *= 1.01f;
-            } else
+            }
+            else
             {
                 Time.timeScale = 1;
             }
@@ -203,17 +210,18 @@ public class basicMovement : MonoBehaviour
         bool jumpAttempt = Input.GetButtonDown("Fire1");
         if (jumpAttempt && (jumpsLeft > 0))
         {
-            if (jumpTimer <= 0)
+            if (jumpTimer <= 0 || !doubleTapPrevention)
             {
                 jump();
             }
-        } else if (jumpAttempt && (activesLeft > 0))
+        }
+        else if (jumpAttempt && (activesLeft > 0))
         {
-            if (jumpTimer <= 0)
+            if (jumpTimer <= 0 || !doubleTapPrevention)
             {
                 special();
             }
-        }   
+        }
     }
 
     public void jump()
@@ -229,7 +237,7 @@ public class basicMovement : MonoBehaviour
 
     void special()
     {
-        anim.SetTrigger("Ability");     
+        anim.SetTrigger("Ability");
         abilityScript.activateAbility();
         if (invincible)
         {
@@ -245,16 +253,18 @@ public class basicMovement : MonoBehaviour
         {
             createLazer = true;
             shotTimer.Stop();
-        } catch (Exception err) {
+        }
+        catch (Exception err)
+        {
             Debug.Log(err);
         }
     }
 
     void fire()
     {
-        if (myBody.position.x < Config.getCrx()-1 && myBody.position.x > Config.getClx()+1)
+        if (myBody.position.x < Config.getCrx() - 1 && myBody.position.x > Config.getClx() + 1)
         {
-            GameObject newLazer = Instantiate(lazer, new Vector3(myBody.position.x, myBody.position.y-.8f, -1), Quaternion.identity); //TODO:J figure out the exact right amount
+            GameObject newLazer = Instantiate(lazer, new Vector3(myBody.position.x, myBody.position.y - .8f, -1), Quaternion.identity); //TODO:J figure out the exact right amount
         }
         createLazer = false;
     }
@@ -280,7 +290,8 @@ public class basicMovement : MonoBehaviour
         if (vel[0] >= speed + bfriction * Time.deltaTime)
         {
             vel[0] -= bfriction * Time.deltaTime;
-        } else if (vel[0] > speed)
+        }
+        else if (vel[0] > speed)
         {
             vel[0] = speed * Time.deltaTime;
         }
@@ -288,7 +299,8 @@ public class basicMovement : MonoBehaviour
         if (vel[0] <= speed - ffriction * Time.deltaTime)
         {
             vel[0] += ffriction * Time.deltaTime;
-        } else if (vel[0] < speed)
+        }
+        else if (vel[0] < speed)
         {
             vel[0] = speed;
         }
@@ -303,7 +315,7 @@ public class basicMovement : MonoBehaviour
             jumpsLeft = 2;
             activesLeft = 1;
             if (invincible && invincibilityTimer < .1f)
-            { 
+            {
                 invincibilityTimer = .1f;
             }
             anim.SetTrigger("Land");
@@ -312,9 +324,9 @@ public class basicMovement : MonoBehaviour
 
     void ceil()
     {
-        if (myBody.position.y > Config.getCty()-.5f)
+        if (myBody.position.y > Config.getCty() - .5f)
         {
-            myBody.position = new Vector3(myBody.position.x, Config.getCty()-.5f, 0);
+            myBody.position = new Vector3(myBody.position.x, Config.getCty() - .5f, 0);
             vel[1] = 0;
             invincibilityTimer = 0;
         }
@@ -330,7 +342,7 @@ public class basicMovement : MonoBehaviour
         {
             myBody.position = new Vector3(crx, myBody.position.y, 0);
         }
-    }    
+    }
 
     void OnTriggerStay2D(Collider2D other) //Helps when gift appears in player
     {
@@ -368,7 +380,7 @@ public class basicMovement : MonoBehaviour
                 theirAnim.SetTrigger("Splat");
                 ChompBulletSFX.Play();
                 isDeadly = false;
-                if(hasSheild && !isHeart)
+                if (hasSheild && !isHeart)
                 {
                     hasSheild = false;
                     anim.SetBool("IsSheilded", false);
@@ -395,7 +407,7 @@ public class basicMovement : MonoBehaviour
         Debug.Log(abilityScript.getName());
         Debug.Log(scoreScript.score);
 
-        
+
 
         Debug.Log(AnalyticsEvent.Custom("Reindeer Score", new Dictionary<string, object>
         {

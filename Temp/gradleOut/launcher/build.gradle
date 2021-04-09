@@ -23,7 +23,7 @@ android {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
         versionCode 3
-        versionName '1.7'
+        versionName '1.8'
     }
 
     aaptOptions {
@@ -34,7 +34,7 @@ android {
     signingConfigs {
         release {
             storeFile file('C:/Users/jbern/Documents/GitHub/ReindeerGames/user.keystore')
-            storePassword 'GandiComma7*'
+            storePassword 'GhandiComma7*'
             keyAlias 'jbernard'
             keyPassword 'GhandiComma7*'
         }

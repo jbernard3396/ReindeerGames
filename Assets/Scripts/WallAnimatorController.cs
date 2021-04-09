@@ -54,6 +54,25 @@ public class WallAnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        continueWeather();
+        if (timeSinceLastStorm < minimumStormTime)
+        {
+            timeSinceLastStorm += Time.deltaTime;
+        }
+        else if (random.Next(chanceToChange) == 1 && PlayerPrefs.GetString("weatherStyle") == "All")
+        {
+            selectNewWeather();
+            timeSinceLastStorm = 0;
+            startNewWeather();
+        }
+        if (PlayerPrefs.GetString("weatherStyle") != "All")
+        {
+            getWeatherFromPrefs();
+        }
+    }
+
+    private void continueWeather()
+    {
         if (isRaining)
         {
             SnowSFX.Stop();
@@ -64,7 +83,8 @@ public class WallAnimatorController : MonoBehaviour
                 ThunderSFX.PlayOneShot(thunderClip, 1f);
                 anim.SetTrigger("Thunder");
             }
-        } else if (isSunny)
+        }
+        else if (isSunny)
         {
             snow1.setWeather("sunny");
             snow2.setWeather("sunny");
@@ -84,56 +104,92 @@ public class WallAnimatorController : MonoBehaviour
             {
                 SnowSFX.Stop();
             }
-        } else if(isSnowing)
+        }
+        else if (isSnowing)
         {
 
-            snow1.setWeather("snow");   
+            snow1.setWeather("snow");
             snow2.setWeather("snow");
             RainSFX.Stop();
+            Debug.Log("stop rain 1");
         }
+    }
 
-        if (timeSinceLastStorm < minimumStormTime)
+    private void getWeatherFromPrefs()
+    {
+        Debug.Log(PlayerPrefs.GetString("weatherStyle"));
+        Debug.Log("rain: " + isRaining);
+        Debug.Log("snow: " + isSnowing);
+        Debug.Log("sun: " + isSunny);
+        if (PlayerPrefs.GetString("weatherStyle") == "Sun" && isSunny == false)
         {
-            timeSinceLastStorm += Time.deltaTime;
-        } else if (random.Next(chanceToChange) == 1) {
-            if (!isSunny)
-            { //now it is
-                isSunny = true;
-                isRaining = false;
-                isSnowing = false;
-            } else
-            { //already sunny, pick a weather
-                if(random.Next(2) != 1)
-                {
-                    isSunny = false;
-                    isRaining = false;
-                    isSnowing = true;
-                } else
-                {
-                    isSunny = false;
-                    isRaining = true;
-                    isSnowing = false;
-                }
-            }
-            timeSinceLastStorm = 0;
-            anim.SetBool("isRaining", isRaining); 
-            anim.SetBool("isSnowing", isSnowing); 
-            if (isRaining)
-            {
+            Debug.Log("truning sun on");
+            isSunny = true;
+            isRaining = false;
+            isSnowing = false;
+            startNewWeather();
+        }
+        if (PlayerPrefs.GetString("weatherStyle") == "Rain" && isRaining == false)
+        {
+            Debug.Log("truning rain on");
+            isSunny = false;
+            isRaining = true;
+            isSnowing = false;
+            startNewWeather();
+        }
+        if (PlayerPrefs.GetString("weatherStyle") == "Snow" && isSnowing == false)
+        {
+            Debug.Log("truning snow on");
+            isSunny = false;
+            isRaining = false;
+            isSnowing = true;
+            startNewWeather();
+        }
+    }
 
-                ThunderSFX.Play();
-                RainSFX.Stop();
-                RainSFX.volume = (float)ogVolume;
-                RainSFX.Play();
-            }
-            if (isSnowing)
+    private void startNewWeather()
+    {
+        anim.SetBool("isRaining", isRaining);
+        anim.SetBool("isSnowing", isSnowing);
+        if (isRaining)
+        {
+
+            ThunderSFX.Play();
+            RainSFX.Stop();
+            Debug.Log("stop rain 2");
+            RainSFX.volume = (float)ogVolume;
+            RainSFX.Play();
+        }
+        if (isSnowing)
+        {
+            SnowSFX.Stop();
+            SnowSFX.volume = (float)ogSnowVolume;
+            SnowSFX.Play();
+        }
+    }
+
+    private void selectNewWeather()
+    {
+        if (!isSunny)
+        { //now it is
+            isSunny = true;
+            isRaining = false;
+            isSnowing = false;
+        }
+        else
+        { //already sunny, pick a weather
+            if (random.Next(2) != 1)
             {
-                SnowSFX.Stop();
-                SnowSFX.volume = (float)ogSnowVolume;
-                SnowSFX.Play();
+                isSunny = false;
+                isRaining = false;
+                isSnowing = true;
+            }
+            else
+            {
+                isSunny = false;
+                isRaining = true;
+                isSnowing = false;
             }
         }
-
-
     }
 }
