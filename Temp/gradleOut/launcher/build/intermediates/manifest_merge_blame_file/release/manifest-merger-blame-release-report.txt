@@ -3,8 +3,8 @@
 3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 4    package="com.TeenyGames.ReindeerGames"
 5    android:installLocation="preferExternal"
-6    android:versionCode="3"
-7    android:versionName="1.7" >
+6    android:versionCode="6"
+7    android:versionName="2.1" >
 8
 9    <uses-sdk
 10        android:minSdkVersion="19"
@@ -120,7 +120,7 @@
 67-->[:unityLibrary] C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:68
 68            android:name="unity.build-id"
 68-->[:unityLibrary] C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-42
-69            android:value="915f5888-fb70-42f5-8a4d-dc7811a6e1eb" />
+69            android:value="7b5afecf-25de-4f2a-b011-b68613dfb913" />
 69-->[:unityLibrary] C:\Users\jbern\Documents\GitHub\ReindeerGames\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-65
 70
 71        <activity

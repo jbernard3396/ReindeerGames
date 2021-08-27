@@ -8,6 +8,10 @@ using static Config;
 
 public class AddButton : MonoBehaviour, IUnityAdsListener { 
     public string myPlacementId = "rewardedVideo";
+    private GameObject Settings;
+    private SaveData saveDataScript;
+    private Animator anim;
+
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +20,9 @@ public class AddButton : MonoBehaviour, IUnityAdsListener {
         {
             GameObject.Destroy(gameObject);   
         }
+        anim = GetComponent<Animator>();
+        Settings = GameObject.FindWithTag("Settings");
+        saveDataScript = Settings.GetComponent<SaveData>();
         Advertisement.AddListener(this);
     }
 
@@ -25,13 +32,20 @@ public class AddButton : MonoBehaviour, IUnityAdsListener {
         
     }
 
+    void OnMouseDown()
+    {
+        anim.SetBool("fingerPressed", true);
+    }
+
     void OnMouseUp()
     {
         Config.restartAdUsed = true;
         Debug.Log(Config.score);
+       
         //SceneManager.LoadScene("Game"); //todoJ delete this
-        ShowRewardedVideo(); 
+        ShowRewardedVideo();
         //myTransform.localScale = myTransform.localScale * ReSize;
+        anim.SetBool("fingerPressed", false);
     }
 
     //public void ShowInterstitialAd()
@@ -68,8 +82,14 @@ public class AddButton : MonoBehaviour, IUnityAdsListener {
         // Define conditional logic for each ad completion status:
         if (showResult == ShowResult.Finished)
         {
+            foreach (Achievement achievement in saveDataScript.save.achievements)
+            {
+                achievement.incrementCondition(1, "ads_100");
+            }
             // Reward the user for watching the ad to completion.
             Debug.Log("finished");
+            
+
             SceneManager.LoadScene("Game");
         }
         else if (showResult == ShowResult.Skipped)

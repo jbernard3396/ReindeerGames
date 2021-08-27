@@ -46,6 +46,46 @@ public class GameManager : MonoBehaviour
         bool restart = Input.GetButtonDown("Fire2");
         if (restart || !basicMovementScript)
         {
+            bool allMastered = true;
+            for (int i = 0; i < 9; i++) // check for allMastered
+            {
+                if (saveDataScript.save.reindeerCoins[i] < 25)
+                {
+                    allMastered = false;
+                }
+            }
+            foreach (Achievement achievement in saveDataScript.save.achievements)
+            {
+                if (highScore == scoreScript.score && scoreScript.score >= 10)
+                {
+                    achievement.markAcheived("SoClose");
+                }
+                if (saveDataScript.save.totalCoins >= 100)
+                {
+                    achievement.markAcheived("hs_100");
+                }
+                if (saveDataScript.save.totalCoins >= 250)
+                {
+                    achievement.markAcheived("hs_250");
+                }
+                if (saveDataScript.save.totalCoins >= 500)
+                {
+                    achievement.markAcheived("hs_500");
+                }
+                if (saveDataScript.save.totalCoins >= 200)
+                {
+                    Debug.Log("all unlocked");
+                    achievement.markAcheived("unlockAll");
+                }
+                if (allMastered)
+                {
+                    Debug.Log("all mastered");
+                    achievement.markAcheived("masterAll");
+                }
+
+            }
+            saveDataScript.saveGame();
+            Debug.Log("saving game");
             Config.score = scoreScript.score;
             Time.timeScale = 1f;
             SceneManager.LoadScene("GameOver");

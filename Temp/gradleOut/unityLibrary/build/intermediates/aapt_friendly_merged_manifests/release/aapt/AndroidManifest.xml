@@ -3,8 +3,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.unity3d.player"
-    android:versionCode="3"
-    android:versionName="1.7" >
+    android:versionCode="6"
+    android:versionName="2.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -52,7 +52,7 @@
             android:value="True" />
         <meta-data
             android:name="unity.build-id"
-            android:value="915f5888-fb70-42f5-8a4d-dc7811a6e1eb" />
+            android:value="7b5afecf-25de-4f2a-b011-b68613dfb913" />
     </application>
 
 </manifest>

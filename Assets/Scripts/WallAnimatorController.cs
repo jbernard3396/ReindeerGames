@@ -20,10 +20,10 @@ public class WallAnimatorController : MonoBehaviour
     private bool isRaining;
     private bool isSnowing;
     private bool isSunny;
-    private int chanceToChange = 3000;
+    private int chanceToChange = 10000;
     private int minimumStormTime = 10;
     private float timeSinceLastStorm = 0;
-    private int chanceToThunder = 1000;
+    private int chanceToThunder = 5000;
     private System.Random random = new System.Random();
 
     public snowController snow1;
@@ -111,19 +111,18 @@ public class WallAnimatorController : MonoBehaviour
             snow1.setWeather("snow");
             snow2.setWeather("snow");
             RainSFX.Stop();
-            Debug.Log("stop rain 1");
         }
     }
 
     private void getWeatherFromPrefs()
     {
-        Debug.Log(PlayerPrefs.GetString("weatherStyle"));
-        Debug.Log("rain: " + isRaining);
-        Debug.Log("snow: " + isSnowing);
-        Debug.Log("sun: " + isSunny);
+        //Debug.Log(PlayerPrefs.GetString("weatherStyle"));
+        //Debug.Log("rain: " + isRaining);
+        //Debug.Log("snow: " + isSnowing);
+        //Debug.Log("sun: " + isSunny);
         if (PlayerPrefs.GetString("weatherStyle") == "Sun" && isSunny == false)
         {
-            Debug.Log("truning sun on");
+            //Debug.Log("truning sun on");
             isSunny = true;
             isRaining = false;
             isSnowing = false;
@@ -131,7 +130,7 @@ public class WallAnimatorController : MonoBehaviour
         }
         if (PlayerPrefs.GetString("weatherStyle") == "Rain" && isRaining == false)
         {
-            Debug.Log("truning rain on");
+            //Debug.Log("truning rain on");
             isSunny = false;
             isRaining = true;
             isSnowing = false;
@@ -139,7 +138,7 @@ public class WallAnimatorController : MonoBehaviour
         }
         if (PlayerPrefs.GetString("weatherStyle") == "Snow" && isSnowing == false)
         {
-            Debug.Log("truning snow on");
+            //Debug.Log("truning snow on");
             isSunny = false;
             isRaining = false;
             isSnowing = true;
@@ -154,9 +153,8 @@ public class WallAnimatorController : MonoBehaviour
         if (isRaining)
         {
 
-            ThunderSFX.Play();
+            ThunderSFX.PlayOneShot(thunderClip, 1f);
             RainSFX.Stop();
-            Debug.Log("stop rain 2");
             RainSFX.volume = (float)ogVolume;
             RainSFX.Play();
         }
@@ -166,10 +164,16 @@ public class WallAnimatorController : MonoBehaviour
             SnowSFX.volume = (float)ogSnowVolume;
             SnowSFX.Play();
         }
+        if (isSunny)
+        {
+
+        }
     }
 
     private void selectNewWeather()
     {
+        Debug.Log("Starting new weather");
+        Debug.Log("old weather.  Raining - " + isRaining + ".  Snowing - " + isSnowing + ".  Sunny - " + isSunny);
         if (!isSunny)
         { //now it is
             isSunny = true;
@@ -191,5 +195,6 @@ public class WallAnimatorController : MonoBehaviour
                 isSnowing = false;
             }
         }
+        Debug.Log("new weather.  Raining - " + isRaining + ".  is snowing - " + isSnowing + ".  Sunny - " + isSunny);
     }
 }

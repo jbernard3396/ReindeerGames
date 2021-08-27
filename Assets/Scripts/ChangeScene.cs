@@ -7,10 +7,19 @@ using UnityEngine.Analytics;
 public class ChangeScene : MonoBehaviour
 {
     public string Scene;
+    private Animator anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void OnMouseDown()
     {
-        //anim.SetBool("fingerPressed", true);
+        if (anim)
+        {
+            anim.SetBool("fingerPressed", true);
+        }
         //myTransform.localScale = myTransform.localScale / ReSize;
 
 
@@ -20,9 +29,11 @@ public class ChangeScene : MonoBehaviour
     {
 
         //reset score
- 
 
-        //anim.SetBool("fingerPressed", false);
+        if (anim)
+        {
+            anim.SetBool("fingerPressed", false);
+        }
        
         SceneManager.LoadScene(Scene);
         //myTransform.localScale = myTransform.localScale * ReSize;

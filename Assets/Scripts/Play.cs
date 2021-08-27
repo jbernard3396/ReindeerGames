@@ -26,7 +26,7 @@ public class Play : MonoBehaviour
 
     void OnMouseDown()
     {
-        //anim.SetBool("fingerPressed", true);
+        anim.SetBool("fingerPressed", true);
         //myTransform.localScale = myTransform.localScale / ReSize;
 
 
@@ -34,6 +34,7 @@ public class Play : MonoBehaviour
 
     void OnMouseUp()
     {
+        anim.SetBool("fingerPressed", false);
 
         //reset score
         Config.score = 0;
@@ -45,7 +46,6 @@ public class Play : MonoBehaviour
             GameObject.Destroy(lazer);
             
         }
-        //anim.SetBool("fingerPressed", false);
         if (Config.characterLocked)
         {
             //play sound or something

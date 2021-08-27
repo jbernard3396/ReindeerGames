@@ -11,7 +11,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -24,7 +26,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -37,7 +41,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -50,7 +56,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -63,7 +71,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -90,7 +100,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -117,7 +129,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -207,7 +221,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -255,7 +271,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -268,7 +286,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -281,7 +301,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -294,7 +316,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -319,7 +343,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -332,7 +358,52 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider2D",
+            "fullManagedTypeName": "UnityEngine.Collider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/Start.unity",
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "BoxCollider2D",
+            "fullManagedTypeName": "UnityEngine.BoxCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/Start.unity",
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Start.unity",
+                "Assets/Scenes/menu.unity",
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -345,7 +416,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -369,7 +442,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -382,7 +457,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -395,7 +472,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -408,7 +487,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -421,7 +502,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -434,7 +517,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -447,7 +532,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -460,7 +547,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -473,7 +562,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -486,7 +577,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -499,7 +592,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -512,7 +607,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -525,7 +622,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -547,7 +646,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -572,7 +673,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -606,7 +709,9 @@
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -617,29 +722,9 @@
             "usedInScenes": [
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Collider2D",
-            "fullManagedTypeName": "UnityEngine.Collider2D",
-            "moduleName": "Physics2D",
-            "usedInScenes": [
-                "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity",
-                "Assets/Scenes/Settings.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "BoxCollider2D",
-            "fullManagedTypeName": "UnityEngine.BoxCollider2D",
-            "moduleName": "Physics2D",
-            "usedInScenes": [
-                "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -662,19 +747,9 @@
                 "Assets/Scenes/menu.unity",
                 "Assets/Scenes/Game.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RectTransform",
-            "fullManagedTypeName": "UnityEngine.RectTransform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/menu.unity",
-                "Assets/Scenes/Game.unity",
-                "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Settings.unity"
+                "Assets/Scenes/Settings.unity",
+                "Assets/Scenes/Achievements.unity",
+                "Assets/Scenes/Achievements2.unity"
             ]
         },
         {
@@ -725,6 +800,20 @@
             "usedInScenes": [
                 "Assets/Scenes/Game.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AchievementDescriptor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AchievementSelector",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -849,6 +938,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "GetTotalCoins",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "HighlightAchievement",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1031,6 +1127,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "characterSelect",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "displayBanner",
             "moduleName": "",
             "usedInScenes": []
         },

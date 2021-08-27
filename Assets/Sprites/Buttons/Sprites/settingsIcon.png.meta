@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 7722572519933917295
     second: settingsIcon 0
+  - first:
+      213: -1913011681712726711
+    second: settingsIcon 1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -66,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 32
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -96,6 +99,27 @@ TextureImporter:
       bones: []
       spriteID: f68bada7ac61c2b60800000000000000
       internalID: 7722572519933917295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: settingsIcon 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d1754d20e9375e0800000000000000
+      internalID: -1913011681712726711
       vertices: []
       indices: 
       edges: []

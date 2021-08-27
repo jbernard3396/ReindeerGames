@@ -40,6 +40,7 @@ public class LazerMovement : MonoBehaviour
     public bool isDeadly = true;
     public bool onScreen = false;
     private bool wasHeart = false;
+    public bool isDestroyed = false;
 
     private Transform myBody;
 

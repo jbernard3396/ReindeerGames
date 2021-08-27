@@ -67,6 +67,27 @@ public class basicMovement : MonoBehaviour
     public bool invincible = false;
     public bool hasSheild;
 
+    //achievements
+    public int numBullets = 0;
+    public int dasherBulletCounter = 0;
+    public int prancerCoinCounter = 0;
+    public int prancerDestructionCounter = 0;
+    public int vixenSheildCoinCounter = 0;
+    public int cometJumpCounter = 0;
+    public int bulletCounter = 0;
+    public int heartCounter = 0;
+    public bool timeFrozen = false;
+    public int bulletsCrushed = 0;
+    public int blitzenChompCounter = 0;
+    public int rudolphCoinCounter = 0;
+    public int coinsCollectedWhileDead = 0;
+
+    public bool everyDashOffScreen = true;
+    public bool specialAndNoWrap = false;
+    public int nonDestructiveSpecials = 0;
+    public int sheildsBrokenThisJump = 0;
+
+
     public UnityEvent Collect;
 
     private float jumpTimer = 0f;
@@ -222,10 +243,25 @@ public class basicMovement : MonoBehaviour
                 special();
             }
         }
+
+        bool cheatScore = Input.GetKey(KeyCode.Space);
+        if (cheatScore)
+        {
+            scoreScript.incrementScore();
+        }
+
     }
 
     public void jump()
     {
+        cometJumpCounter += 1;
+        foreach (Achievement achievement in saveDataScript.save.achievements)
+        {
+            if (cometJumpCounter >= 50 && abilityScript.getName() == "Comet")
+            {
+                achievement.markAcheived("comet_1");
+            }
+        }
         anim.SetTrigger("Jump");
         vel[1] = jumpStrength;
         jumpsLeft -= 1;
@@ -237,9 +273,29 @@ public class basicMovement : MonoBehaviour
 
     void special()
     {
+        specialAndNoWrap = true;
+        nonDestructiveSpecials += 1;
+        if (abilityScript.getName() == "Cupid" || abilityScript.getName() == "Dancer")
+        {
+            int tempHolder;
+            tempHolder = heartCounter;
+            heartCounter = bulletCounter;
+            bulletCounter = tempHolder;
+            foreach (Achievement achievement in saveDataScript.save.achievements)
+            {
+                if (heartCounter >= 30 && abilityScript.getName() == "Cupid")
+                {
+                    achievement.markAcheived("cupid_1");
+                }
+                if (nonDestructiveSpecials >= 8 && abilityScript.getName() == "Dancer")
+                {
+                    achievement.markAcheived("dancer_2");
+                }
+            }
+        }
         anim.SetTrigger("Ability");
         abilityScript.activateAbility();
-        if (invincible)
+        if (invincible && abilityScript.getName() != "Rudolph")
         {
             invincibilityTimer = 0;
         }
@@ -264,6 +320,8 @@ public class basicMovement : MonoBehaviour
     {
         if (myBody.position.x < Config.getCrx() - 1 && myBody.position.x > Config.getClx() + 1)
         {
+            numBullets += 1;
+            bulletCounter += 1;
             GameObject newLazer = Instantiate(lazer, new Vector3(myBody.position.x, myBody.position.y - .8f, -1), Quaternion.identity); //TODO:J figure out the exact right amount
         }
         createLazer = false;
@@ -313,12 +371,21 @@ public class basicMovement : MonoBehaviour
             myBody.position = new Vector3(myBody.position.x, 0, 0);
             vel[1] = 0;
             jumpsLeft = 2;
+            dasherBulletCounter = 0;
+            prancerDestructionCounter = 0;
+            blitzenChompCounter = 0;
+            rudolphCoinCounter = 0;
+            sheildsBrokenThisJump = 0;
             activesLeft = 1;
             if (invincible && invincibilityTimer < .1f)
             {
                 invincibilityTimer = .1f;
             }
             anim.SetTrigger("Land");
+            if (specialAndNoWrap)
+            {
+                everyDashOffScreen = false;
+            }
         }
     }
 
@@ -336,19 +403,72 @@ public class basicMovement : MonoBehaviour
     {
         if (myBody.position.x > crx)
         {
+            prancerCoinCounter = 0;
             myBody.position = new Vector3(clx, myBody.position.y, 0);
+            specialAndNoWrap = false;
         }
         if (myBody.position.x < clx)
         {
+            prancerCoinCounter = 0;
             myBody.position = new Vector3(crx, myBody.position.y, 0);
+            specialAndNoWrap = false;
         }
     }
 
-    void OnTriggerStay2D(Collider2D other) //Helps when gift appears in player
+    void OnTriggerStay2D(Collider2D other) //Helps when coin appears in player
     {
         if (other.gameObject.tag == "Coin")
         {
             Collect.Invoke();
+            prancerCoinCounter += 1;
+            prancerDestructionCounter += 1;
+            vixenSheildCoinCounter += 1;
+            rudolphCoinCounter += 1;
+            if (dead)
+            {
+                Debug.Log("incrementing dead coins");
+                coinsCollectedWhileDead += 1;
+            }
+
+
+            foreach (Achievement achievement in saveDataScript.save.achievements)
+            {
+                if (scoreScript.score >= 10 && numBullets == 0 && abilityScript.getName() == "Dancer") { 
+                    achievement.markAcheived("dancer_1");
+                }
+                if (prancerDestructionCounter >= 7 && abilityScript.getName() == "Prancer")
+                {
+                    achievement.markAcheived("prancer_2");
+                }
+                if (prancerCoinCounter >= 10 &&  abilityScript.getName() == "Prancer")
+                {
+                    achievement.markAcheived("prancer_1");
+                }
+                if (vixenSheildCoinCounter >= 15 && abilityScript.getName() == "Vixen")
+                {
+                    achievement.markAcheived("vixen_1");
+                }
+                if (bulletsCrushed == 0 && scoreScript.score >= 20 && abilityScript.getName() == "Donner")
+                {
+                    achievement.markAcheived("donner_1");
+                }
+                if (rudolphCoinCounter >=5 && abilityScript.getName() == "Rudolph")
+                {
+                    achievement.markAcheived("rudolph_1");
+                }
+                if (scoreScript.score == highScore+1 && dead)
+                {
+                    achievement.markAcheived("diveBomb");
+                }
+                if (dead &&coinsCollectedWhileDead >= 2)
+                {
+                    achievement.markAcheived("hangingOn");
+                }
+                if (abilityScript.getName() == "Dasher" && scoreScript.score >= 15 && everyDashOffScreen)
+                {
+                    achievement.markAcheived("dasher_2");
+                }
+            }
         }
     }
 
@@ -356,36 +476,97 @@ public class basicMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "Lazer")
         {
-            bool lazerOnScreen = other.gameObject.GetComponent<LazerMovement>().onScreen;
 
+            bool lazerOnScreen = other.gameObject.GetComponent<LazerMovement>().onScreen;
+            if (other.gameObject.GetComponent<LazerMovement>().isDestroyed)
+            {
+                return;
+            }
             if (!onScreen || !lazerOnScreen)
             {
                 //TODO:J doesn't work very well
                 return;
             }
+
             bool isHeart = other.gameObject.GetComponent<LazerMovement>().isHeart;
             bool isDeadly = other.gameObject.GetComponent<LazerMovement>().isDeadly;
+
+            other.gameObject.GetComponent<LazerMovement>().isDestroyed = true;
+            timeFrozen = other.gameObject.GetComponent<LazerMovement>().timeout > 0;
             Animator theirAnim = other.gameObject.GetComponent<Animator>();
             if (!invincible && !isHeart && isDeadly && !hasSheild)
             {
                 if (!dead)
                 {
+                    foreach (Achievement achievement in saveDataScript.save.achievements)
+                    {
+                        if (sheildsBrokenThisJump >= 2 && abilityScript.getName() == "Vixen")
+                        {
+                            achievement.markAcheived("vixen_2");
+                        }
+                        if (other.gameObject.GetComponent<Transform>().position.y < myBody.position.y && abilityScript.getName() == "Comet")
+                        {
+                            achievement.markAcheived("comet_2");
+                        }
+                    }
                     theirAnim.SetTrigger("Splat");
+                    numBullets -= 1;
                     die();
                 }
             }
             else
             {
+                nonDestructiveSpecials = 0;
+                dasherBulletCounter += 1;
+                prancerDestructionCounter += 1;
+                blitzenChompCounter += 1;
 
                 theirAnim.SetTrigger("Splat");
+                numBullets -= 1;
+                bulletsCrushed += 1;
                 ChompBulletSFX.Play();
                 isDeadly = false;
                 if (hasSheild && !isHeart)
                 {
+                    vixenSheildCoinCounter = 0;
+                    if (myBody.position.y >= 0)
+                    {
+                        sheildsBrokenThisJump += 1;
+                    }
                     hasSheild = false;
                     anim.SetBool("IsSheilded", false);
                     sheildDownSFX.Play();
                     Instantiate(sheildDestoryed, new Vector3(myBody.position.x, myBody.position.y, -1), Quaternion.identity);
+                }
+                foreach (Achievement achievement in saveDataScript.save.achievements)
+                {
+                    achievement.incrementCondition(1, "eatBullets_100");
+                    achievement.incrementCondition(1, "eatBullets_1k");
+                    achievement.incrementCondition(1, "eatBullets_10k");
+                    if (dasherBulletCounter >= 5 && abilityScript.getName() == "Dasher")
+                    {
+                        achievement.markAcheived("dasher_1");
+                    }
+                    if (prancerDestructionCounter >= 7 && abilityScript.getName() == "Prancer")
+                    {
+                        achievement.markAcheived("prancer_2");
+                    }
+                    if (blitzenChompCounter >= 5 && abilityScript.getName() == "Blitzen")
+                    {
+                        achievement.markAcheived("blitzen_1");
+                    }
+                    if (bulletsCrushed >= 20 && abilityScript.getName() == "Blitzen")
+                    {
+                        achievement.markAcheived("blitzen_2");
+                    }
+                    if (bulletsCrushed >= 3 && abilityScript.getName() == "Rudolph")
+                    {
+                        achievement.markAcheived("rudolph_2");
+                    }
+                    if (scoreScript.score >= 10 && numBullets == 0 && abilityScript.getName() == "Dancer")
+                    {
+                        achievement.markAcheived("dancer_1");
+                    }
                 }
             };
         }
@@ -393,11 +574,24 @@ public class basicMovement : MonoBehaviour
 
     private void die()
     {
+        foreach (Achievement achievement in saveDataScript.save.achievements)
+        {
+            if (heartCounter >= bulletCounter && abilityScript.getName() == "Cupid")
+            {
+                achievement.markAcheived("cupid_2");
+            }
+            if (timeFrozen && abilityScript.getName() == "Donner")
+            {
+                achievement.markAcheived("donner_2");
+            }
+        }
         Splat.Play();
         vel[0] = 0;
         vel[1] = 0;
         dead = true;
+        Debug.Log("about to save");
         saveDataScript.saveGame();
+        Debug.Log("Just Saved");
         anim.SetTrigger("Die");
     }
 

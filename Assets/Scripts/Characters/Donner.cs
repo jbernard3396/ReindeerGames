@@ -51,7 +51,12 @@ public class Donner : Ability
         if (timerOver)
         {
             timerOver = false;
-            TimeStartSFX.Play();
+            if (TimeStartSFX) {
+                TimeStartSFX.Play();
+            } else
+            {
+                Debug.Log("try to play a non existant thing");
+            }
             TimeStopTimer.Stop();
         }
     }
