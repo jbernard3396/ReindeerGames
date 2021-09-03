@@ -112,10 +112,6 @@
 		<type fullname="selfDestroy" preserve="nothing"/>
 		<type fullname="snowController" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="UnityEngine.Advertisements">
-		<type fullname="UnityEngine.Advertisements.Placeholder" preserve="nothing"/>
-		<type fullname="UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventTrigger" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>

@@ -1014,6 +1014,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_GetButtonDown();
 		Register_UnityEngine_Input_GetButtonDown();
 
+		//System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyInt();
+		Register_UnityEngine_Input_GetKeyInt();
+
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();
 		Register_UnityEngine_Input_GetMouseButton();
@@ -1694,6 +1698,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Resources_GetBuiltinResource();
 		Register_UnityEngine_Resources_GetBuiltinResource();
 
+		//UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
+		void Register_UnityEngine_Resources_Load();
+		Register_UnityEngine_Resources_Load();
+
 	//End Registrations for type : UnityEngine.Resources
 
 	//Start Registrations for type : UnityEngine.SceneManagement.Scene
@@ -1957,6 +1965,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
 		void Register_UnityEngine_SpriteRenderer_set_sprite();
 		Register_UnityEngine_SpriteRenderer_set_sprite();
+
+		//UnityEngine.Sprite UnityEngine.SpriteRenderer::get_sprite()
+		void Register_UnityEngine_SpriteRenderer_get_sprite();
+		Register_UnityEngine_SpriteRenderer_get_sprite();
 
 	//End Registrations for type : UnityEngine.SpriteRenderer
 
