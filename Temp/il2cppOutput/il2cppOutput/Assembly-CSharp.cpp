@@ -13921,7 +13921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_mC9303BA7C3117BD861F4
 		bool L_2 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_1, /*hidden argument*/NULL);
 		if (L_2)
 		{
-			goto IL_01d9;
+			goto IL_022a;
 		}
 	}
 
@@ -13988,7 +13988,7 @@ IL_0059:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_0140;
+			goto IL_0191;
 		}
 
 IL_005e:
@@ -14028,163 +14028,223 @@ IL_0088:
 
 IL_0094:
 		{
-			// if (saveDataScript.save.totalCoins >= 100)
-			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_22 = __this->get_saveDataScript_7();
+			// if (scoreScript.score >= 20)
+			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_22 = __this->get_scoreScript_8();
 			NullCheck(L_22);
-			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_23 = L_22->get_save_4();
-			NullCheck(L_23);
-			int32_t L_24 = L_23->get_totalCoins_2();
-			if ((((int32_t)L_24) < ((int32_t)((int32_t)100))))
+			int32_t L_23 = L_22->get_score_7();
+			if ((((int32_t)L_23) < ((int32_t)((int32_t)20))))
 			{
-				goto IL_00b4;
+				goto IL_00af;
 			}
 		}
 
-IL_00a8:
+IL_00a3:
+		{
+			// achievement.markAcheived("highScore_20");
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_24 = V_3;
+			NullCheck(L_24);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_24, _stringLiteralD1800B4E79242DA6CFB6EEF5A9F5DA5CB31BFA91);
+		}
+
+IL_00af:
+		{
+			// if (scoreScript.score >= 30)
+			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_25 = __this->get_scoreScript_8();
+			NullCheck(L_25);
+			int32_t L_26 = L_25->get_score_7();
+			if ((((int32_t)L_26) < ((int32_t)((int32_t)30))))
+			{
+				goto IL_00ca;
+			}
+		}
+
+IL_00be:
+		{
+			// achievement.markAcheived("highScore_30");
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_27 = V_3;
+			NullCheck(L_27);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_27, _stringLiteralEB05317896FAF92B258F07F4D62C068C841D9D44);
+		}
+
+IL_00ca:
+		{
+			// if (scoreScript.score >= 50)
+			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_28 = __this->get_scoreScript_8();
+			NullCheck(L_28);
+			int32_t L_29 = L_28->get_score_7();
+			if ((((int32_t)L_29) < ((int32_t)((int32_t)50))))
+			{
+				goto IL_00e5;
+			}
+		}
+
+IL_00d9:
+		{
+			// achievement.markAcheived("highScore_50");
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_30 = V_3;
+			NullCheck(L_30);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_30, _stringLiteralB41DE88B16461B4E69C0C1845FC9399CE04A4DFE);
+		}
+
+IL_00e5:
+		{
+			// if (saveDataScript.save.totalCoins >= 100)
+			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_31 = __this->get_saveDataScript_7();
+			NullCheck(L_31);
+			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_32 = L_31->get_save_4();
+			NullCheck(L_32);
+			int32_t L_33 = L_32->get_totalCoins_2();
+			if ((((int32_t)L_33) < ((int32_t)((int32_t)100))))
+			{
+				goto IL_0105;
+			}
+		}
+
+IL_00f9:
 		{
 			// achievement.markAcheived("hs_100");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_25 = V_3;
-			NullCheck(L_25);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_25, _stringLiteralB48343467209F25A53A941B2322B23FF4D24BBFF);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_34 = V_3;
+			NullCheck(L_34);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_34, _stringLiteralB48343467209F25A53A941B2322B23FF4D24BBFF);
 		}
 
-IL_00b4:
+IL_0105:
 		{
 			// if (saveDataScript.save.totalCoins >= 250)
-			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_26 = __this->get_saveDataScript_7();
-			NullCheck(L_26);
-			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_27 = L_26->get_save_4();
-			NullCheck(L_27);
-			int32_t L_28 = L_27->get_totalCoins_2();
-			if ((((int32_t)L_28) < ((int32_t)((int32_t)250))))
+			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_35 = __this->get_saveDataScript_7();
+			NullCheck(L_35);
+			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_36 = L_35->get_save_4();
+			NullCheck(L_36);
+			int32_t L_37 = L_36->get_totalCoins_2();
+			if ((((int32_t)L_37) < ((int32_t)((int32_t)250))))
 			{
-				goto IL_00d7;
+				goto IL_0128;
 			}
 		}
 
-IL_00cb:
+IL_011c:
 		{
 			// achievement.markAcheived("hs_250");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_29 = V_3;
-			NullCheck(L_29);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_29, _stringLiteralDB6D45C348A6339A4A32E146AB3B2F8D5A6B4A28);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_38 = V_3;
+			NullCheck(L_38);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_38, _stringLiteralDB6D45C348A6339A4A32E146AB3B2F8D5A6B4A28);
 		}
 
-IL_00d7:
+IL_0128:
 		{
 			// if (saveDataScript.save.totalCoins >= 500)
-			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_30 = __this->get_saveDataScript_7();
-			NullCheck(L_30);
-			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_31 = L_30->get_save_4();
-			NullCheck(L_31);
-			int32_t L_32 = L_31->get_totalCoins_2();
-			if ((((int32_t)L_32) < ((int32_t)((int32_t)500))))
+			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_39 = __this->get_saveDataScript_7();
+			NullCheck(L_39);
+			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_40 = L_39->get_save_4();
+			NullCheck(L_40);
+			int32_t L_41 = L_40->get_totalCoins_2();
+			if ((((int32_t)L_41) < ((int32_t)((int32_t)500))))
 			{
-				goto IL_00fa;
+				goto IL_014b;
 			}
 		}
 
-IL_00ee:
+IL_013f:
 		{
 			// achievement.markAcheived("hs_500");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_33 = V_3;
-			NullCheck(L_33);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_33, _stringLiteral41C8CA637BCE170CD47DA2B672223FBA3D176DEE);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_42 = V_3;
+			NullCheck(L_42);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_42, _stringLiteral41C8CA637BCE170CD47DA2B672223FBA3D176DEE);
 		}
 
-IL_00fa:
+IL_014b:
 		{
 			// if (saveDataScript.save.totalCoins >= 200)
-			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_34 = __this->get_saveDataScript_7();
-			NullCheck(L_34);
-			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_35 = L_34->get_save_4();
-			NullCheck(L_35);
-			int32_t L_36 = L_35->get_totalCoins_2();
-			if ((((int32_t)L_36) < ((int32_t)((int32_t)200))))
+			SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_43 = __this->get_saveDataScript_7();
+			NullCheck(L_43);
+			Save_t0E9BFB2DF445A9C19C93911AB24623E098D7A1F8 * L_44 = L_43->get_save_4();
+			NullCheck(L_44);
+			int32_t L_45 = L_44->get_totalCoins_2();
+			if ((((int32_t)L_45) < ((int32_t)((int32_t)200))))
 			{
-				goto IL_0127;
+				goto IL_0178;
 			}
 		}
 
-IL_0111:
+IL_0162:
 		{
 			// Debug.Log("all unlocked");
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 			Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral441249EB3056A4AE0AE04BC8EC37455F369CA7DD, /*hidden argument*/NULL);
 			// achievement.markAcheived("unlockAll");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_37 = V_3;
-			NullCheck(L_37);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_37, _stringLiteralD8CF0903A64AFF7A83C79BD3036A0401D67244E4);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_46 = V_3;
+			NullCheck(L_46);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_46, _stringLiteralD8CF0903A64AFF7A83C79BD3036A0401D67244E4);
 		}
 
-IL_0127:
+IL_0178:
 		{
 			// if (allMastered)
-			bool L_38 = V_0;
-			if (!L_38)
+			bool L_47 = V_0;
+			if (!L_47)
 			{
-				goto IL_0140;
+				goto IL_0191;
 			}
 		}
 
-IL_012a:
+IL_017b:
 		{
 			// Debug.Log("all mastered");
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 			Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral330C3380D1632871C74BAA88C45E1518CB35B41D, /*hidden argument*/NULL);
 			// achievement.markAcheived("masterAll");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_39 = V_3;
-			NullCheck(L_39);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_39, _stringLiteralA0AAE9E561EE17FADC420BE397F9F4F2EDD18617);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_48 = V_3;
+			NullCheck(L_48);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_48, _stringLiteralA0AAE9E561EE17FADC420BE397F9F4F2EDD18617);
 		}
 
-IL_0140:
+IL_0191:
 		{
 			// foreach (Achievement achievement in saveDataScript.save.achievements)
-			bool L_40 = Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08((Enumerator_tC0D2C7D4C9D8195FB4B29B3F780AD1DA592ED522 *)(&V_2), /*hidden argument*/Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08_RuntimeMethod_var);
-			if (L_40)
+			bool L_49 = Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08((Enumerator_tC0D2C7D4C9D8195FB4B29B3F780AD1DA592ED522 *)(&V_2), /*hidden argument*/Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08_RuntimeMethod_var);
+			if (L_49)
 			{
 				goto IL_005e;
 			}
 		}
 
-IL_014c:
+IL_019d:
 		{
-			IL2CPP_LEAVE(0x15C, FINALLY_014e);
+			IL2CPP_LEAVE(0x1AD, FINALLY_019f);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_014e;
+		goto FINALLY_019f;
 	}
 
-FINALLY_014e:
+FINALLY_019f:
 	{ // begin finally (depth: 1)
 		Enumerator_Dispose_mA774B4D3C987E7CA32552D5C8D2E848CD194DBDB((Enumerator_tC0D2C7D4C9D8195FB4B29B3F780AD1DA592ED522 *)(&V_2), /*hidden argument*/Enumerator_Dispose_mA774B4D3C987E7CA32552D5C8D2E848CD194DBDB_RuntimeMethod_var);
-		IL2CPP_END_FINALLY(334)
+		IL2CPP_END_FINALLY(415)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(334)
+	IL2CPP_CLEANUP(415)
 	{
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x15C, IL_015c)
+		IL2CPP_JUMP_TBL(0x1AD, IL_01ad)
 	}
 
-IL_015c:
+IL_01ad:
 	{
 		// saveDataScript.saveGame();
-		SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_41 = __this->get_saveDataScript_7();
-		NullCheck(L_41);
-		SaveData_saveGame_m6157972CEB80465DD68961EB17173C506D847411(L_41, /*hidden argument*/NULL);
+		SaveData_t7184650809321D6AAD08FE57453C100D09D4A89A * L_50 = __this->get_saveDataScript_7();
+		NullCheck(L_50);
+		SaveData_saveGame_m6157972CEB80465DD68961EB17173C506D847411(L_50, /*hidden argument*/NULL);
 		// Debug.Log("saving game");
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral02BB6707D07FFFEDCB0F7E616809A839CF01BED9, /*hidden argument*/NULL);
 		// Config.score = scoreScript.score;
-		ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_42 = __this->get_scoreScript_8();
-		NullCheck(L_42);
-		int32_t L_43 = L_42->get_score_7();
+		ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_51 = __this->get_scoreScript_8();
+		NullCheck(L_51);
+		int32_t L_52 = L_51->get_score_7();
 		IL2CPP_RUNTIME_CLASS_INIT(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var);
-		((Config_tD0756301BD668B6409DBA44B8971B93913F81390_StaticFields*)il2cpp_codegen_static_fields_for(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var))->set_score_2(L_43);
+		((Config_tD0756301BD668B6409DBA44B8971B93913F81390_StaticFields*)il2cpp_codegen_static_fields_for(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var))->set_score_2(L_52);
 		// Time.timeScale = 1f;
 		Time_set_timeScale_m1987DE9E74FC6C0126CE4F59A6293E3B85BD01EA((1.0f), /*hidden argument*/NULL);
 		// SceneManager.LoadScene("GameOver");
@@ -14194,28 +14254,28 @@ IL_015c:
 		// {
 		//     {"Score", scoreScript.score }
 		// }));
-		Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_44 = __this->get_abilityScript_9();
-		NullCheck(L_44);
-		String_t* L_45 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_44);
-		String_t* L_46 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_45, _stringLiteralA6BE2000A4614C2EBEA68F29567793267AD0FC0A, /*hidden argument*/NULL);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_47 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_47, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
-		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_48 = L_47;
-		ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_49 = __this->get_scoreScript_8();
-		NullCheck(L_49);
-		int32_t L_50 = L_49->get_score_7();
-		int32_t L_51 = L_50;
-		RuntimeObject * L_52 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_51);
-		NullCheck(L_48);
-		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_48, _stringLiteral336B029D04847DC4F36985E1B89D1A0B11D299A3, L_52, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
+		Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_53 = __this->get_abilityScript_9();
+		NullCheck(L_53);
+		String_t* L_54 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_53);
+		String_t* L_55 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_54, _stringLiteralA6BE2000A4614C2EBEA68F29567793267AD0FC0A, /*hidden argument*/NULL);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_56 = (Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 *)il2cpp_codegen_object_new(Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63(L_56, /*hidden argument*/Dictionary_2__ctor_mCD0C2F0325B7677B9BC340A60AA3FB9C7A88FF63_RuntimeMethod_var);
+		Dictionary_2_t692011309BA94F599C6042A381FC9F8B3CB08399 * L_57 = L_56;
+		ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_58 = __this->get_scoreScript_8();
+		NullCheck(L_58);
+		int32_t L_59 = L_58->get_score_7();
+		int32_t L_60 = L_59;
+		RuntimeObject * L_61 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_60);
+		NullCheck(L_57);
+		Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F(L_57, _stringLiteral336B029D04847DC4F36985E1B89D1A0B11D299A3, L_61, /*hidden argument*/Dictionary_2_Add_m005F33425CDAEC23027518EC759F8F439AF34F3F_RuntimeMethod_var);
 		IL2CPP_RUNTIME_CLASS_INIT(AnalyticsEvent_t22F895753A1AD60D84ACE20F18C6BC81B0E0DF43_il2cpp_TypeInfo_var);
-		int32_t L_53 = AnalyticsEvent_Custom_m3F55CD49925E83074B51CB7D852B59D0F4D59144(L_46, L_48, /*hidden argument*/NULL);
-		int32_t L_54 = L_53;
-		RuntimeObject * L_55 = Box(AnalyticsResult_t354FBE9E2776B790EBAF24EBA60EE7AA64F1E1E0_il2cpp_TypeInfo_var, &L_54);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_55, /*hidden argument*/NULL);
+		int32_t L_62 = AnalyticsEvent_Custom_m3F55CD49925E83074B51CB7D852B59D0F4D59144(L_55, L_57, /*hidden argument*/NULL);
+		int32_t L_63 = L_62;
+		RuntimeObject * L_64 = Box(AnalyticsResult_t354FBE9E2776B790EBAF24EBA60EE7AA64F1E1E0_il2cpp_TypeInfo_var, &L_63);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_64, /*hidden argument*/NULL);
 	}
 
-IL_01d9:
+IL_022a:
 	{
 		// }
 		return;
@@ -21393,7 +21453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void basicMovement_OnTriggerStay2D_mF9B4E8380
 		bool L_3 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_2, _stringLiteralA982A1BA4D18DFE3E66F126342126192B22DB764, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_0262;
+			goto IL_0277;
 		}
 	}
 	{
@@ -21446,7 +21506,7 @@ IL_0093:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_0246;
+			goto IL_025b;
 		}
 
 IL_0098:
@@ -21454,13 +21514,13 @@ IL_0098:
 			// foreach (Achievement achievement in saveDataScript.save.achievements)
 			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_15 = Enumerator_get_Current_mF73E6C31B8AFC934B4C51AA64C045CF80CC93F32_inline((Enumerator_tC0D2C7D4C9D8195FB4B29B3F780AD1DA592ED522 *)(&V_0), /*hidden argument*/Enumerator_get_Current_mF73E6C31B8AFC934B4C51AA64C045CF80CC93F32_RuntimeMethod_var);
 			V_1 = L_15;
-			// if (scoreScript.score >= 10 && numBullets == 0 && abilityScript.getName() == "Dancer") {
+			// if (scoreScript.score >= 10 && numBullets == 0 && abilityScript.getName() == "Dancer" && !Config.restartAdUsed)
 			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_16 = __this->get_scoreScript_66();
 			NullCheck(L_16);
 			int32_t L_17 = L_16->get_score_7();
 			if ((((int32_t)L_17) < ((int32_t)((int32_t)10))))
 			{
-				goto IL_00da;
+				goto IL_00e1;
 			}
 		}
 
@@ -21469,7 +21529,7 @@ IL_00af:
 			int32_t L_18 = __this->get_numBullets_46();
 			if (L_18)
 			{
-				goto IL_00da;
+				goto IL_00e1;
 			}
 		}
 
@@ -21481,310 +21541,340 @@ IL_00b7:
 			bool L_21 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_20, _stringLiteral504CC782FEF6723B3BF5E2F81C510FB0123993C0, /*hidden argument*/NULL);
 			if (!L_21)
 			{
-				goto IL_00da;
+				goto IL_00e1;
 			}
 		}
 
 IL_00ce:
 		{
-			// achievement.markAcheived("dancer_1");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_22 = V_1;
-			NullCheck(L_22);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_22, _stringLiteral1F35F8F3AC3C2D0B306B39C3438915BD70773B1B);
+			IL2CPP_RUNTIME_CLASS_INIT(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var);
+			bool L_22 = ((Config_tD0756301BD668B6409DBA44B8971B93913F81390_StaticFields*)il2cpp_codegen_static_fields_for(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var))->get_restartAdUsed_3();
+			if (L_22)
+			{
+				goto IL_00e1;
+			}
 		}
 
-IL_00da:
+IL_00d5:
+		{
+			// achievement.markAcheived("dancer_1");
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_23 = V_1;
+			NullCheck(L_23);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_23, _stringLiteral1F35F8F3AC3C2D0B306B39C3438915BD70773B1B);
+		}
+
+IL_00e1:
 		{
 			// if (prancerDestructionCounter >= 7 && abilityScript.getName() == "Prancer")
-			int32_t L_23 = __this->get_prancerDestructionCounter_49();
-			if ((((int32_t)L_23) < ((int32_t)7)))
+			int32_t L_24 = __this->get_prancerDestructionCounter_49();
+			if ((((int32_t)L_24) < ((int32_t)7)))
 			{
-				goto IL_0106;
+				goto IL_010d;
 			}
 		}
 
-IL_00e3:
+IL_00ea:
 		{
-			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_24 = __this->get_abilityScript_67();
-			NullCheck(L_24);
-			String_t* L_25 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_24);
-			bool L_26 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_25, _stringLiteralDFF1963CD312BD62245D75469C90B5388E295217, /*hidden argument*/NULL);
-			if (!L_26)
+			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_25 = __this->get_abilityScript_67();
+			NullCheck(L_25);
+			String_t* L_26 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_25);
+			bool L_27 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_26, _stringLiteralDFF1963CD312BD62245D75469C90B5388E295217, /*hidden argument*/NULL);
+			if (!L_27)
 			{
-				goto IL_0106;
+				goto IL_010d;
 			}
 		}
 
-IL_00fa:
+IL_0101:
 		{
 			// achievement.markAcheived("prancer_2");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_27 = V_1;
-			NullCheck(L_27);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_27, _stringLiteral40AEB4A8E017ED4248C321182F87B5797D6F8CBB);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_28 = V_1;
+			NullCheck(L_28);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_28, _stringLiteral40AEB4A8E017ED4248C321182F87B5797D6F8CBB);
 		}
 
-IL_0106:
+IL_010d:
 		{
-			// if (prancerCoinCounter >= 10 &&  abilityScript.getName() == "Prancer")
-			int32_t L_28 = __this->get_prancerCoinCounter_48();
-			if ((((int32_t)L_28) < ((int32_t)((int32_t)10))))
+			// if (prancerCoinCounter >= 10 && abilityScript.getName() == "Prancer")
+			int32_t L_29 = __this->get_prancerCoinCounter_48();
+			if ((((int32_t)L_29) < ((int32_t)((int32_t)10))))
 			{
-				goto IL_0133;
+				goto IL_013a;
 			}
 		}
 
-IL_0110:
+IL_0117:
 		{
-			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_29 = __this->get_abilityScript_67();
-			NullCheck(L_29);
-			String_t* L_30 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_29);
-			bool L_31 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_30, _stringLiteralDFF1963CD312BD62245D75469C90B5388E295217, /*hidden argument*/NULL);
-			if (!L_31)
+			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_30 = __this->get_abilityScript_67();
+			NullCheck(L_30);
+			String_t* L_31 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_30);
+			bool L_32 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_31, _stringLiteralDFF1963CD312BD62245D75469C90B5388E295217, /*hidden argument*/NULL);
+			if (!L_32)
 			{
-				goto IL_0133;
+				goto IL_013a;
 			}
 		}
 
-IL_0127:
+IL_012e:
 		{
 			// achievement.markAcheived("prancer_1");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_32 = V_1;
-			NullCheck(L_32);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_32, _stringLiteralA38D21EB83D6A5877E3979099665092AAC3062E7);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_33 = V_1;
+			NullCheck(L_33);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_33, _stringLiteralA38D21EB83D6A5877E3979099665092AAC3062E7);
 		}
 
-IL_0133:
+IL_013a:
 		{
 			// if (vixenSheildCoinCounter >= 15 && abilityScript.getName() == "Vixen")
-			int32_t L_33 = __this->get_vixenSheildCoinCounter_50();
-			if ((((int32_t)L_33) < ((int32_t)((int32_t)15))))
+			int32_t L_34 = __this->get_vixenSheildCoinCounter_50();
+			if ((((int32_t)L_34) < ((int32_t)((int32_t)15))))
 			{
-				goto IL_0160;
+				goto IL_0167;
 			}
 		}
 
-IL_013d:
+IL_0144:
 		{
-			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_34 = __this->get_abilityScript_67();
-			NullCheck(L_34);
-			String_t* L_35 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_34);
-			bool L_36 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_35, _stringLiteralB6178EABEDEC6489D066E374D899A7A194904720, /*hidden argument*/NULL);
-			if (!L_36)
+			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_35 = __this->get_abilityScript_67();
+			NullCheck(L_35);
+			String_t* L_36 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_35);
+			bool L_37 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_36, _stringLiteralB6178EABEDEC6489D066E374D899A7A194904720, /*hidden argument*/NULL);
+			if (!L_37)
 			{
-				goto IL_0160;
+				goto IL_0167;
 			}
 		}
 
-IL_0154:
+IL_015b:
 		{
 			// achievement.markAcheived("vixen_1");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_37 = V_1;
-			NullCheck(L_37);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_37, _stringLiteral0F75F88FDA926AB92ABC802924A0873889EF3CD3);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_38 = V_1;
+			NullCheck(L_38);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_38, _stringLiteral0F75F88FDA926AB92ABC802924A0873889EF3CD3);
 		}
 
-IL_0160:
+IL_0167:
 		{
-			// if (bulletsCrushed == 0 && scoreScript.score >= 20 && abilityScript.getName() == "Donner")
-			int32_t L_38 = __this->get_bulletsCrushed_55();
-			if (L_38)
+			// if (bulletsCrushed == 0 && scoreScript.score >= 20 && abilityScript.getName() == "Donner" && !Config.restartAdUsed)
+			int32_t L_39 = __this->get_bulletsCrushed_55();
+			if (L_39)
 			{
-				goto IL_019a;
+				goto IL_01a8;
 			}
 		}
 
-IL_0168:
+IL_016f:
 		{
-			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_39 = __this->get_scoreScript_66();
-			NullCheck(L_39);
-			int32_t L_40 = L_39->get_score_7();
-			if ((((int32_t)L_40) < ((int32_t)((int32_t)20))))
+			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_40 = __this->get_scoreScript_66();
+			NullCheck(L_40);
+			int32_t L_41 = L_40->get_score_7();
+			if ((((int32_t)L_41) < ((int32_t)((int32_t)20))))
 			{
-				goto IL_019a;
+				goto IL_01a8;
 			}
 		}
 
-IL_0177:
+IL_017e:
 		{
-			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_41 = __this->get_abilityScript_67();
-			NullCheck(L_41);
-			String_t* L_42 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_41);
-			bool L_43 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_42, _stringLiteral7AE8C79FF85D4A2416BCE3BF9267A62562F27FB4, /*hidden argument*/NULL);
-			if (!L_43)
+			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_42 = __this->get_abilityScript_67();
+			NullCheck(L_42);
+			String_t* L_43 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_42);
+			bool L_44 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_43, _stringLiteral7AE8C79FF85D4A2416BCE3BF9267A62562F27FB4, /*hidden argument*/NULL);
+			if (!L_44)
 			{
-				goto IL_019a;
+				goto IL_01a8;
 			}
 		}
 
-IL_018e:
+IL_0195:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var);
+			bool L_45 = ((Config_tD0756301BD668B6409DBA44B8971B93913F81390_StaticFields*)il2cpp_codegen_static_fields_for(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var))->get_restartAdUsed_3();
+			if (L_45)
+			{
+				goto IL_01a8;
+			}
+		}
+
+IL_019c:
 		{
 			// achievement.markAcheived("donner_1");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_44 = V_1;
-			NullCheck(L_44);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_44, _stringLiteral94843A8BA462AC772551EF5BCAB07B2FB4EA7C29);
-		}
-
-IL_019a:
-		{
-			// if (rudolphCoinCounter >=5 && abilityScript.getName() == "Rudolph")
-			int32_t L_45 = __this->get_rudolphCoinCounter_57();
-			if ((((int32_t)L_45) < ((int32_t)5)))
-			{
-				goto IL_01c6;
-			}
-		}
-
-IL_01a3:
-		{
-			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_46 = __this->get_abilityScript_67();
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_46 = V_1;
 			NullCheck(L_46);
-			String_t* L_47 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_46);
-			bool L_48 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_47, _stringLiteralDD232BA40A74C1E64CCCCEEE2B0BA9FF055C3A38, /*hidden argument*/NULL);
-			if (!L_48)
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_46, _stringLiteral94843A8BA462AC772551EF5BCAB07B2FB4EA7C29);
+		}
+
+IL_01a8:
+		{
+			// if (rudolphCoinCounter >= 5 && abilityScript.getName() == "Rudolph")
+			int32_t L_47 = __this->get_rudolphCoinCounter_57();
+			if ((((int32_t)L_47) < ((int32_t)5)))
 			{
-				goto IL_01c6;
+				goto IL_01d4;
 			}
 		}
 
-IL_01ba:
+IL_01b1:
+		{
+			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_48 = __this->get_abilityScript_67();
+			NullCheck(L_48);
+			String_t* L_49 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_48);
+			bool L_50 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_49, _stringLiteralDD232BA40A74C1E64CCCCEEE2B0BA9FF055C3A38, /*hidden argument*/NULL);
+			if (!L_50)
+			{
+				goto IL_01d4;
+			}
+		}
+
+IL_01c8:
 		{
 			// achievement.markAcheived("rudolph_1");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_49 = V_1;
-			NullCheck(L_49);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_49, _stringLiteralD3DC0A07822F602ED42D71FAF86F3712615FF495);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_51 = V_1;
+			NullCheck(L_51);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_51, _stringLiteralD3DC0A07822F602ED42D71FAF86F3712615FF495);
 		}
 
-IL_01c6:
+IL_01d4:
 		{
-			// if (scoreScript.score == highScore+1 && dead)
-			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_50 = __this->get_scoreScript_66();
-			NullCheck(L_50);
-			int32_t L_51 = L_50->get_score_7();
-			int32_t L_52 = __this->get_highScore_20();
-			if ((!(((uint32_t)L_51) == ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_52, (int32_t)1))))))
+			// if (scoreScript.score == highScore + 1 && dead)
+			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_52 = __this->get_scoreScript_66();
+			NullCheck(L_52);
+			int32_t L_53 = L_52->get_score_7();
+			int32_t L_54 = __this->get_highScore_20();
+			if ((!(((uint32_t)L_53) == ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_54, (int32_t)1))))))
 			{
-				goto IL_01ef;
+				goto IL_01fd;
 			}
 		}
 
-IL_01db:
+IL_01e9:
 		{
-			bool L_53 = __this->get_dead_42();
-			if (!L_53)
-			{
-				goto IL_01ef;
-			}
-		}
-
-IL_01e3:
-		{
-			// achievement.markAcheived("diveBomb");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_54 = V_1;
-			NullCheck(L_54);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_54, _stringLiteral413866FB0ACC880B26A963E7890043C6CC285298);
-		}
-
-IL_01ef:
-		{
-			// if (dead &&coinsCollectedWhileDead >= 2)
 			bool L_55 = __this->get_dead_42();
 			if (!L_55)
 			{
-				goto IL_020c;
+				goto IL_01fd;
 			}
 		}
 
-IL_01f7:
+IL_01f1:
 		{
-			int32_t L_56 = __this->get_coinsCollectedWhileDead_58();
-			if ((((int32_t)L_56) < ((int32_t)2)))
+			// achievement.markAcheived("diveBomb");
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_56 = V_1;
+			NullCheck(L_56);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_56, _stringLiteral413866FB0ACC880B26A963E7890043C6CC285298);
+		}
+
+IL_01fd:
+		{
+			// if (dead && coinsCollectedWhileDead >= 2)
+			bool L_57 = __this->get_dead_42();
+			if (!L_57)
 			{
-				goto IL_020c;
+				goto IL_021a;
 			}
 		}
 
-IL_0200:
+IL_0205:
+		{
+			int32_t L_58 = __this->get_coinsCollectedWhileDead_58();
+			if ((((int32_t)L_58) < ((int32_t)2)))
+			{
+				goto IL_021a;
+			}
+		}
+
+IL_020e:
 		{
 			// achievement.markAcheived("hangingOn");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_57 = V_1;
-			NullCheck(L_57);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_57, _stringLiteral586901B8057A3C325498D74D5A99E86102E467F4);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_59 = V_1;
+			NullCheck(L_59);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_59, _stringLiteral586901B8057A3C325498D74D5A99E86102E467F4);
 		}
 
-IL_020c:
+IL_021a:
 		{
-			// if (abilityScript.getName() == "Dasher" && scoreScript.score >= 15 && everyDashOffScreen)
-			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_58 = __this->get_abilityScript_67();
-			NullCheck(L_58);
-			String_t* L_59 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_58);
-			bool L_60 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_59, _stringLiteral32B0185B871B27EA40123C6512EADF6112EF37BE, /*hidden argument*/NULL);
-			if (!L_60)
+			// if (abilityScript.getName() == "Dasher" && scoreScript.score >= 15 && everyDashOffScreen && !Config.restartAdUsed)
+			Ability_tE41FA0080A8096F418419B1F69720A03E8450FFF * L_60 = __this->get_abilityScript_67();
+			NullCheck(L_60);
+			String_t* L_61 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String Ability::getName() */, L_60);
+			bool L_62 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_61, _stringLiteral32B0185B871B27EA40123C6512EADF6112EF37BE, /*hidden argument*/NULL);
+			if (!L_62)
 			{
-				goto IL_0246;
+				goto IL_025b;
 			}
 		}
 
-IL_0223:
+IL_0231:
 		{
-			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_61 = __this->get_scoreScript_66();
-			NullCheck(L_61);
-			int32_t L_62 = L_61->get_score_7();
-			if ((((int32_t)L_62) < ((int32_t)((int32_t)15))))
+			ScoreManager_t52E31A532CA8B702090279B85180CF575D6FE113 * L_63 = __this->get_scoreScript_66();
+			NullCheck(L_63);
+			int32_t L_64 = L_63->get_score_7();
+			if ((((int32_t)L_64) < ((int32_t)((int32_t)15))))
 			{
-				goto IL_0246;
+				goto IL_025b;
 			}
 		}
 
-IL_0232:
+IL_0240:
 		{
-			bool L_63 = __this->get_everyDashOffScreen_59();
-			if (!L_63)
+			bool L_65 = __this->get_everyDashOffScreen_59();
+			if (!L_65)
 			{
-				goto IL_0246;
+				goto IL_025b;
 			}
 		}
 
-IL_023a:
+IL_0248:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var);
+			bool L_66 = ((Config_tD0756301BD668B6409DBA44B8971B93913F81390_StaticFields*)il2cpp_codegen_static_fields_for(Config_tD0756301BD668B6409DBA44B8971B93913F81390_il2cpp_TypeInfo_var))->get_restartAdUsed_3();
+			if (L_66)
+			{
+				goto IL_025b;
+			}
+		}
+
+IL_024f:
 		{
 			// achievement.markAcheived("dasher_2");
-			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_64 = V_1;
-			NullCheck(L_64);
-			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_64, _stringLiteralE30A9A8B36A866858A8A4E117BFF5905869B5641);
+			Achievement_t1421A0BE404904C205E4F0E95503DC964881470F * L_67 = V_1;
+			NullCheck(L_67);
+			VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean Achievement::markAcheived(System.String) */, L_67, _stringLiteralE30A9A8B36A866858A8A4E117BFF5905869B5641);
 		}
 
-IL_0246:
+IL_025b:
 		{
 			// foreach (Achievement achievement in saveDataScript.save.achievements)
-			bool L_65 = Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08((Enumerator_tC0D2C7D4C9D8195FB4B29B3F780AD1DA592ED522 *)(&V_0), /*hidden argument*/Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08_RuntimeMethod_var);
-			if (L_65)
+			bool L_68 = Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08((Enumerator_tC0D2C7D4C9D8195FB4B29B3F780AD1DA592ED522 *)(&V_0), /*hidden argument*/Enumerator_MoveNext_mE92393B1D63AFD403CA5E594AA7941026BCCAD08_RuntimeMethod_var);
+			if (L_68)
 			{
 				goto IL_0098;
 			}
 		}
 
-IL_0252:
+IL_0267:
 		{
-			IL2CPP_LEAVE(0x262, FINALLY_0254);
+			IL2CPP_LEAVE(0x277, FINALLY_0269);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_0254;
+		goto FINALLY_0269;
 	}
 
-FINALLY_0254:
+FINALLY_0269:
 	{ // begin finally (depth: 1)
 		Enumerator_Dispose_mA774B4D3C987E7CA32552D5C8D2E848CD194DBDB((Enumerator_tC0D2C7D4C9D8195FB4B29B3F780AD1DA592ED522 *)(&V_0), /*hidden argument*/Enumerator_Dispose_mA774B4D3C987E7CA32552D5C8D2E848CD194DBDB_RuntimeMethod_var);
-		IL2CPP_END_FINALLY(596)
+		IL2CPP_END_FINALLY(617)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(596)
+	IL2CPP_CLEANUP(617)
 	{
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0x262, IL_0262)
+		IL2CPP_JUMP_TBL(0x277, IL_0277)
 	}
 
-IL_0262:
+IL_0277:
 	{
 		// }
 		return;

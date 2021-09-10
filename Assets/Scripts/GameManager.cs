@@ -60,6 +60,21 @@ public class GameManager : MonoBehaviour
                 {
                     achievement.markAcheived("SoClose");
                 }
+
+
+                if (scoreScript.score >= 20)
+                {
+                    achievement.markAcheived("highScore_20");
+                }
+                if (scoreScript.score >= 30)
+                {
+                    achievement.markAcheived("highScore_30");
+                }
+                if (scoreScript.score >= 50)
+                {
+                    achievement.markAcheived("highScore_50");
+                }
+
                 if (saveDataScript.save.totalCoins >= 100)
                 {
                     achievement.markAcheived("hs_100");

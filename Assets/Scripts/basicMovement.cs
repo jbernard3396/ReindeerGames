@@ -431,16 +431,18 @@ public class basicMovement : MonoBehaviour
             }
 
 
+
             foreach (Achievement achievement in saveDataScript.save.achievements)
             {
-                if (scoreScript.score >= 10 && numBullets == 0 && abilityScript.getName() == "Dancer") { 
+                if (scoreScript.score >= 10 && numBullets == 0 && abilityScript.getName() == "Dancer" && !Config.restartAdUsed)
+                {
                     achievement.markAcheived("dancer_1");
                 }
                 if (prancerDestructionCounter >= 7 && abilityScript.getName() == "Prancer")
                 {
                     achievement.markAcheived("prancer_2");
                 }
-                if (prancerCoinCounter >= 10 &&  abilityScript.getName() == "Prancer")
+                if (prancerCoinCounter >= 10 && abilityScript.getName() == "Prancer")
                 {
                     achievement.markAcheived("prancer_1");
                 }
@@ -448,23 +450,23 @@ public class basicMovement : MonoBehaviour
                 {
                     achievement.markAcheived("vixen_1");
                 }
-                if (bulletsCrushed == 0 && scoreScript.score >= 20 && abilityScript.getName() == "Donner")
+                if (bulletsCrushed == 0 && scoreScript.score >= 20 && abilityScript.getName() == "Donner" && !Config.restartAdUsed)
                 {
                     achievement.markAcheived("donner_1");
                 }
-                if (rudolphCoinCounter >=5 && abilityScript.getName() == "Rudolph")
+                if (rudolphCoinCounter >= 5 && abilityScript.getName() == "Rudolph")
                 {
                     achievement.markAcheived("rudolph_1");
                 }
-                if (scoreScript.score == highScore+1 && dead)
+                if (scoreScript.score == highScore + 1 && dead)
                 {
                     achievement.markAcheived("diveBomb");
                 }
-                if (dead &&coinsCollectedWhileDead >= 2)
+                if (dead && coinsCollectedWhileDead >= 2)
                 {
                     achievement.markAcheived("hangingOn");
                 }
-                if (abilityScript.getName() == "Dasher" && scoreScript.score >= 15 && everyDashOffScreen)
+                if (abilityScript.getName() == "Dasher" && scoreScript.score >= 15 && everyDashOffScreen && !Config.restartAdUsed)
                 {
                     achievement.markAcheived("dasher_2");
                 }
