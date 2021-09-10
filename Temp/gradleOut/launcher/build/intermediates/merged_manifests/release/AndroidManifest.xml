@@ -3,7 +3,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.TeenyGames.ReindeerGames"
     android:installLocation="preferExternal"
-    android:versionCode="6"
+    android:versionCode="7"
     android:versionName="2.2" >
 
     <uses-sdk
@@ -66,7 +66,7 @@
             android:value="True" />
         <meta-data
             android:name="unity.build-id"
-            android:value="71a721e2-8feb-4496-9837-fd024eb61501" />
+            android:value="7a339746-2fc5-424a-9369-92c0199b82d9" />
 
         <activity
             android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
